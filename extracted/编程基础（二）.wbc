@@ -1,0 +1,1362 @@
+{
+	"name": "编程基础（二）",
+	"description": "<!DOCTYPE html>\n<html>\n<head>\n</head>\n<body>\n<h1><span style=\"font-size: 14pt;\"><strong>学习目标：</strong></span></h1>\n<ol>\n<li><span style=\"font-size: 12pt;\"><strong>我可以学会</strong></span>\n<ul style=\"list-style-type: disc;\">\n<li>变量的定义、命名与赋值；</li>\n<li>四则运算的运算法则；</li>\n<li>事件的使用规则；</li>\n</ul>\n</li>\n<li><strong><span style=\"font-size: 12pt;\">我可以掌握</span></strong>\n<ul style=\"list-style-type: disc;\">\n<li>变量与四则运算的结合使用，以完成一些趣味小练习；</li>\n<li>运用变量、运算法则及事件功能，结合豌豆拼模块，根据给定的效果完成多个练习，实现相应的功能。</li>\n</ul>\n</li>\n<li><strong><span style=\"font-size: 12pt;\">我可以获得</span></strong>\n<ul style=\"list-style-type: disc;\">\n<li>发展探究能力与问题解决能力；</li>\n<li>代码与硬件排错能力与编程思维；&nbsp;</li>\n<li>动手操作能力。</li>\n</ul>\n</li>\n</ol>\n<p>&nbsp;</p>\n<h1><strong><span style=\"font-size: 14pt;\">知识点：</span></strong></h1>\n<p>&nbsp; &nbsp;变量的定义、命名与赋值；四则运算的运算法则；事件功能</p>\n<p>&nbsp;</p>\n<p>在使用豌豆拼学习套件时，如需了解更多模块详情，可登陆<a href=\"http://wiki.wonderbits.cn\">豌豆拼wiki</a>进行查阅。</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n</body>\n</html>",
+	"brief": "主要任务：学习变量的使用、四则运算及简单事件的掌握。",
+	"exercises": [
+		{
+			"name": "初识变量",
+			"description": "<!DOCTYPE html>\n<html>\n<head>\n</head>\n<body>\n<p></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">初识变量为本任务的第一个练习，在本练习中，我们将学习定义一个变量并赋值，结合显示模块显示变量的值。</span></p>\n<p><span style=\"color: #000000;\">![](1ZZJ69eMro.png)</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">变量是指在程序的运行过程中随时可以发生变化的量，是程序中数据的临时存放场所。</span></p>\n<p><span style=\"color: #000000;\">![](a0xgrjmaBD.png)</span></p>\n<ul>\n<li><span style=\"color: #000000;\">主控模块</span></li>\n<li><span style=\"color: #000000;\">显示模块</span></li>\n</ul>\n<p><span style=\"color: #000000;\">![](meHmJwi9HJ.png)</span></p>\n<p><span style=\"color: #000000;\">![](ELVT7Tlmgm.jpeg)</span></p>\n<p><span style=\"color: #000000;\">&nbsp;</span></p>\n</body>\n</html>",
+			"type": "基础",
+			"tasks": [
+				{
+					"name": "变量的定义与赋值",
+					"description": "<!DOCTYPE html>\n<html>\n<head>\n</head>\n<body>\n<p>![](sDPdHtJ0xB.png)</p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">在本练习中，我们将学习定义一个变量，并尝试将变量更改为其他名称，同时对变量进行赋值，使变量等于1。</span></p>\n<p>![](G9tS5aH4kB.png)</p>\n<h2 style=\"padding-left: 30px;\"><span style=\"font-size: 12pt; color: #000000; background-color: #fcedde;\"><strong>1. 定义变量&nbsp;</strong></span></h2>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">在IDE中依次找到：语法区的&ldquo;变量&rdquo;-功能区基础部分的&ldquo;定义一个变量&rdquo;，拖动至loop（）外可编辑区域；</span></p>\n<pre style=\"padding-left: 60px;\">    </pre>\n<h2 style=\"padding-left: 30px;\"><span style=\"font-size: 12pt; color: #000000; background-color: #fcedde;\"><strong>2. 变量命名&nbsp;</strong></span></h2>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">将&ldquo;float x&rdquo;语句中的变量&rdquo;x&ldquo;重新命名为其他名称；</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #ff0000;\"><span style=\"color: #ff6600;\">Tips：命名规则请参考&ldquo;知识标签&rdquo;中&ldquo;掌握变量命名的规则&rdquo;内容。</span><br /></span></p>\n<p><span style=\"color: #ff0000;\"></span>&nbsp; &nbsp;</p>\n<h2 style=\"padding-left: 30px;\"><span style=\"font-size: 12pt; color: #000000; background-color: #fcedde;\"><strong>3. 变量赋值&nbsp;</strong></span></h2>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">例如，变量名为&ldquo;x&rdquo;,让变量&ldquo;x&rdquo;的值为1，在定义的变量后加&rdquo;=1&ldquo;。例如：float x=1。</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #ff0000;\">修改变量名称及赋值，详情请参照操作视频</span></p>\n<p style=\"padding-left: 60px;\">[cm]1532078551821.cm[/cm]</p>\n<p>![](HrXV7JvTOh.png)</p>\n<p>&nbsp; &nbsp;&nbsp;</p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000; background-color: #fcfccc;\"><strong><span style=\"font-size: 12pt; background-color: #fcfccc;\">&middot; 定义一个变量&nbsp;</span></strong></span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">变量定义后，其默认值为0；</span></p>\n<p style=\"padding-left: 60px;\">&nbsp; &nbsp;</p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000; background-color: #fcfccc;\"><strong><span style=\"font-size: 12pt; background-color: #fcfccc;\">&middot; 掌握变量命名的规则&nbsp;</span></strong></span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">变量只能由字母（a～z，A～Z）、数字 （0～9）、下划线（_）组成，并且变量的第一个字符必须是字母或下划线，不能以数字开头。</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">建议变量名的长度最好不要超过 8个字符. 例如，在某编译器中规定标识符前8位有效，当两个变量前8位相同时，则被认为是同一个变量，且定义的变量其默认值为0；</span></p>\n<p style=\"padding-left: 60px;\">&nbsp;&nbsp;</p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000; background-color: #fcfccc;\"><strong><span style=\"font-size: 12pt; background-color: #fcfccc;\">&middot; 对变量进行赋值&nbsp;</span></strong></span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">在编程世界里我们将某一数值赋给某个变量的过程成为赋值；</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">在赋值语句的读法上也有一定的考究，一般以&ldquo;从右向左&rdquo;的顺序，例如语句&ldquo;x=1;&rdquo;，读作&ldquo;将数值1赋值给变量x&rdquo;。</span></p>\n<p style=\"padding-left: 30px;\">&nbsp; &nbsp;</p>\n<p>![](7mMa8i0EjE.png)</p>\n<p style=\"padding-left: 30px;\">思考一下，我们定义了变量，并对变量进行了赋值。如何才能知道变量定义成功并成功赋值了呢？</p>\n<p>![](Z3R22qKwbB.png)</p>\n<p style=\"padding-left: 30px;\">点击&ldquo;下载&rdquo;按钮，测试程序是否可以完成指定功能。</p>\n<p>![](KelBnvIK5F.png)</p>\n<p style=\"padding-left: 30px;\">任务完成后检查实验效果，点击提交。</p>\n</body>\n</html>",
+					"question": {
+						"code": {
+							"blanks": [],
+							"itemNames": [],
+							"template": "\nvoid loop(){\n\t\n\n\n}\n",
+							"modules": [
+								{
+									"name": "sysmaster",
+									"type": "Master",
+									"displayName": "主控"
+								}
+							],
+							"testCases": []
+						},
+						"choices": [],
+						"shortAnswers": []
+					},
+					"blanks": [
+						{
+							"endLineNumber": 5,
+							"startLineNumber": 3
+						}
+					],
+					"codeItemNames": [],
+					"code": "\n//定义一个变量，并将4赋值给该变量\n\n\n\nvoid loop(){\n\t\n\n\n}\n",
+					"modules": [
+						{
+							"displayName": "主控",
+							"name": "sysmaster",
+							"type": "Master"
+						}
+					],
+					"testCases": []
+				},
+				{
+					"name": "显示变量",
+					"description": "<!DOCTYPE html>\n<html>\n<head>\n</head>\n<body>\n<p><span style=\"color: #000000;\">![](qyerUFHQJ7.png)</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">&nbsp; &nbsp;学习了变量的使用，尝试结合显示模块，在显示屏第1行第1列显示变量的值为0。</span></p>\n<p><span style=\"color: #000000;\">![](12o4gCqXqv.png)</span></p>\n<p><span style=\"color: #000000;\">![](TUOM9RdzWD.jpeg)</span></p>\n<p><span style=\"color: #000000;\">![](A0jVorbUGt.png)</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"font-size: 12pt; color: #000000; background-color: #fcedde;\"><strong>1. 添加显示语句&nbsp;</strong></span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">根据任务描述，拖动相关显示语句。</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[help] </span><br /><span style=\"color: #000000;\">[-------------------------------------------------1] </span><br /><span style=\"color: #000000;\">[title]<span style=\"font-size: 10pt;\">显示语句的代码位置提示</span>[/title] </span><br /><span style=\"color: #000000;\">[扣分比例]50[/扣分比例] </span><br /><span style=\"color: #000000;\"></span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">在IDE中依次找到：模块区&ldquo;显示&rdquo;-功能区基础部分&ldquo;固定位置显示&rdquo;，拖动至loop（）中可编辑区域；</span><br /><span style=\"color: #000000;\"></span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[/-------------------------------------------------1]</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[-------------------------------------------------2] </span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[title]<span style=\"font-size: 10pt;\">显示语句的代码操作提示</span>[/title] </span><br /><span style=\"color: #000000;\">[扣分比例]80[/扣分比例]</span></p>\n<pre class=\"language-markup\"><code>float x;\nvoid loop(){\n    Display1.print(1, 1, \"你好，豌豆拼\");\n}</code></pre>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">详细操作请参照以下视频</span><br /><span style=\"color: #000000;\">[cm]1532154583151.cm[/cm]</span><br /><span style=\"color: #000000;\">[/-------------------------------------------------2][/help]</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">&nbsp; &nbsp;&nbsp;</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000; background-color: #fcedde;\"><strong><span style=\"font-size: 12pt; background-color: #fcedde;\">2. 显示变量&nbsp;</span></strong></span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">将显示参数改为变量。</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[help] <br />[-------------------------------------------------1] <br />[title]<span style=\"font-size: 10pt;\">显示变量的代码位置提示</span>[/title] <br />[扣分比例]50[/扣分比例] </span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">&nbsp;<br />将语句中的&rdquo;你好，豌豆拼&ldquo;更改为x。<span style=\"color: #ff6600;\"><strong>注意这里x不需要加双引号！</strong></span></span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">&nbsp;<br />[/-------------------------------------------------1] <br />[-------------------------------------------------2] <br />[title]<span style=\"font-size: 10pt;\">显示变量的代码操作提示</span>[/title] <br />[扣分比例]80[/扣分比例] <br /></span></p>\n<pre class=\"language-markup\"><code>float x;\nvoid loop(){\n    Display1.print(1, 1, x);\n}</code></pre>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">详细操作请参照以下视频</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[cm]1532156009900.cm[/cm] <br />[/-------------------------------------------------2] <br />[/help]</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">&nbsp; &nbsp;&nbsp;</span></p>\n<p><span style=\"color: #000000;\">![](TwMkCZ3e5f.png)</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000; background-color: #fcfccc;\"><span style=\"font-size: 12pt; background-color: #fcfccc;\"><strong>&middot; 显示内容&nbsp;</strong></span></span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">在前面的课程中，涉及到显示模块的显示内容可以为&ldquo;数字&rdquo;（例如：&ldquo;123&rdquo;）、&ldquo;字母&rdquo;（例如：&ldquo;abc&rdquo;）、&ldquo;字符串&rdquo;（例如：&ldquo;你好，豌豆拼&rdquo;），当然显示内容也可以为变量（例如：x）。</span></p>\n<p><span style=\"color: #000000;\">&nbsp; &nbsp; &nbsp;&nbsp;</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000; background-color: #fcfccc;\"><span style=\"font-size: 12pt; background-color: #fcfccc;\"><strong>&middot; 显示变量&nbsp;</strong></span></span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">利用显示模块显示内容时，如将其设置为变量，那么不需要对变量进行双引号（例如：Display1.print(1, 1, x); ）。</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\"><strong>注意：定义变量时，变量默认为0。</strong></span></p>\n<p><span style=\"color: #000000;\">![](H72lNxmxli.png)</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">点击&ldquo;下载&rdquo;按钮，测试程序是否可以完成指定功能。</span></p>\n<p><span style=\"color: #000000;\">![](sXUpK9VSDt.png)</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">任务完成后检查实验效果，点击提交。</span></p>\n</body>\n</html>",
+					"question": {
+						"code": {
+							"blanks": [
+								{
+									"endLineNumber": 4,
+									"startLineNumber": 3
+								}
+							],
+							"itemNames": [],
+							"template": "float x;\nvoid loop(){\n    \n    \n    \n}",
+							"modules": [
+								{
+									"displayName": "主控",
+									"name": "sysmaster",
+									"type": "Master"
+								},
+								{
+									"displayName": "显示",
+									"name": "Display1",
+									"type": "Display"
+								}
+							],
+							"testCases": [
+								{
+									"name": "显示语句",
+									"point": 1,
+									"evaluation": "理解",
+									"knowledgePoint": "基本语法\n;显示",
+									"testCode": "assert.equal(output.getStateAtTime('Display',1,'line_1',0).trim(),0,'变量显示错误');\n",
+									"testCodeBlockly": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"assertEqual\" id=\"[KiPU%M[GF%z-z@|-ySx\" x=\"-210\" y=\"10\"><field name=\"message\">变量显示错误</field><value name=\"v1\"><block type=\"text_trim\" id=\"0aH9+4YJzoV-+hsPO()R\"><field name=\"MODE\">BOTH</field><value name=\"TEXT\"><shadow type=\"text\" id=\"-PWcvb{X{I(1tBIL.W,W\"><field name=\"TEXT\">abc</field></shadow><block type=\"getStateAtTime\" id=\"3Vu#+;424@yWrUJ$GZ%r\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_number\" id=\"e;q]45S!d_,k^=Gwuy3-\"><field name=\"NUM\">0</field></block></value></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"-I]nB=A|=i03^J{*i*~e\"><field name=\"NUM\">0</field></block></value></block></xml>",
+									"input": {
+										"inputs": []
+									},
+									"runningTime": 10000
+								},
+								{
+									"name": "显示变量",
+									"point": 1,
+									"evaluation": "理解",
+									"knowledgePoint": "基本语法\n;变量\n",
+									"testCode": "assert.equal(output.getStateAtTime('Display',1,'line_1',0).trim(),0,'显示变量错误');\n",
+									"testCodeBlockly": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"assertEqual\" id=\"mRXizld4^GA{`!45u6C%\" x=\"90\" y=\"-570\"><field name=\"message\">显示变量错误</field><value name=\"v1\"><block type=\"text_trim\" id=\"Z-(AJ9aR])W;;;RujM.o\"><field name=\"MODE\">BOTH</field><value name=\"TEXT\"><shadow type=\"text\" id=\"^BayA}LBogTi_QSGf;B(\"><field name=\"TEXT\">abc</field></shadow><block type=\"getStateAtTime\" id=\"3/O{@tKV19gv5JL`;d2t\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_number\" id=\"|.WR53juXVIEa9u2byc/\"><field name=\"NUM\">0</field></block></value></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"Xt|QD.ec@bEaq#Y/PO-|\"><field name=\"NUM\">0</field></block></value></block></xml>",
+									"input": {
+										"inputs": []
+									},
+									"runningTime": 10000
+								}
+							]
+						},
+						"choices": [],
+						"shortAnswers": []
+					},
+					"blanks": [
+						{
+							"endLineNumber": 4,
+							"startLineNumber": 3
+						}
+					],
+					"codeItemNames": [],
+					"code": "float x;\nvoid loop(){\n    \n    \n    \n}",
+					"modules": [
+						{
+							"displayName": "主控",
+							"name": "sysmaster",
+							"type": "Master"
+						},
+						{
+							"displayName": "显示",
+							"name": "Display1",
+							"type": "Display"
+						}
+					],
+					"testCases": [
+						{
+							"name": "显示语句",
+							"point": 1,
+							"evaluation": "理解",
+							"knowledgePoint": "基本语法\n;显示",
+							"testCode": "assert.equal(output.getStateAtTime('Display',1,'line_1',0).trim(),0,'变量显示错误');\n",
+							"testCodeBlockly": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"assertEqual\" id=\"[KiPU%M[GF%z-z@|-ySx\" x=\"-210\" y=\"10\"><field name=\"message\">变量显示错误</field><value name=\"v1\"><block type=\"text_trim\" id=\"0aH9+4YJzoV-+hsPO()R\"><field name=\"MODE\">BOTH</field><value name=\"TEXT\"><shadow type=\"text\" id=\"-PWcvb{X{I(1tBIL.W,W\"><field name=\"TEXT\">abc</field></shadow><block type=\"getStateAtTime\" id=\"3Vu#+;424@yWrUJ$GZ%r\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_number\" id=\"e;q]45S!d_,k^=Gwuy3-\"><field name=\"NUM\">0</field></block></value></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"-I]nB=A|=i03^J{*i*~e\"><field name=\"NUM\">0</field></block></value></block></xml>",
+							"input": {
+								"inputs": []
+							},
+							"runningTime": 10000
+						},
+						{
+							"name": "显示变量",
+							"point": 1,
+							"evaluation": "理解",
+							"knowledgePoint": "基本语法\n;变量\n",
+							"testCode": "assert.equal(output.getStateAtTime('Display',1,'line_1',0).trim(),0,'显示变量错误');\n",
+							"testCodeBlockly": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"assertEqual\" id=\"mRXizld4^GA{`!45u6C%\" x=\"90\" y=\"-570\"><field name=\"message\">显示变量错误</field><value name=\"v1\"><block type=\"text_trim\" id=\"Z-(AJ9aR])W;;;RujM.o\"><field name=\"MODE\">BOTH</field><value name=\"TEXT\"><shadow type=\"text\" id=\"^BayA}LBogTi_QSGf;B(\"><field name=\"TEXT\">abc</field></shadow><block type=\"getStateAtTime\" id=\"3/O{@tKV19gv5JL`;d2t\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_number\" id=\"|.WR53juXVIEa9u2byc/\"><field name=\"NUM\">0</field></block></value></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"Xt|QD.ec@bEaq#Y/PO-|\"><field name=\"NUM\">0</field></block></value></block></xml>",
+							"input": {
+								"inputs": []
+							},
+							"runningTime": 10000
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "四则运算",
+			"description": "<!DOCTYPE html>\n<html>\n<head>\n</head>\n<body>\n<p>&nbsp; 四则运算<span style=\"color: #000000;\">为本任务的第二个练习，在本练习中，我们将学习如何利用变量进行四则运算，并实现一些小功能，其中还会涉及显示模块的清屏功能、延时功能等。</span></p>\n<p><span style=\"color: #000000;\">![](EhNc7SSE1B.png)</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">编程世界里的四则运算和数学中的四则运算符号不同，但运算法则相同。</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\"><strong>四则运算符：</strong>加&ldquo;+&rdquo;、减&ldquo;-&rdquo;、乘&ldquo;*&rdquo;、除&ldquo;/&rdquo;。</span></p>\n<p><span style=\"color: #000000;\">![](u3y7JC2TQl.png)</span></p>\n<ul>\n<li><span style=\"color: #000000;\">主控模块</span></li>\n<li><span style=\"color: #000000;\">显示模块</span></li>\n</ul>\n<p><span style=\"color: #000000;\">![](7OzT2xyPpB.png)</span></p>\n<p><span style=\"color: #000000;\">&nbsp;![](2y73zvIaat.jpeg)</span></p>\n<p><span style=\"color: #000000;\">&nbsp;</span></p>\n</body>\n</html>",
+			"type": "基础",
+			"tasks": [
+				{
+					"name": "跳动的数字",
+					"description": "<!DOCTYPE html>\n<html>\n<head>\n</head>\n<body>\n<p>![](GV6LcbdU22.png)</p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">&nbsp; &nbsp;生命在于运动。通过前面的练习，我们已经学会了定义并赋值变量及通过显示屏显示变量，但变量的值静止在显示屏中，如何让它跳动起来，更加富有活力呢？通过本练习，我们尝试让显示屏上的数字动起来！</span></p>\n<p><span style=\"color: #000000;\">![](icp4qyy3Ym.png)</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">让显示屏上的数字每隔1秒钟闪烁一次，形成跳动的数字。</span></p>\n<p><span style=\"color: #000000;\">![](r4GaZrR75c.png)</span></p>\n<p>![](每秒跳动一次.gif)</p>\n<p><span style=\"color: #000000;\">![](qLmpD71TWQ.png)</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000; background-color: #fcedde;\"><strong><span style=\"font-size: 12pt; background-color: #fcedde;\">1. 延长显示变量时间&nbsp;</span></strong></span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">变量的值在显示屏上显示后，通过增加&ldquo;延时&rdquo;语句，延长变量在显示屏上停留的时间，持续500毫秒；</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[help] <br />[-------------------------------------------------1] <br />[title]<span style=\"font-size: 10pt;\">延时的代码位置提示</span>[/title] <br />[扣分比例]50[/扣分比例] </span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">在IDE中依次找到：语法区的&ldquo;基本&rdquo;-功能区基础部分的&ldquo;延时500毫秒&rdquo;，拖动至loop()中可编辑区域。</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[/-------------------------------------------------1] <br />[-------------------------------------------------2] <br />[title]<span style=\"font-size: 10pt;\">延时的代码操作提示</span>[/title] <br />[扣分比例]80[/扣分比例] <br />[cm]1532165894820.cm[/cm]<br />[/-------------------------------------------------2] <br />[/help]</span></p>\n<p><span style=\"color: #000000;\">&nbsp; &nbsp;&nbsp;</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000; background-color: #fcedde;\"><strong><span style=\"font-size: 12pt; background-color: #fcedde;\">2. 延长空屏状态时间&nbsp;</span></strong></span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">在IDE中依次找到：模块区的&ldquo;显示&rdquo;-功能区基础部分的&ldquo;清屏&rdquo;。拖动至可编辑区域内&ldquo;延时500毫秒&rdquo;后；</span><span style=\"color: #000000;\"></span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">清屏后，通过增加&ldquo;延时&rdquo;语句，延长空屏状态的时间，持续500毫秒，可形成跳动的数字。</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[help] <br />[-------------------------------------------------1] <br />[title]<span style=\"font-size: 10pt;\">清屏的代码操作提示</span>[/title] <br />[扣分比例]20[/扣分比例] </span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[cm]1532166676563.cm[/cm]</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[/-------------------------------------------------1] <br />[-------------------------------------------------2] <br />[title]<span style=\"font-size: 10pt;\">延长空屏状态时间的代码位置提示</span>[/title] <br />[扣分比例]50[/扣分比例] </span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">在IDE中依次找到：语法区的&ldquo;基本&rdquo;-功能区基础部分的&ldquo;延时500毫秒&rdquo;，拖动至清屏代码后。</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[/-------------------------------------------------2] <br />[-------------------------------------------------3] <br />[title]<span style=\"font-size: 10pt;\">延长空屏状态时间的</span><span style=\"font-size: 10pt;\">代码操作提示</span>[/title] <br />[扣分比例]80[/扣分比例] </span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[cm]1532166692414.cm[/cm]<br />[/-------------------------------------------------3] <br />[/help]</span></p>\n<p>&nbsp; &nbsp;</p>\n<p><span style=\"color: #000000;\">![](Nte0c0X21H.png)</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">显示变量；显示模块清屏功能。</span></p>\n<p><span style=\"color: #000000;\">![](Y8QqN3qmPN.png)</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">尝试分别去除&ldquo;delay(500);&rdquo;，观察显示屏的效果。思考为什么会有这样的效果？</span></p>\n<p><span style=\"color: #000000;\">![](M8OAPKkwdB.png)</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">点击&ldquo;下载&rdquo;按钮，测试程序是否可以完成指定功能。</span></p>\n<p><span style=\"color: #000000;\">![](3gpFwaKISR.png)</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">任务完成后检查实验效果，点击提交。</span></p>\n</body>\n</html>",
+					"question": {
+						"code": {
+							"blanks": [
+								{
+									"endLineNumber": 6,
+									"startLineNumber": 4
+								}
+							],
+							"itemNames": [],
+							"template": "float x;\nvoid loop(){\n    Display1.print(1, 1, x);\n  \n\n\n}",
+							"modules": [
+								{
+									"displayName": "主控",
+									"name": "sysmaster",
+									"type": "Master"
+								},
+								{
+									"displayName": "显示",
+									"name": "Display1",
+									"type": "Display"
+								}
+							],
+							"testCases": [
+								{
+									"name": "显示屏上显示变量的值",
+									"point": 1,
+									"evaluation": "应用",
+									"knowledgePoint": "基本语法\n;四则运算\n;变量\n;显示",
+									"testCode": "assert.equal(output.getStateAtTime('Display',1,'line_1',0).trim(),0,'显示变量错误');\nassert.equal(output.getStateAtTime('Display',1,'line_1',499).trim(),0,'闪烁时间间隔错误');\n",
+									"testCodeBlockly": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"assertEqual\" id=\"!!~$.xX|S.%/B@n:7A)G\" x=\"210\" y=\"-50\"><field name=\"message\">显示变量错误</field><value name=\"v1\"><block type=\"text_trim\" id=\"~23-!5$j|D.udsMs;z+~\"><field name=\"MODE\">BOTH</field><value name=\"TEXT\"><shadow type=\"text\" id=\"ox1~vRV2v_[0U8n79Y5.\"><field name=\"TEXT\">abc</field></shadow><block type=\"getStateAtTime\" id=\"/v=ph}JklyDKBex{rBdU\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_number\" id=\"btxvp4tU05SS^+XD5]]:\"><field name=\"NUM\">0</field></block></value></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"!T!(;dn^9$k~IIY(~,]E\"><field name=\"NUM\">0</field></block></value><next><block type=\"assertEqual\" id=\"nlVi_;=Vsf^uHq+m?D`U\"><field name=\"message\">闪烁时间间隔错误</field><value name=\"v1\"><block type=\"text_trim\" id=\"xhSRMU[,9-#t=|v9uVT1\"><field name=\"MODE\">BOTH</field><value name=\"TEXT\"><shadow type=\"text\" id=\"ox1~vRV2v_[0U8n79Y5.\"><field name=\"TEXT\">abc</field></shadow><block type=\"getStateAtTime\" id=\"mT3=0WN}k@H=oQvU3d/{\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_number\" id=\"{VXEHngt{SVf/TN^gAS*\"><field name=\"NUM\">499</field></block></value></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"/rfamc}Z~n]}hr2m@-`a\"><field name=\"NUM\">0</field></block></value></block></next></block></xml>",
+									"input": {
+										"inputs": []
+									},
+									"runningTime": 10000
+								},
+								{
+									"name": "数字每隔1秒显示一次",
+									"point": 2,
+									"evaluation": "应用",
+									"knowledgePoint": "基本语法\n;四则运算\n;变量\n",
+									"testCode": "var x;\n\n\nassert.equal(output.getStateAtTime('Display',1,'line_1',499).trim(),0,'显示变量设置错误');\nassert.equal(output.getStateAtTime('Display',1,'line_1',500).trim(),null,'空屏设置错误');\nassert.equal(output.getStateAtTime('Display',1,'line_1',999).trim(),null,'空屏时间间隔设置错误');\nassert.equal(output.getStateAtTime('Display',1,'line_1',1000).trim(),0,'显示变量设置错误');\n",
+									"testCodeBlockly": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables><variable type=\"\" id=\"wf{!?N+x{T=Aj)3JOmX[\">x</variable></variables><block type=\"assertEqual\" id=\"3+|fbxHJuizQlsqVf610\" x=\"-50\" y=\"-250\"><field name=\"message\">显示变量设置错误</field><value name=\"v1\"><block type=\"text_trim\" id=\"djhUq|pp=zdaRIAh4B1n\"><field name=\"MODE\">BOTH</field><value name=\"TEXT\"><shadow type=\"text\" id=\"wOMf4cSInMVhe^83,Cs(\"><field name=\"TEXT\">abc</field></shadow><block type=\"getStateAtTime\" id=\"wHvJnN^Y*r#wVr.bE0W1\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_number\" id=\"KUZ381DM-*sR77SCu7R.\"><field name=\"NUM\">499</field></block></value></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"c2KKj%wtQCC,]Y`0G@_2\"><field name=\"NUM\">0</field></block></value><next><block type=\"assertEqual\" id=\")?wpP3sse[goq/C@vU=N\"><field name=\"message\">空屏设置错误</field><value name=\"v1\"><block type=\"text_trim\" id=\"5rBjz,PbtDQWdj1^x3J8\"><field name=\"MODE\">BOTH</field><value name=\"TEXT\"><shadow type=\"text\" id=\"wOMf4cSInMVhe^83,Cs(\"><field name=\"TEXT\">abc</field></shadow><block type=\"getStateAtTime\" id=\"wb{;IDo++.IcJ-4oCL:6\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_number\" id=\"nZ!uO8E.uR)d9K#uo8y7\"><field name=\"NUM\">500</field></block></value></block></value></block></value><value name=\"v2\"><block type=\"logic_null\" id=\"ar-$v^S7@nh`)sjchA0C\"></block></value><next><block type=\"assertEqual\" id=\"1wGS28AYQA)zNNaWJ*]s\"><field name=\"message\">空屏时间间隔设置错误</field><value name=\"v1\"><block type=\"text_trim\" id=\"kRk:89H2^2NYD8~XyqQC\"><field name=\"MODE\">BOTH</field><value name=\"TEXT\"><shadow type=\"text\" id=\"wOMf4cSInMVhe^83,Cs(\"><field name=\"TEXT\">abc</field></shadow><block type=\"getStateAtTime\" id=\"Ae7Sw6QW#ynGmxSn={:(\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_number\" id=\"Y3CZihAnE1a9Cuns71,E\"><field name=\"NUM\">999</field></block></value></block></value></block></value><value name=\"v2\"><block type=\"logic_null\" id=\"3rap`DmEKU8t0Seu5BQ~\"></block></value><next><block type=\"assertEqual\" id=\";Kf:6,LK}F]Gl#%?VMeg\"><field name=\"message\">显示变量设置错误</field><value name=\"v1\"><block type=\"text_trim\" id=\":Q.*y~Kwbsk,^oTB/als\"><field name=\"MODE\">BOTH</field><value name=\"TEXT\"><shadow type=\"text\" id=\"wOMf4cSInMVhe^83,Cs(\"><field name=\"TEXT\">abc</field></shadow><block type=\"getStateAtTime\" id=\"hc!+]fc[(Cb5yTy,J~^_\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_number\" id=\"3{`SEox;@Miq}-9UVb8O\"><field name=\"NUM\">1000</field></block></value></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"QuQ]ufg(6@}7vR6c*zrW\"><field name=\"NUM\">0</field></block></value></block></next></block></next></block></next></block></xml>",
+									"input": {
+										"inputs": []
+									},
+									"runningTime": 10000
+								}
+							]
+						},
+						"choices": [],
+						"shortAnswers": []
+					},
+					"blanks": [
+						{
+							"endLineNumber": 6,
+							"startLineNumber": 4
+						}
+					],
+					"codeItemNames": [],
+					"code": "float x;\nvoid loop(){\n    Display1.print(1, 1, x);\n  \n\n\n}",
+					"modules": [
+						{
+							"displayName": "主控",
+							"name": "sysmaster",
+							"type": "Master"
+						},
+						{
+							"displayName": "显示",
+							"name": "Display1",
+							"type": "Display"
+						}
+					],
+					"testCases": [
+						{
+							"name": "显示屏上显示变量的值",
+							"point": 1,
+							"evaluation": "应用",
+							"knowledgePoint": "基本语法\n;四则运算\n;变量\n;显示",
+							"testCode": "assert.equal(output.getStateAtTime('Display',1,'line_1',0).trim(),0,'显示变量错误');\nassert.equal(output.getStateAtTime('Display',1,'line_1',499).trim(),0,'闪烁时间间隔错误');\n",
+							"testCodeBlockly": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"assertEqual\" id=\"!!~$.xX|S.%/B@n:7A)G\" x=\"210\" y=\"-50\"><field name=\"message\">显示变量错误</field><value name=\"v1\"><block type=\"text_trim\" id=\"~23-!5$j|D.udsMs;z+~\"><field name=\"MODE\">BOTH</field><value name=\"TEXT\"><shadow type=\"text\" id=\"ox1~vRV2v_[0U8n79Y5.\"><field name=\"TEXT\">abc</field></shadow><block type=\"getStateAtTime\" id=\"/v=ph}JklyDKBex{rBdU\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_number\" id=\"btxvp4tU05SS^+XD5]]:\"><field name=\"NUM\">0</field></block></value></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"!T!(;dn^9$k~IIY(~,]E\"><field name=\"NUM\">0</field></block></value><next><block type=\"assertEqual\" id=\"nlVi_;=Vsf^uHq+m?D`U\"><field name=\"message\">闪烁时间间隔错误</field><value name=\"v1\"><block type=\"text_trim\" id=\"xhSRMU[,9-#t=|v9uVT1\"><field name=\"MODE\">BOTH</field><value name=\"TEXT\"><shadow type=\"text\" id=\"ox1~vRV2v_[0U8n79Y5.\"><field name=\"TEXT\">abc</field></shadow><block type=\"getStateAtTime\" id=\"mT3=0WN}k@H=oQvU3d/{\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_number\" id=\"{VXEHngt{SVf/TN^gAS*\"><field name=\"NUM\">499</field></block></value></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"/rfamc}Z~n]}hr2m@-`a\"><field name=\"NUM\">0</field></block></value></block></next></block></xml>",
+							"input": {
+								"inputs": []
+							},
+							"runningTime": 10000
+						},
+						{
+							"name": "数字每隔1秒显示一次",
+							"point": 2,
+							"evaluation": "应用",
+							"knowledgePoint": "基本语法\n;四则运算\n;变量\n",
+							"testCode": "var x;\n\n\nassert.equal(output.getStateAtTime('Display',1,'line_1',499).trim(),0,'显示变量设置错误');\nassert.equal(output.getStateAtTime('Display',1,'line_1',500).trim(),null,'空屏设置错误');\nassert.equal(output.getStateAtTime('Display',1,'line_1',999).trim(),null,'空屏时间间隔设置错误');\nassert.equal(output.getStateAtTime('Display',1,'line_1',1000).trim(),0,'显示变量设置错误');\n",
+							"testCodeBlockly": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables><variable type=\"\" id=\"wf{!?N+x{T=Aj)3JOmX[\">x</variable></variables><block type=\"assertEqual\" id=\"3+|fbxHJuizQlsqVf610\" x=\"-50\" y=\"-250\"><field name=\"message\">显示变量设置错误</field><value name=\"v1\"><block type=\"text_trim\" id=\"djhUq|pp=zdaRIAh4B1n\"><field name=\"MODE\">BOTH</field><value name=\"TEXT\"><shadow type=\"text\" id=\"wOMf4cSInMVhe^83,Cs(\"><field name=\"TEXT\">abc</field></shadow><block type=\"getStateAtTime\" id=\"wHvJnN^Y*r#wVr.bE0W1\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_number\" id=\"KUZ381DM-*sR77SCu7R.\"><field name=\"NUM\">499</field></block></value></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"c2KKj%wtQCC,]Y`0G@_2\"><field name=\"NUM\">0</field></block></value><next><block type=\"assertEqual\" id=\")?wpP3sse[goq/C@vU=N\"><field name=\"message\">空屏设置错误</field><value name=\"v1\"><block type=\"text_trim\" id=\"5rBjz,PbtDQWdj1^x3J8\"><field name=\"MODE\">BOTH</field><value name=\"TEXT\"><shadow type=\"text\" id=\"wOMf4cSInMVhe^83,Cs(\"><field name=\"TEXT\">abc</field></shadow><block type=\"getStateAtTime\" id=\"wb{;IDo++.IcJ-4oCL:6\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_number\" id=\"nZ!uO8E.uR)d9K#uo8y7\"><field name=\"NUM\">500</field></block></value></block></value></block></value><value name=\"v2\"><block type=\"logic_null\" id=\"ar-$v^S7@nh`)sjchA0C\"></block></value><next><block type=\"assertEqual\" id=\"1wGS28AYQA)zNNaWJ*]s\"><field name=\"message\">空屏时间间隔设置错误</field><value name=\"v1\"><block type=\"text_trim\" id=\"kRk:89H2^2NYD8~XyqQC\"><field name=\"MODE\">BOTH</field><value name=\"TEXT\"><shadow type=\"text\" id=\"wOMf4cSInMVhe^83,Cs(\"><field name=\"TEXT\">abc</field></shadow><block type=\"getStateAtTime\" id=\"Ae7Sw6QW#ynGmxSn={:(\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_number\" id=\"Y3CZihAnE1a9Cuns71,E\"><field name=\"NUM\">999</field></block></value></block></value></block></value><value name=\"v2\"><block type=\"logic_null\" id=\"3rap`DmEKU8t0Seu5BQ~\"></block></value><next><block type=\"assertEqual\" id=\";Kf:6,LK}F]Gl#%?VMeg\"><field name=\"message\">显示变量设置错误</field><value name=\"v1\"><block type=\"text_trim\" id=\":Q.*y~Kwbsk,^oTB/als\"><field name=\"MODE\">BOTH</field><value name=\"TEXT\"><shadow type=\"text\" id=\"wOMf4cSInMVhe^83,Cs(\"><field name=\"TEXT\">abc</field></shadow><block type=\"getStateAtTime\" id=\"hc!+]fc[(Cb5yTy,J~^_\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_number\" id=\"3{`SEox;@Miq}-9UVb8O\"><field name=\"NUM\">1000</field></block></value></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"QuQ]ufg(6@}7vR6c*zrW\"><field name=\"NUM\">0</field></block></value></block></next></block></next></block></next></block></xml>",
+							"input": {
+								"inputs": []
+							},
+							"runningTime": 10000
+						}
+					]
+				},
+				{
+					"name": "秒表计时器",
+					"description": "<!DOCTYPE html>\n<html>\n<head>\n</head>\n<body>\n<p><span style=\"color: #000000;\">![](twSDCo21W6.png)</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">&nbsp; &nbsp;生活中，我们常常会使用一些计时器。比如在组织课堂小组汇报时，老师常常会给我们规定答辩陈述时长，然后使用计时器计时。除此之外，生活中很多场合也都有用到计时器，它能够帮助我们了解事情过了多长时间。尝试自己制作一个简单的计数器，使数字不仅会跳动，还能够随着时间而变化。</span></p>\n<p><span style=\"color: #000000;\">![](XlvVfF6HwN.png)</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">数字在显示屏上每隔1秒以1为幅度增加；</span></p>\n<p><span style=\"color: #000000;\">![](2FS0vZlK0c.png)</span></p>\n<p><span style=\"color: #000000;\"><img src=\"https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1531989322692&amp;di=637eafa4c8791d0a9e5ea2b220ae6b8a&amp;imgtype=jpg&amp;src=http%3A%2F%2Fimg3.imgtn.bdimg.com%2Fit%2Fu%3D2094204623%2C3151489796%26fm%3D214%26gp%3D0.jpg\" /></span></p>\n<p style=\"text-align: center;\"><span style=\"color: #000000;\">&nbsp;图片来源于网络</span></p>\n<p><span style=\"color: #000000;\">![](qzM7tNNKfv.png)</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">![](每秒自加一次.gif)</span></p>\n<p><span style=\"color: #000000;\">![](PGZTFTsLZN.png)</span></p>\n<h2 style=\"padding-left: 30px;\"><span style=\"font-size: 12pt; background-color: #fcedde; color: #000000;\">1.<strong>定义一个变量并赋值&nbsp;</strong></span></h2>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">在loop（）外定义一个变量x；</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">&nbsp; &nbsp;</span></p>\n<h2 style=\"padding-left: 30px;\"><span style=\"font-size: 12pt; background-color: #fcedde; color: #000000;\">2.<strong>显示变量&nbsp;</strong></span></h2>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">在显示屏显示该变量；</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[help] </span><br /><span style=\"color: #000000;\">[-------------------------------------------------1] </span><br /><span style=\"color: #000000;\">[title]<span style=\"font-size: 10pt;\">显示变量的代码位置提示</span>[/title] </span><br /><span style=\"color: #000000;\">[扣分比例]50[/扣分比例] </span><br /><span style=\"color: #000000;\"></span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">1. 在语法区的&ldquo;变量&rdquo;中找到&ldquo;基础&rdquo;功能区的&ldquo;定义一个变量&rdquo;，拖动至loop（）外可编辑区域；</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">2. 在模块区的&ldquo;显示&rdquo;中找到&ldquo;基础&rdquo;功能区的&rdquo;固定位置显示&ldquo;，拖动至loop（）中可编辑区域；</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">3. 将语句中的&rdquo;你好，豌豆拼&ldquo;更改为x。</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #ff6600;\">Tips：注意这里x不需要加双引号！&nbsp;</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[/-------------------------------------------------1] </span><br /><span style=\"color: #000000;\">[-------------------------------------------------2] </span><br /><span style=\"color: #000000;\">[title]<span style=\"font-size: 10pt;\">显示变量的代码操作提示</span>[/title] </span><br /><span style=\"color: #000000;\">[扣分比例]80[/扣分比例]</span></p>\n<pre class=\"language-markup\"><code>float x;\nvoid loop() {\n    Display1.print(1, 1,x); \n}</code></pre>\n<p style=\"padding-left: 60px;\">[cm]1532934049549.cm[/cm]<br /><span style=\"color: #000000;\">[/-------------------------------------------------2] </span><br /><span style=\"color: #000000;\">[/help]</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">&nbsp; &nbsp;</span></p>\n<h2 style=\"padding-left: 30px;\"><span style=\"font-size: 12pt; background-color: #fcedde; color: #000000;\">3.<strong>延时&nbsp;</strong></span></h2>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">增加延时功能，延时1秒；</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">&nbsp; &nbsp;</span></p>\n<h2 style=\"padding-left: 30px;\"><span style=\"font-size: 12pt; background-color: #fcedde; color: #000000;\">4<strong>.让数字以1为幅度自增&nbsp;</strong></span></h2>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">在语法区&ldquo;变量&rdquo;中，找到&ldquo;基础&rdquo;中&ldquo;以1为幅度增加变量x&rdquo;可实现以1的幅度自加功能，将该代码块拖动至延时代码下方。</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[help] </span><br /><span style=\"color: #000000;\">[-------------------------------------------------1] </span><br /><span style=\"color: #000000;\">[title]<span style=\"font-size: 10pt;\">让数字以1为幅度自增的代码位置提示</span>[/title] </span><br /><span style=\"color: #000000;\">[扣分比例]50[/扣分比例]</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">1. 在语法区的&ldquo;基本&rdquo;中找到&ldquo;基础&rdquo;功能区的&ldquo;延时500毫秒&rdquo;，拖动至代码可编辑区域；</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">2. 修改delay()括号内的参数&ldquo;500&rdquo;改为&ldquo;1000&rdquo;。</span></p>\n<p style=\"padding-left: 90px;\"><span style=\"color: #ff6600;\">Tips:500毫秒=0.5秒；1000毫秒=1秒。</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">3. 在语法区的&ldquo;变量&rdquo;中找到&ldquo;基础&rdquo;功能区的&ldquo;以1为幅度增加变量x&rdquo;，拖动至代码可编辑区域;此时，变量x的值即变成x+1的值。</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[/-------------------------------------------------1] </span><br /><span style=\"color: #000000;\">[-------------------------------------------------2] </span><br /><span style=\"color: #000000;\">[title]<span style=\"font-size: 10pt;\">让数字以1为幅度自增的代码操作提示</span>[/title] </span><br /><span style=\"color: #000000;\">[扣分比例]80[/扣分比例]</span></p>\n<pre class=\"language-markup\"><code>    delay(1000);\n    x += 1; </code></pre>\n<p style=\"padding-left: 60px;\">[cm]1532934240365.cm[/cm]<br /><span style=\"color: #000000;\">[/-------------------------------------------------2]</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[/help]</span></p>\n<p><span style=\"color: #000000;\">![](DPwgoIGR67.png)</span></p>\n<h2 style=\"padding-left: 30px;\"><span style=\"color: #000000; font-size: 12pt; background-color: #fcfccc;\">&middot; 以1为幅度增加变量（x+=1）运算规则&nbsp;</span></h2>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">x+=1左边保留变量x，然后把赋值左边的变量和运算符都挪到右边，变成x=x+1即可。</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">例如：c*=a-b，相当于c=c*(a-b);注意括号。</span></p>\n<p><span style=\"color: #000000;\">![](4R2vQSfimM.png)</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">如何使该计时器自增到指定数值后，可以实现提醒，像我们的手机震动、响铃等效果。</span></p>\n<p><span style=\"color: #000000;\">![](vEBysNTgUI.png)</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">点击&ldquo;下载&rdquo;按钮，测试程序是否可以完成指定功能。</span></p>\n<p><span style=\"color: #000000;\">![](09dOc0tvLr.png)</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">任务完成后检查实验效果，点击提交。</span></p>\n</body>\n</html>",
+					"question": {
+						"code": {
+							"blanks": [
+								{
+									"endLineNumber": 3,
+									"startLineNumber": 2
+								},
+								{
+									"endLineNumber": 10,
+									"startLineNumber": 7
+								}
+							],
+							"itemNames": [],
+							"template": "\n\n\n\n//编程题。请根据右侧编程指南完成指定功能\nvoid loop() {\n\n  \n   \n   \n}",
+							"modules": [
+								{
+									"displayName": "主控",
+									"name": "sysmaster",
+									"type": "Master"
+								},
+								{
+									"displayName": "显示",
+									"name": "Display1",
+									"type": "Display"
+								}
+							],
+							"testCases": [
+								{
+									"name": "显示变量",
+									"point": 2,
+									"evaluation": "分析",
+									"knowledgePoint": "",
+									"testCode": "function mathRandomInt(a, b) {\n  if (a > b) {\n    // Swap a and b to ensure a is smaller.\n    var c = a;\n    a = b;\n    b = c;\n  }\n  return Math.floor(Math.random() * (b - a + 1) + a);\n}\n\n\nassert.equal(output.getStateAtTime('Display',1,'line_1',mathRandomInt(0, 999)).trim(),0,'显示变量或间隔错误');\n",
+									"testCodeBlockly": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"assertEqual\" id=\"g=?PV2=:`.ATFcMrXv1g\" x=\"110\" y=\"110\"><field name=\"message\">显示变量或间隔错误</field><value name=\"v1\"><block type=\"text_trim\" id=\")~(U~g89:h3J^!eukBqd\"><field name=\"MODE\">BOTH</field><value name=\"TEXT\"><shadow type=\"text\" id=\"ro@u5SQ{bU%G?4T9jv}z\"><field name=\"TEXT\">abc</field></shadow><block type=\"getStateAtTime\" id=\"`6=JnV.*oFjU7k0-NAWk\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_random_int\" id=\"vZ?p^EEe^*~,sr}WqZJL\"><value name=\"FROM\"><shadow type=\"math_number\" id=\"3%?4]Nw3cGBG`^EWFLsD\"><field name=\"NUM\">0</field></shadow></value><value name=\"TO\"><shadow type=\"math_number\" id=\"!lnl05#Zix7r:UhC8K$(\"><field name=\"NUM\">999</field></shadow></value></block></value></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"1/OUfuY7%USe^T4r$u)|\"><field name=\"NUM\">0</field></block></value></block></xml>",
+									"input": {
+										"inputs": []
+									},
+									"runningTime": 10000
+								},
+								{
+									"name": "显示变量",
+									"point": 2,
+									"evaluation": "分析",
+									"knowledgePoint": "",
+									"testCode": "var time;\n\nfunction mathRandomInt(a, b) {\n  if (a > b) {\n    // Swap a and b to ensure a is smaller.\n    var c = a;\n    a = b;\n    b = c;\n  }\n  return Math.floor(Math.random() * (b - a + 1) + a);\n}\n\n\ntime = 1;\nwhile (time > 0) {\n  assert.equal(output.getStateAtTime('Display',1,'line_1',mathRandomInt((time - 1) * 1000, time * 1000 - 1)).trim(),time - 1,'变量显示错误');\n  assert.equal(output.getStateAtTime('Display',1,'line_1',time * 1000).trim(),time,'变量自加错误1');\n  assert.equal(output.getStateAtTime('Display',1,'line_1',mathRandomInt(time * 1000, time * 1000 + 999)).trim(),time,'显示变量间隔错误');\n  assert.equal(output.getStateAtTime('Display',1,'line_1',time * 1000 + 1000).trim(),time + 1,'变量自加错误2');\n  time = time + 1;\n}\n",
+									"testCodeBlockly": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables><variable type=\"\" id=\"geXWXVkP9o{ja!9^5s3^\">time</variable></variables><block type=\"variables_set\" id=\"=ChlMkn4Ij?!%t[D.c3r\" x=\"190\" y=\"-10\"><field name=\"VAR\" id=\"geXWXVkP9o{ja!9^5s3^\" variabletype=\"\">time</field><value name=\"VALUE\"><block type=\"math_number\" id=\"Pd{9UO:R0B;;k-Y{Ze%`\"><field name=\"NUM\">1</field></block></value><next><block type=\"controls_whileUntil\" id=\"F07Nj=Ox8M0@]!0|Sf|N\"><field name=\"MODE\">WHILE</field><value name=\"BOOL\"><block type=\"math_number_property\" id=\"a7w(;{V_uH}SrT5:TpzU\"><mutation divisor_input=\"false\"></mutation><field name=\"PROPERTY\">POSITIVE</field><value name=\"NUMBER_TO_CHECK\"><shadow type=\"math_number\" id=\"p.JF|+ZP^}s(nVG+%kP?\"><field name=\"NUM\">0</field></shadow><block type=\"variables_get\" id=\"-tn)XlAxmi+=)m*6nPK1\"><field name=\"VAR\" id=\"geXWXVkP9o{ja!9^5s3^\" variabletype=\"\">time</field></block></value></block></value><statement name=\"DO\"><block type=\"assertEqual\" id=\"fZFd,,s31WF7M%GQF=#/\"><field name=\"message\">变量显示错误</field><value name=\"v1\"><block type=\"text_trim\" id=\"loi}FdE*0G*E7?gnorwO\"><field name=\"MODE\">BOTH</field><value name=\"TEXT\"><shadow type=\"text\" id=\"f=P8BcC|v(z)7PZ~LS$-\"><field name=\"TEXT\">abc</field></shadow><block type=\"getStateAtTime\" id=\"~0k|^%{UHn+M~:#;4`o(\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_random_int\" id=\"$$*8eI-b4KIlG-Q_B6b:\"><value name=\"FROM\"><shadow type=\"math_number\" id=\"C9|177;u^.I|P1ebn(Ka\"><field name=\"NUM\">0</field></shadow><block type=\"math_arithmetic\" id=\"6FYNG`z)~#E?ZvT@H|v[\"><field name=\"OP\">MULTIPLY</field><value name=\"A\"><shadow type=\"math_number\" id=\"J,czk11`@/24[8omXxsS\"><field name=\"NUM\">1</field></shadow><block type=\"math_arithmetic\" id=\"`#2{xrsrp!TH-K#x#Us/\"><field name=\"OP\">MINUS</field><value name=\"A\"><shadow type=\"math_number\" id=\"3#u-G}v}1$LqgKrsJ@;l\"><field name=\"NUM\">1</field></shadow><block type=\"variables_get\" id=\"w?g4!TM6BSoO:!mlOBEA\"><field name=\"VAR\" id=\"geXWXVkP9o{ja!9^5s3^\" variabletype=\"\">time</field></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"z655)?f6Qv[V/Oc))li3\"><field name=\"NUM\">1</field></shadow></value></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"sK_aax`^$!(g}q$o*kBz\"><field name=\"NUM\">1000</field></shadow></value></block></value><value name=\"TO\"><shadow type=\"math_number\" id=\"-hN^FM}Tfj[R?@XPKEyd\"><field name=\"NUM\">999</field></shadow><block type=\"math_arithmetic\" id=\"b[i1rX$~5HJz*}}X4dsc\"><field name=\"OP\">MINUS</field><value name=\"A\"><shadow type=\"math_number\" id=\"3#u-G}v}1$LqgKrsJ@;l\"><field name=\"NUM\">1</field></shadow><block type=\"math_arithmetic\" id=\"Tngr$QeF,Um%60@vZXY.\"><field name=\"OP\">MULTIPLY</field><value name=\"A\"><shadow type=\"math_number\" id=\"J,czk11`@/24[8omXxsS\"><field name=\"NUM\">1</field></shadow><block type=\"variables_get\" id=\"$YzsZk_sr8Up6VdSXN/V\"><field name=\"VAR\" id=\"geXWXVkP9o{ja!9^5s3^\" variabletype=\"\">time</field></block></value><value name=\"B\"><shadow type=\"math_number\" id=\",eD1UF1vmMi86+s=Z0T,\"><field name=\"NUM\">1000</field></shadow></value></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"0kQ/NfgRup`X0*?Zt7bg\"><field name=\"NUM\">1</field></shadow></value></block></value></block></value></block></value></block></value><value name=\"v2\"><block type=\"math_arithmetic\" id=\"V^U873l5DAo:4d6hhV6c\"><field name=\"OP\">MINUS</field><value name=\"A\"><shadow type=\"math_number\" id=\"J,czk11`@/24[8omXxsS\"><field name=\"NUM\">1</field></shadow><block type=\"variables_get\" id=\"[t8U9;0)$7n2wVi/$gyx\"><field name=\"VAR\" id=\"geXWXVkP9o{ja!9^5s3^\" variabletype=\"\">time</field></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"J{p8;(;;,jjax);zXWjE\"><field name=\"NUM\">1</field></shadow></value></block></value><next><block type=\"assertEqual\" id=\"Rtq^@rM`h=QKM=:eRKaY\"><field name=\"message\">变量自加错误1</field><value name=\"v1\"><block type=\"text_trim\" id=\"`YnMI-GK=+83XN~?U%?:\"><field name=\"MODE\">BOTH</field><value name=\"TEXT\"><shadow type=\"text\" id=\"f=P8BcC|v(z)7PZ~LS$-\"><field name=\"TEXT\">abc</field></shadow><block type=\"getStateAtTime\" id=\"H~n%wm=TAQz/Wspk3F4X\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_arithmetic\" id=\"{)QE`2S}.#erNXw`8XPn\"><field name=\"OP\">MULTIPLY</field><value name=\"A\"><shadow type=\"math_number\" id=\"3#u-G}v}1$LqgKrsJ@;l\"><field name=\"NUM\">1</field></shadow><block type=\"variables_get\" id=\"A0OmD=kpE$Yj#G7g`@W,\"><field name=\"VAR\" id=\"geXWXVkP9o{ja!9^5s3^\" variabletype=\"\">time</field></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"$i,h8vL__Zl!Z(}|UO@v\"><field name=\"NUM\">1000</field></shadow></value></block></value></block></value></block></value><value name=\"v2\"><block type=\"variables_get\" id=\"sV@e6#?vMfBkJhmQ0}:-\"><field name=\"VAR\" id=\"geXWXVkP9o{ja!9^5s3^\" variabletype=\"\">time</field></block></value><next><block type=\"assertEqual\" id=\"zgP@}t7^T_yvz$+G9[Cf\"><field name=\"message\">显示变量间隔错误</field><value name=\"v1\"><block type=\"text_trim\" id=\"SWBOsJ,wT2D{[~Ou?E]l\"><field name=\"MODE\">BOTH</field><value name=\"TEXT\"><shadow type=\"text\" id=\"f=P8BcC|v(z)7PZ~LS$-\"><field name=\"TEXT\">abc</field></shadow><block type=\"getStateAtTime\" id=\")^e[*Iy?,zed-^CI$)0)\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_random_int\" id=\"pC}MdY6m}jfq/_h[/6~L\"><value name=\"FROM\"><shadow type=\"math_number\" id=\"yv?hnOK+XZq9y#al)Oru\"><field name=\"NUM\">1000</field></shadow><block type=\"math_arithmetic\" id=\"kJh_.sH,mV~vHZ1Ou//O\"><field name=\"OP\">MULTIPLY</field><value name=\"A\"><shadow type=\"math_number\" id=\"3#u-G}v}1$LqgKrsJ@;l\"><field name=\"NUM\">1</field></shadow><block type=\"variables_get\" id=\"N`%6rg2|eZLJRrgwGf9/\"><field name=\"VAR\" id=\"geXWXVkP9o{ja!9^5s3^\" variabletype=\"\">time</field></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"C.G{;{{lqpu41hc`IVQH\"><field name=\"NUM\">1000</field></shadow></value></block></value><value name=\"TO\"><shadow type=\"math_number\" id=\"]}B@+;vrml?`Jwv=IetH\"><field name=\"NUM\">999</field></shadow><block type=\"math_arithmetic\" id=\"s4cI!{AsuIEG+t._^zFc\"><field name=\"OP\">ADD</field><value name=\"A\"><shadow type=\"math_number\" id=\"J,czk11`@/24[8omXxsS\"><field name=\"NUM\">1</field></shadow><block type=\"math_arithmetic\" id=\"j4UEL8zX+=6Z((K3uhmR\"><field name=\"OP\">MULTIPLY</field><value name=\"A\"><shadow type=\"math_number\" id=\"3#u-G}v}1$LqgKrsJ@;l\"><field name=\"NUM\">1</field></shadow><block type=\"variables_get\" id=\"q.1z(R}iVv2oa_?/i+[r\"><field name=\"VAR\" id=\"geXWXVkP9o{ja!9^5s3^\" variabletype=\"\">time</field></block></value><value name=\"B\"><shadow type=\"math_number\" id=\";~iZ[Ra1oPjw9hwJg(Sm\"><field name=\"NUM\">1000</field></shadow></value></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"7WGK=d^HM]qW4!=9jL:}\"><field name=\"NUM\">999</field></shadow></value></block></value></block></value></block></value></block></value><value name=\"v2\"><block type=\"variables_get\" id=\"M;eu4wqGTyu1n3Q(~t=%\"><field name=\"VAR\" id=\"geXWXVkP9o{ja!9^5s3^\" variabletype=\"\">time</field></block></value><next><block type=\"assertEqual\" id=\";+-fSazDwY!ov5Ny[kcs\"><field name=\"message\">变量自加错误2</field><value name=\"v1\"><block type=\"text_trim\" id=\")q(,_30ompn?o=@_j8UR\"><field name=\"MODE\">BOTH</field><value name=\"TEXT\"><shadow type=\"text\" id=\"f=P8BcC|v(z)7PZ~LS$-\"><field name=\"TEXT\">abc</field></shadow><block type=\"getStateAtTime\" id=\"QY?/GT=!H}mO.QlmU+n?\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_arithmetic\" id=\"GdfLSGX[A8IpcOcuAfN*\"><field name=\"OP\">ADD</field><value name=\"A\"><shadow type=\"math_number\" id=\"J,czk11`@/24[8omXxsS\"><field name=\"NUM\">1</field></shadow><block type=\"math_arithmetic\" id=\"Tv=at$8-b#T:Kk[@/yvQ\"><field name=\"OP\">MULTIPLY</field><value name=\"A\"><shadow type=\"math_number\" id=\"3#u-G}v}1$LqgKrsJ@;l\"><field name=\"NUM\">1</field></shadow><block type=\"variables_get\" id=\"K9H~{@sExcfbr/=)Tq|t\"><field name=\"VAR\" id=\"geXWXVkP9o{ja!9^5s3^\" variabletype=\"\">time</field></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"Dt|qCnuV37;sBU9xfBca\"><field name=\"NUM\">1000</field></shadow></value></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"v_3uINfx;5$%pv_,}2:D\"><field name=\"NUM\">1000</field></shadow></value></block></value></block></value></block></value><value name=\"v2\"><block type=\"math_arithmetic\" id=\"vN|tZaR91p`yrE9JCLy1\"><field name=\"OP\">ADD</field><value name=\"A\"><shadow type=\"math_number\" id=\"J,czk11`@/24[8omXxsS\"><field name=\"NUM\">1</field></shadow><block type=\"variables_get\" id=\"A{pIrEj_B4Ii[]GI7#Qq\"><field name=\"VAR\" id=\"geXWXVkP9o{ja!9^5s3^\" variabletype=\"\">time</field></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"1J:JET`}9.Mn-[fMy;]S\"><field name=\"NUM\">1</field></shadow></value></block></value><next><block type=\"variables_set\" id=\"_fN/nC;C+%QMoc=r|?X[\"><field name=\"VAR\" id=\"geXWXVkP9o{ja!9^5s3^\" variabletype=\"\">time</field><value name=\"VALUE\"><block type=\"math_arithmetic\" id=\"I|P]r[H)1le6!OjSJ/$@\"><field name=\"OP\">ADD</field><value name=\"A\"><shadow type=\"math_number\" id=\"R6J/#ouarD!}paP/wUH)\"><field name=\"NUM\">1</field></shadow><block type=\"variables_get\" id=\"R5e$zHc{H.;G#Inxj|WA\"><field name=\"VAR\" id=\"geXWXVkP9o{ja!9^5s3^\" variabletype=\"\">time</field></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"a[Elo15+=WB,qsnfP6ml\"><field name=\"NUM\">1</field></shadow></value></block></value></block></next></block></next></block></next></block></next></block></statement></block></next></block></xml>",
+									"input": {
+										"inputs": []
+									},
+									"runningTime": 10000
+								}
+							]
+						},
+						"choices": [],
+						"shortAnswers": []
+					},
+					"blanks": [
+						{
+							"endLineNumber": 3,
+							"startLineNumber": 2
+						},
+						{
+							"endLineNumber": 10,
+							"startLineNumber": 7
+						}
+					],
+					"codeItemNames": [],
+					"code": "\n\n\n\n//编程题。请根据右侧编程指南完成指定功能\nvoid loop() {\n\n  \n   \n   \n}",
+					"modules": [
+						{
+							"displayName": "主控",
+							"name": "sysmaster",
+							"type": "Master"
+						},
+						{
+							"displayName": "显示",
+							"name": "Display1",
+							"type": "Display"
+						}
+					],
+					"testCases": [
+						{
+							"name": "显示变量",
+							"point": 2,
+							"evaluation": "分析",
+							"knowledgePoint": "",
+							"testCode": "function mathRandomInt(a, b) {\n  if (a > b) {\n    // Swap a and b to ensure a is smaller.\n    var c = a;\n    a = b;\n    b = c;\n  }\n  return Math.floor(Math.random() * (b - a + 1) + a);\n}\n\n\nassert.equal(output.getStateAtTime('Display',1,'line_1',mathRandomInt(0, 999)).trim(),0,'显示变量或间隔错误');\n",
+							"testCodeBlockly": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"assertEqual\" id=\"g=?PV2=:`.ATFcMrXv1g\" x=\"110\" y=\"110\"><field name=\"message\">显示变量或间隔错误</field><value name=\"v1\"><block type=\"text_trim\" id=\")~(U~g89:h3J^!eukBqd\"><field name=\"MODE\">BOTH</field><value name=\"TEXT\"><shadow type=\"text\" id=\"ro@u5SQ{bU%G?4T9jv}z\"><field name=\"TEXT\">abc</field></shadow><block type=\"getStateAtTime\" id=\"`6=JnV.*oFjU7k0-NAWk\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_random_int\" id=\"vZ?p^EEe^*~,sr}WqZJL\"><value name=\"FROM\"><shadow type=\"math_number\" id=\"3%?4]Nw3cGBG`^EWFLsD\"><field name=\"NUM\">0</field></shadow></value><value name=\"TO\"><shadow type=\"math_number\" id=\"!lnl05#Zix7r:UhC8K$(\"><field name=\"NUM\">999</field></shadow></value></block></value></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"1/OUfuY7%USe^T4r$u)|\"><field name=\"NUM\">0</field></block></value></block></xml>",
+							"input": {
+								"inputs": []
+							},
+							"runningTime": 10000
+						},
+						{
+							"name": "显示变量",
+							"point": 2,
+							"evaluation": "分析",
+							"knowledgePoint": "",
+							"testCode": "var time;\n\nfunction mathRandomInt(a, b) {\n  if (a > b) {\n    // Swap a and b to ensure a is smaller.\n    var c = a;\n    a = b;\n    b = c;\n  }\n  return Math.floor(Math.random() * (b - a + 1) + a);\n}\n\n\ntime = 1;\nwhile (time > 0) {\n  assert.equal(output.getStateAtTime('Display',1,'line_1',mathRandomInt((time - 1) * 1000, time * 1000 - 1)).trim(),time - 1,'变量显示错误');\n  assert.equal(output.getStateAtTime('Display',1,'line_1',time * 1000).trim(),time,'变量自加错误1');\n  assert.equal(output.getStateAtTime('Display',1,'line_1',mathRandomInt(time * 1000, time * 1000 + 999)).trim(),time,'显示变量间隔错误');\n  assert.equal(output.getStateAtTime('Display',1,'line_1',time * 1000 + 1000).trim(),time + 1,'变量自加错误2');\n  time = time + 1;\n}\n",
+							"testCodeBlockly": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables><variable type=\"\" id=\"geXWXVkP9o{ja!9^5s3^\">time</variable></variables><block type=\"variables_set\" id=\"=ChlMkn4Ij?!%t[D.c3r\" x=\"190\" y=\"-10\"><field name=\"VAR\" id=\"geXWXVkP9o{ja!9^5s3^\" variabletype=\"\">time</field><value name=\"VALUE\"><block type=\"math_number\" id=\"Pd{9UO:R0B;;k-Y{Ze%`\"><field name=\"NUM\">1</field></block></value><next><block type=\"controls_whileUntil\" id=\"F07Nj=Ox8M0@]!0|Sf|N\"><field name=\"MODE\">WHILE</field><value name=\"BOOL\"><block type=\"math_number_property\" id=\"a7w(;{V_uH}SrT5:TpzU\"><mutation divisor_input=\"false\"></mutation><field name=\"PROPERTY\">POSITIVE</field><value name=\"NUMBER_TO_CHECK\"><shadow type=\"math_number\" id=\"p.JF|+ZP^}s(nVG+%kP?\"><field name=\"NUM\">0</field></shadow><block type=\"variables_get\" id=\"-tn)XlAxmi+=)m*6nPK1\"><field name=\"VAR\" id=\"geXWXVkP9o{ja!9^5s3^\" variabletype=\"\">time</field></block></value></block></value><statement name=\"DO\"><block type=\"assertEqual\" id=\"fZFd,,s31WF7M%GQF=#/\"><field name=\"message\">变量显示错误</field><value name=\"v1\"><block type=\"text_trim\" id=\"loi}FdE*0G*E7?gnorwO\"><field name=\"MODE\">BOTH</field><value name=\"TEXT\"><shadow type=\"text\" id=\"f=P8BcC|v(z)7PZ~LS$-\"><field name=\"TEXT\">abc</field></shadow><block type=\"getStateAtTime\" id=\"~0k|^%{UHn+M~:#;4`o(\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_random_int\" id=\"$$*8eI-b4KIlG-Q_B6b:\"><value name=\"FROM\"><shadow type=\"math_number\" id=\"C9|177;u^.I|P1ebn(Ka\"><field name=\"NUM\">0</field></shadow><block type=\"math_arithmetic\" id=\"6FYNG`z)~#E?ZvT@H|v[\"><field name=\"OP\">MULTIPLY</field><value name=\"A\"><shadow type=\"math_number\" id=\"J,czk11`@/24[8omXxsS\"><field name=\"NUM\">1</field></shadow><block type=\"math_arithmetic\" id=\"`#2{xrsrp!TH-K#x#Us/\"><field name=\"OP\">MINUS</field><value name=\"A\"><shadow type=\"math_number\" id=\"3#u-G}v}1$LqgKrsJ@;l\"><field name=\"NUM\">1</field></shadow><block type=\"variables_get\" id=\"w?g4!TM6BSoO:!mlOBEA\"><field name=\"VAR\" id=\"geXWXVkP9o{ja!9^5s3^\" variabletype=\"\">time</field></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"z655)?f6Qv[V/Oc))li3\"><field name=\"NUM\">1</field></shadow></value></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"sK_aax`^$!(g}q$o*kBz\"><field name=\"NUM\">1000</field></shadow></value></block></value><value name=\"TO\"><shadow type=\"math_number\" id=\"-hN^FM}Tfj[R?@XPKEyd\"><field name=\"NUM\">999</field></shadow><block type=\"math_arithmetic\" id=\"b[i1rX$~5HJz*}}X4dsc\"><field name=\"OP\">MINUS</field><value name=\"A\"><shadow type=\"math_number\" id=\"3#u-G}v}1$LqgKrsJ@;l\"><field name=\"NUM\">1</field></shadow><block type=\"math_arithmetic\" id=\"Tngr$QeF,Um%60@vZXY.\"><field name=\"OP\">MULTIPLY</field><value name=\"A\"><shadow type=\"math_number\" id=\"J,czk11`@/24[8omXxsS\"><field name=\"NUM\">1</field></shadow><block type=\"variables_get\" id=\"$YzsZk_sr8Up6VdSXN/V\"><field name=\"VAR\" id=\"geXWXVkP9o{ja!9^5s3^\" variabletype=\"\">time</field></block></value><value name=\"B\"><shadow type=\"math_number\" id=\",eD1UF1vmMi86+s=Z0T,\"><field name=\"NUM\">1000</field></shadow></value></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"0kQ/NfgRup`X0*?Zt7bg\"><field name=\"NUM\">1</field></shadow></value></block></value></block></value></block></value></block></value><value name=\"v2\"><block type=\"math_arithmetic\" id=\"V^U873l5DAo:4d6hhV6c\"><field name=\"OP\">MINUS</field><value name=\"A\"><shadow type=\"math_number\" id=\"J,czk11`@/24[8omXxsS\"><field name=\"NUM\">1</field></shadow><block type=\"variables_get\" id=\"[t8U9;0)$7n2wVi/$gyx\"><field name=\"VAR\" id=\"geXWXVkP9o{ja!9^5s3^\" variabletype=\"\">time</field></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"J{p8;(;;,jjax);zXWjE\"><field name=\"NUM\">1</field></shadow></value></block></value><next><block type=\"assertEqual\" id=\"Rtq^@rM`h=QKM=:eRKaY\"><field name=\"message\">变量自加错误1</field><value name=\"v1\"><block type=\"text_trim\" id=\"`YnMI-GK=+83XN~?U%?:\"><field name=\"MODE\">BOTH</field><value name=\"TEXT\"><shadow type=\"text\" id=\"f=P8BcC|v(z)7PZ~LS$-\"><field name=\"TEXT\">abc</field></shadow><block type=\"getStateAtTime\" id=\"H~n%wm=TAQz/Wspk3F4X\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_arithmetic\" id=\"{)QE`2S}.#erNXw`8XPn\"><field name=\"OP\">MULTIPLY</field><value name=\"A\"><shadow type=\"math_number\" id=\"3#u-G}v}1$LqgKrsJ@;l\"><field name=\"NUM\">1</field></shadow><block type=\"variables_get\" id=\"A0OmD=kpE$Yj#G7g`@W,\"><field name=\"VAR\" id=\"geXWXVkP9o{ja!9^5s3^\" variabletype=\"\">time</field></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"$i,h8vL__Zl!Z(}|UO@v\"><field name=\"NUM\">1000</field></shadow></value></block></value></block></value></block></value><value name=\"v2\"><block type=\"variables_get\" id=\"sV@e6#?vMfBkJhmQ0}:-\"><field name=\"VAR\" id=\"geXWXVkP9o{ja!9^5s3^\" variabletype=\"\">time</field></block></value><next><block type=\"assertEqual\" id=\"zgP@}t7^T_yvz$+G9[Cf\"><field name=\"message\">显示变量间隔错误</field><value name=\"v1\"><block type=\"text_trim\" id=\"SWBOsJ,wT2D{[~Ou?E]l\"><field name=\"MODE\">BOTH</field><value name=\"TEXT\"><shadow type=\"text\" id=\"f=P8BcC|v(z)7PZ~LS$-\"><field name=\"TEXT\">abc</field></shadow><block type=\"getStateAtTime\" id=\")^e[*Iy?,zed-^CI$)0)\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_random_int\" id=\"pC}MdY6m}jfq/_h[/6~L\"><value name=\"FROM\"><shadow type=\"math_number\" id=\"yv?hnOK+XZq9y#al)Oru\"><field name=\"NUM\">1000</field></shadow><block type=\"math_arithmetic\" id=\"kJh_.sH,mV~vHZ1Ou//O\"><field name=\"OP\">MULTIPLY</field><value name=\"A\"><shadow type=\"math_number\" id=\"3#u-G}v}1$LqgKrsJ@;l\"><field name=\"NUM\">1</field></shadow><block type=\"variables_get\" id=\"N`%6rg2|eZLJRrgwGf9/\"><field name=\"VAR\" id=\"geXWXVkP9o{ja!9^5s3^\" variabletype=\"\">time</field></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"C.G{;{{lqpu41hc`IVQH\"><field name=\"NUM\">1000</field></shadow></value></block></value><value name=\"TO\"><shadow type=\"math_number\" id=\"]}B@+;vrml?`Jwv=IetH\"><field name=\"NUM\">999</field></shadow><block type=\"math_arithmetic\" id=\"s4cI!{AsuIEG+t._^zFc\"><field name=\"OP\">ADD</field><value name=\"A\"><shadow type=\"math_number\" id=\"J,czk11`@/24[8omXxsS\"><field name=\"NUM\">1</field></shadow><block type=\"math_arithmetic\" id=\"j4UEL8zX+=6Z((K3uhmR\"><field name=\"OP\">MULTIPLY</field><value name=\"A\"><shadow type=\"math_number\" id=\"3#u-G}v}1$LqgKrsJ@;l\"><field name=\"NUM\">1</field></shadow><block type=\"variables_get\" id=\"q.1z(R}iVv2oa_?/i+[r\"><field name=\"VAR\" id=\"geXWXVkP9o{ja!9^5s3^\" variabletype=\"\">time</field></block></value><value name=\"B\"><shadow type=\"math_number\" id=\";~iZ[Ra1oPjw9hwJg(Sm\"><field name=\"NUM\">1000</field></shadow></value></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"7WGK=d^HM]qW4!=9jL:}\"><field name=\"NUM\">999</field></shadow></value></block></value></block></value></block></value></block></value><value name=\"v2\"><block type=\"variables_get\" id=\"M;eu4wqGTyu1n3Q(~t=%\"><field name=\"VAR\" id=\"geXWXVkP9o{ja!9^5s3^\" variabletype=\"\">time</field></block></value><next><block type=\"assertEqual\" id=\";+-fSazDwY!ov5Ny[kcs\"><field name=\"message\">变量自加错误2</field><value name=\"v1\"><block type=\"text_trim\" id=\")q(,_30ompn?o=@_j8UR\"><field name=\"MODE\">BOTH</field><value name=\"TEXT\"><shadow type=\"text\" id=\"f=P8BcC|v(z)7PZ~LS$-\"><field name=\"TEXT\">abc</field></shadow><block type=\"getStateAtTime\" id=\"QY?/GT=!H}mO.QlmU+n?\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_arithmetic\" id=\"GdfLSGX[A8IpcOcuAfN*\"><field name=\"OP\">ADD</field><value name=\"A\"><shadow type=\"math_number\" id=\"J,czk11`@/24[8omXxsS\"><field name=\"NUM\">1</field></shadow><block type=\"math_arithmetic\" id=\"Tv=at$8-b#T:Kk[@/yvQ\"><field name=\"OP\">MULTIPLY</field><value name=\"A\"><shadow type=\"math_number\" id=\"3#u-G}v}1$LqgKrsJ@;l\"><field name=\"NUM\">1</field></shadow><block type=\"variables_get\" id=\"K9H~{@sExcfbr/=)Tq|t\"><field name=\"VAR\" id=\"geXWXVkP9o{ja!9^5s3^\" variabletype=\"\">time</field></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"Dt|qCnuV37;sBU9xfBca\"><field name=\"NUM\">1000</field></shadow></value></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"v_3uINfx;5$%pv_,}2:D\"><field name=\"NUM\">1000</field></shadow></value></block></value></block></value></block></value><value name=\"v2\"><block type=\"math_arithmetic\" id=\"vN|tZaR91p`yrE9JCLy1\"><field name=\"OP\">ADD</field><value name=\"A\"><shadow type=\"math_number\" id=\"J,czk11`@/24[8omXxsS\"><field name=\"NUM\">1</field></shadow><block type=\"variables_get\" id=\"A{pIrEj_B4Ii[]GI7#Qq\"><field name=\"VAR\" id=\"geXWXVkP9o{ja!9^5s3^\" variabletype=\"\">time</field></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"1J:JET`}9.Mn-[fMy;]S\"><field name=\"NUM\">1</field></shadow></value></block></value><next><block type=\"variables_set\" id=\"_fN/nC;C+%QMoc=r|?X[\"><field name=\"VAR\" id=\"geXWXVkP9o{ja!9^5s3^\" variabletype=\"\">time</field><value name=\"VALUE\"><block type=\"math_arithmetic\" id=\"I|P]r[H)1le6!OjSJ/$@\"><field name=\"OP\">ADD</field><value name=\"A\"><shadow type=\"math_number\" id=\"R6J/#ouarD!}paP/wUH)\"><field name=\"NUM\">1</field></shadow><block type=\"variables_get\" id=\"R5e$zHc{H.;G#Inxj|WA\"><field name=\"VAR\" id=\"geXWXVkP9o{ja!9^5s3^\" variabletype=\"\">time</field></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"a[Elo15+=WB,qsnfP6ml\"><field name=\"NUM\">1</field></shadow></value></block></value></block></next></block></next></block></next></block></next></block></statement></block></next></block></xml>",
+							"input": {
+								"inputs": []
+							},
+							"runningTime": 10000
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "定时提醒器",
+			"description": "<!DOCTYPE html>\n<html>\n<head>\n</head>\n<body>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">定时提醒器为本任务的第三个练习，在本练习中，我们将学习信号模块蜂鸣器、信号灯及马达的使用；结合多模块，运用变量及运算法则，控制信号模块输出。</span></p>\n<p><span style=\"color: #000000;\">![](Ox9eFZAnzS.png)</span></p>\n<h2 style=\"padding-left: 30px;\"><span style=\"color: #000000;\"><strong><span style=\"font-size: 12pt;\">信号模块</span></strong></span></h2>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">信号模块可以产生一些用户直接感知的物理信号，主要有LED灯、蜂鸣器以及震动马达。</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">![](信号模块.png)</span></p>\n<ul>\n<li><span style=\"color: #000000;\">拨码开关&mdash;&mdash;拨动后可以改变蜂鸣器的声音强度；</span></li>\n<li><span style=\"color: #000000;\">蜂鸣器&mdash;&mdash;发声器件；</span></li>\n<li><span style=\"color: #000000;\">震动马达&mdash;&mdash;带有偏心轮的微型直流有刷电机，可产生震动；</span></li>\n<li><span style=\"color: #000000;\">LED灯&mdash;&mdash;RGB彩灯，可以通过设置红绿蓝三色通道亮度实现任意颜色发光。</span></li>\n</ul>\n<p style=\"padding-left: 30px;\"><strong>登陆&nbsp;<span style=\"color: #3366ff;\"><a href=\"http://wiki.wonderbits.cn/doku.php?id=%E6%A8%A1%E5%9D%97:%E4%BF%A1%E5%8F%B7-signal\" style=\"color: #3366ff;\">豌豆拼wiki</a></span>&nbsp;，可以了解更多关于信号模块的原理哦。</strong></p>\n<p><span style=\"color: #000000;\">![](IHlgR9WEGQ.png)</span></p>\n<ul>\n<li><span style=\"color: #000000;\">主控模块</span></li>\n<li><span style=\"color: #000000;\">显示模块</span></li>\n<li><span style=\"color: #000000;\">信号模块</span></li>\n</ul>\n<p><span style=\"color: #000000;\">![](1ff2fEqEXk.png)</span></p>\n<p></p>\n<p style=\"padding-left: 30px;\"><span style=\"font-size: 14pt; color: #000000;\">![](oyBMTH4YwL.jpeg)</span></p>\n<ol></ol>\n</body>\n</html>",
+			"type": "基础",
+			"tasks": [
+				{
+					"name": "初识信号模块",
+					"description": "<!DOCTYPE html>\n<html>\n<head>\n</head>\n<body>\n<p>![](n2fupo3wcR.png)</p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">使信号模块上的信号灯亮红色灯(255,0,0)，马达震动强度为50，蜂鸣器发声，频率为500。</span></p>\n<p><span style=\"color: #000000;\">![](30fBe0uCTQ.png)</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">闹钟响铃，震动。</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">![](a51puo1Evp.png)</span></p>\n<p style=\"text-align: center;\"><span style=\"color: #000000;\">图片来源于网络</span></p>\n<p><span style=\"color: #000000;\">![](mBR8m7Xm60.png)</span></p>\n<p style=\"padding-left: 30px;\">![](信号模块的使用.gif)</p>\n<p><span style=\"color: #000000;\">![](tT1APzoKio.png)</span></p>\n<h2 style=\"padding-left: 30px;\"><span style=\"background-color: #fcedde; color: #000000;\"><strong><span style=\"font-size: 12pt; background-color: #fcedde;\">1. 控制RGB灯&nbsp;</span></strong></span></h2>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">在IDE中依次找到：模块区&ldquo;信号&rdquo;-&ldquo;基础&rdquo;功能区的&ldquo;控制RGB灯&rdquo;，拖动至loop（）中，将语句：\" Signal1.setRGB(10,20,30);&rdquo;中的第一、二、三个参数分别更改为&ldquo;(255,0,0)&rdquo;；</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[help] </span><br /><span style=\"color: #000000;\">[-------------------------------------------------1] </span><br /><span style=\"color: #000000;\">[title]<span style=\"font-size: 10pt;\">控制RGB的代码操作提示</span>[/title] </span><br /><span style=\"color: #000000;\">[扣分比例]80[/扣分比例]</span></p>\n<pre class=\"language-markup\"><code>void loop() {\n    Signal1.setRGB(255, 0, 0); \n}</code></pre>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[cm]1532323837150.cm[/cm]</span><br /><span style=\"color: #000000;\">[/-------------------------------------------------1] </span><br /><span style=\"color: #000000;\">[/help]</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">&nbsp; &nbsp;&nbsp;</span></p>\n<h2 style=\"padding-left: 30px;\"><span style=\"color: #000000; background-color: #fcedde;\"><strong><span style=\"font-size: 12pt; background-color: #fcedde;\">2. 设置蜂鸣器频率&nbsp;</span></strong></span></h2>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">在IDE中依次找到：模块区的&ldquo;信号&rdquo;-功能区基础部分的&ldquo;设置蜂鸣器频率&rdquo;，拖动至loop（）中，将频率参数&ldquo;800&rdquo;更改为&ldquo;500&rdquo;；</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #ff6600;\">Tips：&ldquo;800&rdquo;代表蜂鸣器的频率。</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[help] </span><br /><span style=\"color: #000000;\">[-------------------------------------------------1] </span><br /><span style=\"color: #000000;\">[title]<span style=\"font-size: 10pt;\">设置蜂鸣器频率的代码操作提示</span>[/title] </span><br /><span style=\"color: #000000;\">[扣分比例]80[/扣分比例]</span></p>\n<pre class=\"language-markup\"><code>void loop() {\n    Signal1.setBuzzer(500); \n}</code></pre>\n<p style=\"padding-left: 60px;\"><br /><span style=\"color: #000000;\">[cm]1532323899121.cm[/cm]</span><br /><span style=\"color: #000000;\">[/-------------------------------------------------1] </span><br /><span style=\"color: #000000;\">[/help]</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">&nbsp; &nbsp;&nbsp;</span></p>\n<h2 style=\"padding-left: 30px;\"><span style=\"color: #000000; background-color: #fcedde;\"><strong><span style=\"font-size: 12pt; background-color: #fcedde;\">3. 控制振动马达&nbsp;</span></strong></span></h2>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">在IDE中依次找到：模块区的&ldquo;信号&rdquo;-功能区基础部分的&ldquo;控制振动马达&rdquo;，拖动至到loop（）中；说明:参数&ldquo;50&rdquo;代表马达震动的强度。</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[help] </span><br /><span style=\"color: #000000;\">[-------------------------------------------------1] </span><br /><span style=\"color: #000000;\">[title]<span style=\"font-size: 10pt;\">控制振动马达的代码操作提示</span>[/title] </span><br /><span style=\"color: #000000;\">[扣分比例]80[/扣分比例]</span></p>\n<pre class=\"language-markup\"><code>void loop() {    \n    Signal1.setVibration(50);\n}</code></pre>\n<p style=\"padding-left: 60px;\"><br /><span style=\"color: #000000;\">[cm]1532323951530.cm[/cm]</span><br /><span style=\"color: #000000;\">[/-------------------------------------------------1] </span><br /><span style=\"color: #000000;\">[/help]</span></p>\n<p><span style=\"color: #000000;\">![](wGfke9YBgu.png)</span></p>\n<h2 style=\"padding-left: 30px;\"><span style=\"background-color: #fcfccc; font-size: 12pt;\">&middot; 信号模块&nbsp;</span></h2>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">信号模块中蜂鸣器频率、信号灯RGB值及马达振动强度的范围使用如下图。</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">![](信号模块范围.jpg)</span></p>\n<p><span style=\"color: #000000;\">![](PPvbx5FjNp.png)</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">&nbsp; &nbsp;能否结合我们制作的计时器与蜂鸣器、马达及信号灯的学习，制作一个计时提醒器。如我们生活中的闹钟，到一定的时间就会发出震动与响铃。</span></p>\n<p><span style=\"color: #000000;\">![](vL4XHHhmRU.png)</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">点击&ldquo;下载&rdquo;按钮，测试程序是否可以完成指定功能。</span></p>\n<p><span style=\"color: #000000;\">![](vb8InG4UUF.png)</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">任务完成后检查实验效果，点击提交。</span></p>\n</body>\n</html>",
+					"question": {
+						"code": {
+							"blanks": [
+								{
+									"endLineNumber": 4,
+									"startLineNumber": 2
+								}
+							],
+							"itemNames": [],
+							"template": "void loop() {\n   \n\n\n   \n}",
+							"modules": [
+								{
+									"displayName": "主控",
+									"name": "sysmaster",
+									"type": "Master"
+								},
+								{
+									"displayName": "信号",
+									"name": "Signal1",
+									"type": "Signal"
+								}
+							],
+							"testCases": [
+								{
+									"name": "信号灯亮红灯",
+									"point": 1,
+									"evaluation": "记忆",
+									"knowledgePoint": "信号模块",
+									"testCode": "assert.equal(output.getStateAtTime('Signal',1,'RGB_R',0),255,'信号灯红色值设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'RGB_G',0),0,'信号灯绿色值设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'RGB_B',0),0,'信号灯蓝色值设置错误');\n",
+									"testCodeBlockly": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"assertEqual\" id=\"V[g+HXSmy[-WiuSGkdhW\" x=\"130\" y=\"90\"><field name=\"message\">信号灯红色值设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"PMCu%nJ/(:s.05+}f|pJ\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">RGB_R</field><value name=\"time\"><block type=\"math_number\" id=\"Q1kGeQpn6gGdCGTs;A#u\"><field name=\"NUM\">0</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"7NsHv]:2xH:N)aYGXkLf\"><field name=\"NUM\">255</field></block></value><next><block type=\"assertEqual\" id=\"7Cl{u|KqZ5cG30A;R:w%\"><field name=\"message\">信号灯绿色值设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"N!VtY0HZ(l!V=YbcPR.M\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">RGB_G</field><value name=\"time\"><block type=\"math_number\" id=\"@9H,[,p5WQA5(f0Cc/fZ\"><field name=\"NUM\">0</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"W{wLEZ@,a#d+7?M2IA//\"><field name=\"NUM\">0</field></block></value><next><block type=\"assertEqual\" id=\"xF;27Yw6s|s-Qiynq|Cw\"><field name=\"message\">信号灯蓝色值设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"T!7X$wROeu}*`I}v]aA)\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">RGB_B</field><value name=\"time\"><block type=\"math_number\" id=\"9B/cQWrb3m8O),7vRJpq\"><field name=\"NUM\">0</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"M^Bh4CDP:v7+B?GH,?Rp\"><field name=\"NUM\">0</field></block></value></block></next></block></next></block></xml>",
+									"input": {
+										"inputs": []
+									},
+									"runningTime": 10000
+								},
+								{
+									"name": "蜂鸣器响，且频率为500",
+									"point": 1,
+									"evaluation": "记忆",
+									"knowledgePoint": "信号模块",
+									"testCode": "assert.equal(output.getStateAtTime('Signal',1,'buzzer',0),500,'蜂鸣器频率设置错误');\n",
+									"testCodeBlockly": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"assertEqual\" id=\"b8{F,=?+Or_iEHFFBNmU\" x=\"90\" y=\"50\"><field name=\"message\">蜂鸣器频率设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"vmf$kn#N6KWppnlL)0P?\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">buzzer</field><value name=\"time\"><block type=\"math_number\" id=\"kFiP3AlfSvJ=iucQ9N_?\"><field name=\"NUM\">0</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"k?L5x^{uZFUv~+kC:KhE\"><field name=\"NUM\">500</field></block></value></block></xml>",
+									"input": {
+										"inputs": []
+									},
+									"runningTime": 10000
+								},
+								{
+									"name": "马达震动，且强度为50",
+									"point": 1,
+									"evaluation": "记忆",
+									"knowledgePoint": "信号模块",
+									"testCode": "assert.equal(output.getStateAtTime('Signal',1,'vibration',0),50,'振动马达强度设置错误');\n",
+									"testCodeBlockly": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"assertEqual\" id=\"J-{TD8vX$Kam}4Cy;e]i\" x=\"110\" y=\"70\"><field name=\"message\">振动马达强度设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"uD`vG4E^8l:$X|x$^k{+\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">vibration</field><value name=\"time\"><block type=\"math_number\" id=\"4uO{G[MWI:4xQ:%IhQVY\"><field name=\"NUM\">0</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"D{fV/[[k6J@a92obkG#V\"><field name=\"NUM\">50</field></block></value></block></xml>",
+									"input": {
+										"inputs": []
+									},
+									"runningTime": 10000
+								}
+							]
+						},
+						"choices": [],
+						"shortAnswers": []
+					},
+					"blanks": [
+						{
+							"endLineNumber": 4,
+							"startLineNumber": 2
+						}
+					],
+					"codeItemNames": [],
+					"code": "void loop() {\n   \n\n\n   \n}",
+					"modules": [
+						{
+							"displayName": "主控",
+							"name": "sysmaster",
+							"type": "Master"
+						},
+						{
+							"displayName": "信号",
+							"name": "Signal1",
+							"type": "Signal"
+						}
+					],
+					"testCases": [
+						{
+							"name": "信号灯亮红灯",
+							"point": 1,
+							"evaluation": "记忆",
+							"knowledgePoint": "信号模块",
+							"testCode": "assert.equal(output.getStateAtTime('Signal',1,'RGB_R',0),255,'信号灯红色值设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'RGB_G',0),0,'信号灯绿色值设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'RGB_B',0),0,'信号灯蓝色值设置错误');\n",
+							"testCodeBlockly": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"assertEqual\" id=\"V[g+HXSmy[-WiuSGkdhW\" x=\"130\" y=\"90\"><field name=\"message\">信号灯红色值设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"PMCu%nJ/(:s.05+}f|pJ\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">RGB_R</field><value name=\"time\"><block type=\"math_number\" id=\"Q1kGeQpn6gGdCGTs;A#u\"><field name=\"NUM\">0</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"7NsHv]:2xH:N)aYGXkLf\"><field name=\"NUM\">255</field></block></value><next><block type=\"assertEqual\" id=\"7Cl{u|KqZ5cG30A;R:w%\"><field name=\"message\">信号灯绿色值设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"N!VtY0HZ(l!V=YbcPR.M\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">RGB_G</field><value name=\"time\"><block type=\"math_number\" id=\"@9H,[,p5WQA5(f0Cc/fZ\"><field name=\"NUM\">0</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"W{wLEZ@,a#d+7?M2IA//\"><field name=\"NUM\">0</field></block></value><next><block type=\"assertEqual\" id=\"xF;27Yw6s|s-Qiynq|Cw\"><field name=\"message\">信号灯蓝色值设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"T!7X$wROeu}*`I}v]aA)\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">RGB_B</field><value name=\"time\"><block type=\"math_number\" id=\"9B/cQWrb3m8O),7vRJpq\"><field name=\"NUM\">0</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"M^Bh4CDP:v7+B?GH,?Rp\"><field name=\"NUM\">0</field></block></value></block></next></block></next></block></xml>",
+							"input": {
+								"inputs": []
+							},
+							"runningTime": 10000
+						},
+						{
+							"name": "蜂鸣器响，且频率为500",
+							"point": 1,
+							"evaluation": "记忆",
+							"knowledgePoint": "信号模块",
+							"testCode": "assert.equal(output.getStateAtTime('Signal',1,'buzzer',0),500,'蜂鸣器频率设置错误');\n",
+							"testCodeBlockly": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"assertEqual\" id=\"b8{F,=?+Or_iEHFFBNmU\" x=\"90\" y=\"50\"><field name=\"message\">蜂鸣器频率设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"vmf$kn#N6KWppnlL)0P?\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">buzzer</field><value name=\"time\"><block type=\"math_number\" id=\"kFiP3AlfSvJ=iucQ9N_?\"><field name=\"NUM\">0</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"k?L5x^{uZFUv~+kC:KhE\"><field name=\"NUM\">500</field></block></value></block></xml>",
+							"input": {
+								"inputs": []
+							},
+							"runningTime": 10000
+						},
+						{
+							"name": "马达震动，且强度为50",
+							"point": 1,
+							"evaluation": "记忆",
+							"knowledgePoint": "信号模块",
+							"testCode": "assert.equal(output.getStateAtTime('Signal',1,'vibration',0),50,'振动马达强度设置错误');\n",
+							"testCodeBlockly": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"assertEqual\" id=\"J-{TD8vX$Kam}4Cy;e]i\" x=\"110\" y=\"70\"><field name=\"message\">振动马达强度设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"uD`vG4E^8l:$X|x$^k{+\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">vibration</field><value name=\"time\"><block type=\"math_number\" id=\"4uO{G[MWI:4xQ:%IhQVY\"><field name=\"NUM\">0</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"D{fV/[[k6J@a92obkG#V\"><field name=\"NUM\">50</field></block></value></block></xml>",
+							"input": {
+								"inputs": []
+							},
+							"runningTime": 10000
+						}
+					]
+				},
+				{
+					"name": "定时提醒器",
+					"description": "<!DOCTYPE html>\n<html>\n<head>\n</head>\n<body>\n<p>![](NSRb21Fd3r.png)</p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">生活中，有些时候我们需要用到定时提醒器，比如闹钟。每天清晨，闹钟通过振动及响铃在规定的时间叫醒我们。闹钟不仅可以提醒，发出响亮及振动，还可以在我们规定的时间响铃、振动。</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">通过本练习，我们是否可以制作简单版小闹钟？可以尝试结合我们学习过的蜂鸣器、马达、信号灯及计时器，在设定的时间发出提醒。</span></p>\n<p><span style=\"color: #000000;\">![](rwinRZ1Xly.png)</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">制作一个定时提醒器，显示屏最开始显示数字0，每隔一秒钟，显示屏上的数字以1为幅度增加，且当数字等于10时，马达振动，响度为50，蜂鸣器响起，频率为800，信号灯亮绿灯(0,255,0)。</span></p>\n<p><span style=\"color: #000000;\">![](9oQMFAwJ6x.png)</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">![](PUaMYFegyy.png)</span></p>\n<p style=\"text-align: center;\"><span style=\"color: #000000;\">图片来源于网络</span></p>\n<p><span style=\"color: #000000;\">![](cTq6LbHtAb.png)</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">![](警报器.gif)</span></p>\n<p><span style=\"color: #000000;\">![](5ajQjtZ9Zr.png)</span></p>\n<h2 style=\"padding-left: 30px;\"><span style=\"background-color: #fcedde; color: #000000;\"><strong><span style=\"font-size: 12pt; background-color: #fcedde;\">当变量x的值等于10秒时</span></strong></span></h2>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">信号模块发出报警提醒：蜂鸣器响起，频率为800；马达震动：强度为50；信号灯亮绿灯(0,255,0)。</span></p>\n<h4 style=\"padding-left: 30px;\"><span style=\"color: #000000;\">（1）借助if语句，设定相应的判断条件以及执行语句。</span></h4>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[help] </span><br /><span style=\"color: #000000;\">[-------------------------------------------------1] </span><br /><span style=\"color: #000000;\">[title]<span style=\"font-size: 10pt;\">当X等于10的代码流程图提示</span>[/title] </span><br /><span style=\"color: #000000;\">[扣分比例]20[/扣分比例] </span><br /><span style=\"color: #000000;\">![](求助流程图.jpeg)</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[/-------------------------------------------------1]</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[-------------------------------------------------2] </span><br /><span style=\"color: #000000;\">[title]<span style=\"font-size: 10pt;\">当X等于10的代码位置提示</span>[/title] </span><br /><span style=\"color: #000000;\">[扣分比例]50[/扣分比例]</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">1. 在IDE中依次找到：语法区的&ldquo;逻辑&rdquo;-功能区基础部分的&ldquo;如果..&rdquo;，拖动至loop（）中可编辑区域；</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">2. 将&ldquo;if (true == true){}&rdquo;中的第1、2个&ldquo;ture&rdquo;分别更改为&ldquo;x&rdquo;、&ldquo;10&rdquo;。则编程语句最终变为：\"if (x == 10){}&rdquo;;</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[/-------------------------------------------------2]</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[-------------------------------------------------3] </span><br /><span style=\"color: #000000;\">[title]<span style=\"font-size: 10pt;\">当X等于10的代码操作提示</span>[/title] </span><br /><span style=\"color: #000000;\">[扣分比例]80[/扣分比例]</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[cm]1532326446553.cm[/cm]</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[/-------------------------------------------------3]</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[/help]</span></p>\n<h4 style=\"padding-left: 30px;\"><span style=\"color: #000000;\">（2）满足&ldquo;x==10&rdquo;的条件后，应该执行：</span></h4>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">蜂鸣器响起，频率为800；</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">马达震动：强度为50；</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">信号灯亮绿灯(0,255,0)。</span></p>\n<p><span style=\"color: #000000;\">![](DD2hElmJZp.png)</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">结合多模块，运用变量及运算法则，控制信号模块输出。</span></p>\n<p><span style=\"color: #000000;\">![](ONi3vdJfDk.png)</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">点击&ldquo;下载&rdquo;按钮，测试程序是否可以完成指定功能。</span></p>\n<p><span style=\"color: #000000;\">![](aWN0Qs0gjm.png)</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">任务完成后检查实验效果，点击提交。</span></p>\n</body>\n</html>",
+					"question": {
+						"code": {
+							"blanks": [
+								{
+									"endLineNumber": 11,
+									"startLineNumber": 6
+								}
+							],
+							"itemNames": [],
+							"template": "float x;\nvoid loop() {\n    Display1.print(1, 1, x);\n    delay(1000);\n    x=x+1;\n   \n\n\n\n\n\n    \n}",
+							"modules": [
+								{
+									"displayName": "主控",
+									"name": "sysmaster",
+									"type": "Master"
+								},
+								{
+									"displayName": "信号",
+									"name": "Signal1",
+									"type": "Signal"
+								},
+								{
+									"displayName": "显示",
+									"name": "Display1",
+									"type": "Display"
+								}
+							],
+							"testCases": [
+								{
+									"name": "x等于10，蜂鸣器频率为800",
+									"point": 3,
+									"evaluation": "应用",
+									"knowledgePoint": "基本语法\n;四则运算\n;变量\n;信号模块",
+									"testCode": "assert.equal(output.getStateAtTime('Signal',1,'RGB_R',9999),0,'信号灯红色RGB值设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'RGB_G',9999),0,'信号灯绿色RGB值设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'RGB_B',9999),0,'信号灯蓝色RGB值设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'buzzer',10000),0,'蜂鸣器频率设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'vibration',10000),0,'振动马达错误');\nassert.equal(output.getStateAtTime('Signal',1,'RGB_R',10000),0,'信号灯红色RGB值设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'RGB_G',10000),255,'信号灯绿色RGB值设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'RGB_B',10000),0,'信号灯蓝色RGB值设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'buzzer',10000),800,'蜂鸣器频率设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'vibration',10000),50,'振动马达错误');\n",
+									"testCodeBlockly": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"assertEqual\" id=\"f=1I)tEKw)uH3FHb}1uv\" x=\"190\" y=\"-170\"><field name=\"message\">信号灯红色RGB值设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"cCUEN]hpi|h|=kj0Z$[a\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">RGB_R</field><value name=\"time\"><block type=\"math_number\" id=\"M(q#{`59]|4._uTKVT)F\"><field name=\"NUM\">9999</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"!#Wq.=+B?o|##13Bv+=a\"><field name=\"NUM\">0</field></block></value><next><block type=\"assertEqual\" id=\"PQQb#x(ZxPEE`R4yV*=6\"><field name=\"message\">信号灯绿色RGB值设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"QD(Z.pD0/MwNs^WnesK6\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">RGB_G</field><value name=\"time\"><block type=\"math_number\" id=\"1_5GRHLnTDZe2t8!_$#@\"><field name=\"NUM\">9999</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"O=V$?t`m?i]nVL(R4D;}\"><field name=\"NUM\">0</field></block></value><next><block type=\"assertEqual\" id=\"#0~5GEPi{srw+__Nu)[3\"><field name=\"message\">信号灯蓝色RGB值设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"Lb*%`%`L~f09NV|l:zfS\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">RGB_B</field><value name=\"time\"><block type=\"math_number\" id=\"}rkT/`@sKkQ57om7f|o;\"><field name=\"NUM\">9999</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"2rq=Ct%R[gk-/Rg]Gj^A\"><field name=\"NUM\">0</field></block></value><next><block type=\"assertEqual\" id=\"4!,0J+I:U;MODVW(iklw\"><field name=\"message\">蜂鸣器频率设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"+/d76|?X^{?;pyF3]1do\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">buzzer</field><value name=\"time\"><block type=\"math_number\" id=\"C+$OK/-|[#MXOe%}x1g|\"><field name=\"NUM\">10000</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"v[E`UOPZ6=$GMT6vh,41\"><field name=\"NUM\">0</field></block></value><next><block type=\"assertEqual\" id=\"5h@^;/|HkP+hqxmm1V8F\"><field name=\"message\">振动马达错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"o7iZ!T?9X+D9}kvB|#^3\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">vibration</field><value name=\"time\"><block type=\"math_number\" id=\"fKCpz(0U]/K9E]Uto/1s\"><field name=\"NUM\">10000</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"IeSUiQH]f8(q=C+6_`[.\"><field name=\"NUM\">0</field></block></value><next><block type=\"assertEqual\" id=\"yYKhL~kg-!*ka:b+k3(4\"><field name=\"message\">信号灯红色RGB值设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"nugAP:K@B~h?3e!_FRc+\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">RGB_R</field><value name=\"time\"><block type=\"math_number\" id=\"o~CsF8iX11Q]z-IZwLp(\"><field name=\"NUM\">10000</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"].ctMaxFc}w0Kv1W,JtM\"><field name=\"NUM\">0</field></block></value><next><block type=\"assertEqual\" id=\"Y;gQm8I#u6BHRfA$}KEL\"><field name=\"message\">信号灯绿色RGB值设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"2mdPGR9Brp4)@0{RH]m=\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">RGB_G</field><value name=\"time\"><block type=\"math_number\" id=\"(uHsbbNVJRrv$Wasn?G%\"><field name=\"NUM\">10000</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"`#2?}3qHT4Y!0(5Qxl~F\"><field name=\"NUM\">255</field></block></value><next><block type=\"assertEqual\" id=\"iXngX3oS0(m[_^K+CP^J\"><field name=\"message\">信号灯蓝色RGB值设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"Sr1N[mopn9qVo^Yn2tFs\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">RGB_B</field><value name=\"time\"><block type=\"math_number\" id=\"vpaUsO0,TOJPr]E!5K#r\"><field name=\"NUM\">10000</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"UdlB!#rp9OM-7N1w%/+X\"><field name=\"NUM\">0</field></block></value><next><block type=\"assertEqual\" id=\"-T|Ft4|[u^2yrMGTb?JN\"><field name=\"message\">蜂鸣器频率设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"@UdtAbuoC6;bNwP%p.(:\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">buzzer</field><value name=\"time\"><block type=\"math_number\" id=\"|hx-u|9udS-a@;XMaQi8\"><field name=\"NUM\">10000</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"C%NK#i-XGeaQ?aww|G5y\"><field name=\"NUM\">800</field></block></value><next><block type=\"assertEqual\" id=\".xSp9b|:4yE#!cLY3-BG\"><field name=\"message\">振动马达错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"!Mgb0:A0znH=07(Lw)Yl\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">vibration</field><value name=\"time\"><block type=\"math_number\" id=\"]i$(#{Ch4:L32kFu97Ci\"><field name=\"NUM\">10000</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"ODzZ0197IinfX9PpzFt4\"><field name=\"NUM\">50</field></block></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+									"input": {
+										"inputs": []
+									},
+									"runningTime": 10001
+								}
+							]
+						},
+						"choices": [],
+						"shortAnswers": []
+					},
+					"blanks": [
+						{
+							"endLineNumber": 11,
+							"startLineNumber": 6
+						}
+					],
+					"codeItemNames": [],
+					"code": "float x;\nvoid loop() {\n    Display1.print(1, 1, x);\n    delay(1000);\n    x=x+1;\n   \n\n\n\n\n\n    \n}",
+					"modules": [
+						{
+							"displayName": "主控",
+							"name": "sysmaster",
+							"type": "Master"
+						},
+						{
+							"displayName": "信号",
+							"name": "Signal1",
+							"type": "Signal"
+						},
+						{
+							"displayName": "显示",
+							"name": "Display1",
+							"type": "Display"
+						}
+					],
+					"testCases": [
+						{
+							"name": "x等于10，蜂鸣器频率为800",
+							"point": 3,
+							"evaluation": "应用",
+							"knowledgePoint": "基本语法\n;四则运算\n;变量\n;信号模块",
+							"testCode": "assert.equal(output.getStateAtTime('Signal',1,'RGB_R',9999),0,'信号灯红色RGB值设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'RGB_G',9999),0,'信号灯绿色RGB值设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'RGB_B',9999),0,'信号灯蓝色RGB值设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'buzzer',10000),0,'蜂鸣器频率设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'vibration',10000),0,'振动马达错误');\nassert.equal(output.getStateAtTime('Signal',1,'RGB_R',10000),0,'信号灯红色RGB值设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'RGB_G',10000),255,'信号灯绿色RGB值设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'RGB_B',10000),0,'信号灯蓝色RGB值设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'buzzer',10000),800,'蜂鸣器频率设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'vibration',10000),50,'振动马达错误');\n",
+							"testCodeBlockly": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"assertEqual\" id=\"f=1I)tEKw)uH3FHb}1uv\" x=\"190\" y=\"-170\"><field name=\"message\">信号灯红色RGB值设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"cCUEN]hpi|h|=kj0Z$[a\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">RGB_R</field><value name=\"time\"><block type=\"math_number\" id=\"M(q#{`59]|4._uTKVT)F\"><field name=\"NUM\">9999</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"!#Wq.=+B?o|##13Bv+=a\"><field name=\"NUM\">0</field></block></value><next><block type=\"assertEqual\" id=\"PQQb#x(ZxPEE`R4yV*=6\"><field name=\"message\">信号灯绿色RGB值设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"QD(Z.pD0/MwNs^WnesK6\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">RGB_G</field><value name=\"time\"><block type=\"math_number\" id=\"1_5GRHLnTDZe2t8!_$#@\"><field name=\"NUM\">9999</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"O=V$?t`m?i]nVL(R4D;}\"><field name=\"NUM\">0</field></block></value><next><block type=\"assertEqual\" id=\"#0~5GEPi{srw+__Nu)[3\"><field name=\"message\">信号灯蓝色RGB值设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"Lb*%`%`L~f09NV|l:zfS\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">RGB_B</field><value name=\"time\"><block type=\"math_number\" id=\"}rkT/`@sKkQ57om7f|o;\"><field name=\"NUM\">9999</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"2rq=Ct%R[gk-/Rg]Gj^A\"><field name=\"NUM\">0</field></block></value><next><block type=\"assertEqual\" id=\"4!,0J+I:U;MODVW(iklw\"><field name=\"message\">蜂鸣器频率设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"+/d76|?X^{?;pyF3]1do\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">buzzer</field><value name=\"time\"><block type=\"math_number\" id=\"C+$OK/-|[#MXOe%}x1g|\"><field name=\"NUM\">10000</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"v[E`UOPZ6=$GMT6vh,41\"><field name=\"NUM\">0</field></block></value><next><block type=\"assertEqual\" id=\"5h@^;/|HkP+hqxmm1V8F\"><field name=\"message\">振动马达错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"o7iZ!T?9X+D9}kvB|#^3\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">vibration</field><value name=\"time\"><block type=\"math_number\" id=\"fKCpz(0U]/K9E]Uto/1s\"><field name=\"NUM\">10000</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"IeSUiQH]f8(q=C+6_`[.\"><field name=\"NUM\">0</field></block></value><next><block type=\"assertEqual\" id=\"yYKhL~kg-!*ka:b+k3(4\"><field name=\"message\">信号灯红色RGB值设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"nugAP:K@B~h?3e!_FRc+\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">RGB_R</field><value name=\"time\"><block type=\"math_number\" id=\"o~CsF8iX11Q]z-IZwLp(\"><field name=\"NUM\">10000</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"].ctMaxFc}w0Kv1W,JtM\"><field name=\"NUM\">0</field></block></value><next><block type=\"assertEqual\" id=\"Y;gQm8I#u6BHRfA$}KEL\"><field name=\"message\">信号灯绿色RGB值设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"2mdPGR9Brp4)@0{RH]m=\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">RGB_G</field><value name=\"time\"><block type=\"math_number\" id=\"(uHsbbNVJRrv$Wasn?G%\"><field name=\"NUM\">10000</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"`#2?}3qHT4Y!0(5Qxl~F\"><field name=\"NUM\">255</field></block></value><next><block type=\"assertEqual\" id=\"iXngX3oS0(m[_^K+CP^J\"><field name=\"message\">信号灯蓝色RGB值设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"Sr1N[mopn9qVo^Yn2tFs\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">RGB_B</field><value name=\"time\"><block type=\"math_number\" id=\"vpaUsO0,TOJPr]E!5K#r\"><field name=\"NUM\">10000</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"UdlB!#rp9OM-7N1w%/+X\"><field name=\"NUM\">0</field></block></value><next><block type=\"assertEqual\" id=\"-T|Ft4|[u^2yrMGTb?JN\"><field name=\"message\">蜂鸣器频率设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"@UdtAbuoC6;bNwP%p.(:\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">buzzer</field><value name=\"time\"><block type=\"math_number\" id=\"|hx-u|9udS-a@;XMaQi8\"><field name=\"NUM\">10000</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"C%NK#i-XGeaQ?aww|G5y\"><field name=\"NUM\">800</field></block></value><next><block type=\"assertEqual\" id=\".xSp9b|:4yE#!cLY3-BG\"><field name=\"message\">振动马达错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"!Mgb0:A0znH=07(Lw)Yl\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">vibration</field><value name=\"time\"><block type=\"math_number\" id=\"]i$(#{Ch4:L32kFu97Ci\"><field name=\"NUM\">10000</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"ODzZ0197IinfX9PpzFt4\"><field name=\"NUM\">50</field></block></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+							"input": {
+								"inputs": []
+							},
+							"runningTime": 10001
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "综合练习（事件的使用）",
+			"description": "<!DOCTYPE html>\n<html>\n<head>\n</head>\n<body>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">按钮计数提醒器为本任务的第四个练习，在本练习中，我们将学习事件的使用，结合多模块的逻辑设计：运用变量以及运算法则，结合豌豆拼模块，根据给定的效果完成逻辑设计，实现相应的功能。</span></p>\n<p><span style=\"color: #000000;\">![](XRuvmm1Soe.png)</span></p>\n<h2 style=\"padding-left: 30px;\"><span style=\"color: #000000;\"><strong><span style=\"font-size: 12pt;\">控制模块&nbsp;</span></strong></span></h2>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">控制模块上有多种开关，用来控制其他模块或设备。控制模块中有按键SW1和SW2、拨码开关SW3、圆盘变阻器SW4，还有一个Makey Makey接口M1&amp;M2。</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">![](控制模块.png)</span></p>\n<ul>\n<li class=\"li\"><span style=\"color: #000000;\">SW1&mdash;&mdash;按键，按下时开关接通，松开时开关断开连接；</span></li>\n<li class=\"li\"><span style=\"color: #000000;\">SW2&mdash;&mdash;按键，按下时开关接通，松开时开关断开连接；</span></li>\n<li class=\"li\"><span style=\"color: #000000;\">SW3&mdash;&mdash;拨码开关，拨到0侧时开关断开，拨到1侧时开关闭合；</span></li>\n<li class=\"li\"><span style=\"color: #000000;\">SW4&mdash;&mdash;圆盘变阻器；</span></li>\n<li class=\"li\"><span style=\"color: #000000;\">M1&amp;M2&amp; COM&mdash;&mdash;Makey Makey接口，将M1或M2口接导电物体时，主控器会向外送出按键指令，可以像鼠标或键盘一样发送命令</span></li>\n<li class=\"li\"><span style=\"color: #000000;\">LED指示灯&mdash;&mdash;显示M1&amp;M2是否接有导电物体；</span></li>\n</ul>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\"><strong>登陆&nbsp;<span style=\"color: #3366ff;\"><a href=\"http://wiki.wonderbits.cn/doku.php?id=%E6%A8%A1%E5%9D%97:%E6%8E%A7%E5%88%B6-control\" style=\"color: #3366ff;\">豌豆拼wiki</a></span>&nbsp;，可以了解更多关于控制模块的原理哦。</strong></span></p>\n<p><span style=\"color: #000000;\">![](Q1PnXGAA5d.png)</span></p>\n<ul>\n<li><span style=\"color: #000000;\">主控模块</span></li>\n<li><span style=\"color: #000000;\">显示模块</span></li>\n<li><span style=\"color: #000000;\">信号模块</span></li>\n<li><span style=\"color: #000000;\">控制模块</span></li>\n</ul>\n<p><span style=\"color: #000000;\">![](RT60dO8ISs.png)</span></p>\n<p><span style=\"color: #000000;\">![](A3-主控+显示+信号+控制.jpg)</span></p>\n<ol></ol>\n</body>\n</html>",
+			"type": "基础",
+			"tasks": [
+				{
+					"name": "初识控制模块",
+					"description": "<!DOCTYPE html>\n<html>\n<head>\n</head>\n<body>\n<p><span style=\"color: #000000;\">![](ZL39aYchYW.png)</span></p>\n<ol>\n<li><span style=\"color: #000000;\">当按下控制模块的SW1按键时，蜂鸣器响，频率800，马达震动，强度为50，信号灯亮红灯(255,0,0)；</span></li>\n<li><span style=\"color: #000000;\">当按下控制模块的SW2按键时，蜂鸣器响，频率300，马达震动，强度为30，信号灯亮绿灯(0,255,0)。</span></li>\n</ol>\n<p><span style=\"color: #000000;\">![](imXc1SEiNX.png)</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">[video]事件与信号模块的结合使用.mp4[/video]</span></p>\n<p><span style=\"color: #000000;\">![](TBsvenTYCL.png)</span></p>\n<h2 style=\"padding-left: 30px;\"><span style=\"font-size: 12pt; background-color: #fcedde; color: #000000;\"><strong>1. 当按键SW1按下时：</strong></span></h2>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\"><span style=\"font-size: 10pt; color: #000000;\">蜂鸣器响，频率为800；马达振动，强度为50；信号灯亮红灯。</span></span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\"><span style=\"font-size: 10pt; color: #000000;\">&nbsp; &nbsp;</span></span></p>\n<p style=\"padding-left: 30px;\"><strong><span style=\"color: #000000;\">（1）事件的使用</span></strong></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">在IDE中依次找到：模块区的&ldquo;控制&rdquo;-功能区高级部分的<strong>&ldquo;事件：当SW1按下时&rdquo;</strong>，拖动至loop（）外指定位置；</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\"><strong>具体操作见视频：</strong></span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[cm]1533019491564.cm[/cm]</span></p>\n<p style=\"padding-left: 30px;\"><strong><span style=\"color: #000000;\">（2）事件触发时，应该执行：</span></strong></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">在&ldquo;事件：SW1按下时&rdquo;内，设置蜂鸣器频率800；马达强度为50；信号灯亮红灯(255,0,0)。</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[help] </span><br /><span style=\"color: #000000;\">[-------------------------------------------------1] </span><br /><span style=\"color: #000000;\">[title]<span style=\"font-size: 10pt;\">当SW1按键按下时执行语句的编写位置提示</span>[/title] </span><br /><span style=\"color: #000000;\">[扣分比例]20[/扣分比例]</span></p>\n<pre class=\"language-markup\"><code>/*SW1按下触发，执行大括号中内容*/\nEVENT ( Control1.SW1Pressed() )\n{\n  //设置蜂鸣器频率为800；\n  //设置振动马达强度为50；\n  //设置信号灯为红色（255，0，0）。\n}</code></pre>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[/-------------------------------------------------1]</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[-------------------------------------------------2] </span><br /><span style=\"color: #000000;\">[title]<span style=\"font-size: 10pt;\">蜂鸣器响、马达振动及信号灯亮的代码编写提示</span>[/title] </span><br /><span style=\"color: #000000;\">[扣分比例]50[/扣分比例]</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\"><strong>1. 蜂鸣器：</strong>模块区的&ldquo;信号&rdquo;-功能区基础部分的&ldquo;设置蜂鸣器频率&rdquo;，拖动至loop（）中，修改参数为800；</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\"><strong>&nbsp; &nbsp;</strong></span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\"><strong>2. 振动马达：</strong>模块区的&ldquo;信号&rdquo;-功能区基础部分的&ldquo;控制振动马达&rdquo;，拖动至到loop（）中，修改参数为50；</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\"><strong>&nbsp; &nbsp;&nbsp;</strong></span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\"><strong>3. 信号灯：</strong>模块区的&ldquo;信号&rdquo;-功能区基础部分的&ldquo;控制RGB灯&rdquo;，拖动至loop（）中，修改参数为(255,0,0)。</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[/-------------------------------------------------2]</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[-------------------------------------------------3] </span><br /><span style=\"color: #000000;\">[title]<span style=\"font-size: 10pt;\">当SW1按键按下时的全部代码操作提示</span>[/title] </span><br /><span style=\"color: #000000;\">[扣分比例]80[/扣分比例]</span></p>\n<pre class=\"language-markup\"><code>/*SW1按下后放手触发，执行大括号中内容*/\nEVENT ( Control1.SW1Released() )\n{\n    Signal1.setRGB(255, 0, 0);\n    Signal1.setBuzzer(800);\n    Signal1.setVibration(50);  \n}\n</code></pre>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[cm]1532402426980.cm[/cm]</span><br /><span style=\"color: #000000;\">[/-------------------------------------------------3]</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[/help]</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">&nbsp; &nbsp;</span></p>\n<h2 style=\"padding-left: 30px;\"><span style=\"font-size: 12pt; background-color: #fcedde; color: #000000;\"><strong>2. 当按键SW2按下时：</strong></span></h2>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">蜂鸣器响起，频率为300，马达振动，强度为30，信号灯亮绿灯。</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">&nbsp; &nbsp;</span></p>\n<p style=\"padding-left: 30px;\"><strong><span style=\"color: #000000;\">（1）拖动&ldquo;事件：当SW2按下时&rdquo;</span></strong></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">在IDE中依次找到：模块区&ldquo;控制&rdquo;-功能区高级部分的&ldquo;事件：当SW2按下时&rdquo;，拖动至loop（）外指定位置；</span></p>\n<p style=\"padding-left: 30px;\"><strong><span style=\"color: #000000;\">（2）</span><span style=\"color: #000000;\">事件触发时，应该执行：</span></strong></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">在&ldquo;事件：SW2按下时&rdquo;内，设置蜂鸣器频率300；马达强度为30；信号灯亮红灯(0,255,0)。</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[help] </span><br /><span style=\"color: #000000;\">[-------------------------------------------------1] </span><br /><span style=\"color: #000000;\">[title]<span style=\"font-size: 10pt;\">当SW2按键按下时的代码编写位置提示</span>[/title] </span><br /><span style=\"color: #000000;\">[扣分比例]50[/扣分比例]</span></p>\n<pre class=\"language-markup\"><code>/*SW2按下触发，执行大括号中内容*/\nEVENT ( Control1.SW2Pressed() )\n{\n  //设置蜂鸣器频率为300；\n  //设置振动马达强度为30；\n  //设置信号灯为红色（0，255，0）。\n}</code></pre>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[/-------------------------------------------------1]</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[-------------------------------------------------2] </span><br /><span style=\"color: #000000;\">[title]<span style=\"font-size: 10pt;\">当SW2按键按下时的全部代码操作提</span><span style=\"font-size: 10pt;\">示</span>[/title] </span><br /><span style=\"color: #000000;\">[扣分比例]80[/扣分比例]</span></p>\n<pre class=\"language-markup\"><code>/*SW2按下触发，执行大括号中内容*/\nEVENT ( Control1.SW2Pressed() )\n{\n    Signal1.setRGB(0, 255, 0);\n    Signal1.setBuzzer(300);\n    Signal1.setVibration(30); \n}</code></pre>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[cm]1532402780328.cm[/cm]</span><br /><span style=\"color: #000000;\">[/-------------------------------------------------2]</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[/help]</span></p>\n<p><span style=\"color: #000000;\">![](r94qZdjyQn.png)</span></p>\n<h2 style=\"padding-left: 30px;\"><span style=\"color: #000000; font-size: 12pt; background-color: #fcfccc;\">&middot; 事件的结构&nbsp;</span></h2>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">以&ldquo;事件：当SW1按下时&rdquo;为例，说明事件的基本结构。</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">![](事件框架.jpg)</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">&nbsp;&nbsp;</span></p>\n<h2 style=\"padding-left: 30px;\"><span style=\"color: #000000; font-size: 12pt; background-color: #fcfccc;\">&middot; 事件的编写位置&nbsp;</span></h2>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">事件只能编写在loop()函数结构之外，两者并列存在，事件与事件之间也是并列存在的关系，事件内不能嵌套事件。</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">![](事件的位置.jpg)</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">&nbsp;&nbsp;</span></p>\n<h2 style=\"padding-left: 30px;\"><span style=\"color: #000000; background-color: #fcfccc; font-size: 12pt;\">&middot; 事件的执行规则&nbsp;</span></h2>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">当主程序在执行的过程中，某一时刻达到事件执行条件，则会暂停执行主程序，开始执行事件，事件执行完，再返回主程序。</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">![](事件的介绍.jpg)</span></p>\n<p><span style=\"color: #000000;\">![](PSYfz3dXRf.png)</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">点击&ldquo;下载&rdquo;按钮，测试程序是否可以完成指定功能。</span></p>\n<p><span style=\"color: #000000;\">![](78CJeqHYuu.png)</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">任务完成后检查实验效果，点击提交。</span></p>\n</body>\n</html>",
+					"question": {
+						"code": {
+							"blanks": [
+								{
+									"endLineNumber": 12,
+									"startLineNumber": 7
+								},
+								{
+									"endLineNumber": 21,
+									"startLineNumber": 16
+								}
+							],
+							"itemNames": [],
+							"template": "\nvoid loop() {\n    \n}\n//编程题。请根据右侧编程指南完成指定功能。\n    //⬇ 当按键SW1按下时\n\n\n\n\n\n\n\n\n    //⬇ 当按键SW2按下时\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+							"modules": [
+								{
+									"displayName": "主控",
+									"name": "sysmaster",
+									"type": "Master"
+								},
+								{
+									"displayName": "控制",
+									"name": "Control1",
+									"type": "Control"
+								},
+								{
+									"displayName": "信号",
+									"name": "Signal1",
+									"type": "Signal"
+								}
+							],
+							"testCases": [
+								{
+									"name": "事件SW1",
+									"point": 4,
+									"evaluation": "分析",
+									"knowledgePoint": "基本语法\n;四则运算\n;变量\n;事件\n;信号模块",
+									"testCode": "assert.equal(output.getStateAtTime('Signal',1,'RGB_R',0),255,'信号灯红色值设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'RGB_G',0),0,'信号灯绿色值设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'RGB_B',0),0,'信号灯蓝色值设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'buzzer',0),800,'蜂鸣器频率设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'buzzer',0),50,'马达强度设置错误');\n",
+									"testCodeBlockly": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"assertEqual\" id=\"(p?WPL-~-ahKw@cORANi\" x=\"90\" y=\"110\"><field name=\"message\">信号灯红色值设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"?cV9xJ5{LFPEq%}Od}P-\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">RGB_R</field><value name=\"time\"><block type=\"math_number\" id=\"8M6`fHD3qQYu5:T`YN0l\"><field name=\"NUM\">0</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"v:rStd])fB.qZZsmtRs)\"><field name=\"NUM\">255</field></block></value><next><block type=\"assertEqual\" id=\"FN!tbTsQvUsjFV$HVV*-\"><field name=\"message\">信号灯绿色值设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"_R@3]rV/.,e1Hu@{h~W(\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">RGB_G</field><value name=\"time\"><block type=\"math_number\" id=\"AUn-AOmRt0DO_y%aJSq=\"><field name=\"NUM\">0</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"J[lUF`[?WMb9t17SXzko\"><field name=\"NUM\">0</field></block></value><next><block type=\"assertEqual\" id=\"d*Mxd*aCr0~^lQa:2HBz\"><field name=\"message\">信号灯蓝色值设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"}FkD1-8.WTwvZv[N:^;`\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">RGB_B</field><value name=\"time\"><block type=\"math_number\" id=\"q1QgN=4}=#hnNG!!?p@S\"><field name=\"NUM\">0</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"b/|Bk,G4/gSwlp)~=I45\"><field name=\"NUM\">0</field></block></value><next><block type=\"assertEqual\" id=\"Y^,ETtzk,HNAaWL{Qrl$\"><field name=\"message\">蜂鸣器频率设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"IFT[a,vEE8be_5O^e:{P\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">buzzer</field><value name=\"time\"><block type=\"math_number\" id=\"QmK.IPbFh~(9s~s1dx.;\"><field name=\"NUM\">0</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"~+)m!Ja0QDFw^b.0-r|g\"><field name=\"NUM\">800</field></block></value><next><block type=\"assertEqual\" id=\"Rb(iRFdd(~XFa|{lY-nt\"><field name=\"message\">马达强度设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"kJi}YHkk9mL7-zk.[Uoo\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">buzzer</field><value name=\"time\"><block type=\"math_number\" id=\"Wk9^ufu4Vuyzwaib%Eh#\"><field name=\"NUM\">0</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\",4;`h7HwV/!#,`RtaA[8\"><field name=\"NUM\">50</field></block></value></block></next></block></next></block></next></block></next></block></xml>",
+									"input": {
+										"inputs": [
+											{
+												"stateChanges": {
+													"index": 1,
+													"module": "Control",
+													"property": "SW1",
+													"value": true
+												},
+												"tick": 0
+											}
+										]
+									},
+									"runningTime": 10000
+								},
+								{
+									"name": "事件SW2",
+									"point": 4,
+									"evaluation": "分析",
+									"knowledgePoint": "基本语法\n;四则运算\n;变量\n;事件\n;信号模块",
+									"testCode": "assert.equal(output.getStateAtTime('Signal',1,'RGB_R',20),0,'信号灯红色值设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'RGB_G',20),255,'信号灯绿色值设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'RGB_B',20),0,'信号灯蓝色值设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'buzzer',20),300,'蜂鸣器频率设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'buzzer',20),30,'马达强度设置错误');\n",
+									"testCodeBlockly": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"assertEqual\" id=\"DvNd`uk=(9v8uEL!kKxM\" x=\"70\" y=\"70\"><field name=\"message\">信号灯红色值设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"eLS8*2{`l/5noP:8Qc@#\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">RGB_R</field><value name=\"time\"><block type=\"math_number\" id=\"vab4[(]crX*=gh#kyM@w\"><field name=\"NUM\">20</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"(f%F7=IY/2{mrINdC;TJ\"><field name=\"NUM\">0</field></block></value><next><block type=\"assertEqual\" id=\":7]k!GO%L#2Av^s^mxBT\"><field name=\"message\">信号灯绿色值设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"Rc@nhcg9YLPA?Eu=u4Cd\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">RGB_G</field><value name=\"time\"><block type=\"math_number\" id=\"3|!-.VE$zoX|%}8D^Bw5\"><field name=\"NUM\">20</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"v.X=e@PX)`$:B%{8hYJ;\"><field name=\"NUM\">255</field></block></value><next><block type=\"assertEqual\" id=\"w|?6Q@FHMAY!Vx;tiShS\"><field name=\"message\">信号灯蓝色值设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"Ejz5mTiV`Wuy]7{t_O[g\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">RGB_B</field><value name=\"time\"><block type=\"math_number\" id=\"2S,||P???5)L#8!iAKn%\"><field name=\"NUM\">20</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"AiLKEzzr|6wx!]5Z4pp!\"><field name=\"NUM\">0</field></block></value><next><block type=\"assertEqual\" id=\"BA)(a)QeqVH1~bB5NVu!\"><field name=\"message\">蜂鸣器频率设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"]Jw{*6u5+5a@5G}z1tky\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">buzzer</field><value name=\"time\"><block type=\"math_number\" id=\"tQQINn3,/C$XX]x4lXB|\"><field name=\"NUM\">20</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"!J.1~KP;+S,qE$*#iELZ\"><field name=\"NUM\">300</field></block></value><next><block type=\"assertEqual\" id=\"WP^fyu?k^LTq^`~[~S^R\"><field name=\"message\">马达强度设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"9,JXHHT:Ff3W6#d|Yg=d\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">buzzer</field><value name=\"time\"><block type=\"math_number\" id=\"=C-?V@cw?-$J4nC0Hsf@\"><field name=\"NUM\">20</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"JJ*6+}Xo#ceiq|)O6BRp\"><field name=\"NUM\">30</field></block></value></block></next></block></next></block></next></block></next></block></xml>",
+									"input": {
+										"inputs": [
+											{
+												"stateChanges": {
+													"index": 1,
+													"module": "Control",
+													"property": "SW2",
+													"value": true
+												},
+												"tick": 20
+											}
+										]
+									},
+									"runningTime": 10000
+								}
+							]
+						},
+						"choices": [],
+						"shortAnswers": []
+					},
+					"blanks": [
+						{
+							"endLineNumber": 12,
+							"startLineNumber": 7
+						},
+						{
+							"endLineNumber": 21,
+							"startLineNumber": 16
+						}
+					],
+					"codeItemNames": [],
+					"code": "\nvoid loop() {\n    \n}\n//编程题。请根据右侧编程指南完成指定功能。\n    //⬇ 当按键SW1按下时\n\n\n\n\n\n\n\n\n    //⬇ 当按键SW2按下时\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+					"modules": [
+						{
+							"displayName": "主控",
+							"name": "sysmaster",
+							"type": "Master"
+						},
+						{
+							"displayName": "控制",
+							"name": "Control1",
+							"type": "Control"
+						},
+						{
+							"displayName": "信号",
+							"name": "Signal1",
+							"type": "Signal"
+						}
+					],
+					"testCases": [
+						{
+							"name": "事件SW1",
+							"point": 4,
+							"evaluation": "分析",
+							"knowledgePoint": "基本语法\n;四则运算\n;变量\n;事件\n;信号模块",
+							"testCode": "assert.equal(output.getStateAtTime('Signal',1,'RGB_R',0),255,'信号灯红色值设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'RGB_G',0),0,'信号灯绿色值设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'RGB_B',0),0,'信号灯蓝色值设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'buzzer',0),800,'蜂鸣器频率设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'buzzer',0),50,'马达强度设置错误');\n",
+							"testCodeBlockly": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"assertEqual\" id=\"(p?WPL-~-ahKw@cORANi\" x=\"90\" y=\"110\"><field name=\"message\">信号灯红色值设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"?cV9xJ5{LFPEq%}Od}P-\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">RGB_R</field><value name=\"time\"><block type=\"math_number\" id=\"8M6`fHD3qQYu5:T`YN0l\"><field name=\"NUM\">0</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"v:rStd])fB.qZZsmtRs)\"><field name=\"NUM\">255</field></block></value><next><block type=\"assertEqual\" id=\"FN!tbTsQvUsjFV$HVV*-\"><field name=\"message\">信号灯绿色值设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"_R@3]rV/.,e1Hu@{h~W(\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">RGB_G</field><value name=\"time\"><block type=\"math_number\" id=\"AUn-AOmRt0DO_y%aJSq=\"><field name=\"NUM\">0</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"J[lUF`[?WMb9t17SXzko\"><field name=\"NUM\">0</field></block></value><next><block type=\"assertEqual\" id=\"d*Mxd*aCr0~^lQa:2HBz\"><field name=\"message\">信号灯蓝色值设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"}FkD1-8.WTwvZv[N:^;`\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">RGB_B</field><value name=\"time\"><block type=\"math_number\" id=\"q1QgN=4}=#hnNG!!?p@S\"><field name=\"NUM\">0</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"b/|Bk,G4/gSwlp)~=I45\"><field name=\"NUM\">0</field></block></value><next><block type=\"assertEqual\" id=\"Y^,ETtzk,HNAaWL{Qrl$\"><field name=\"message\">蜂鸣器频率设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"IFT[a,vEE8be_5O^e:{P\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">buzzer</field><value name=\"time\"><block type=\"math_number\" id=\"QmK.IPbFh~(9s~s1dx.;\"><field name=\"NUM\">0</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"~+)m!Ja0QDFw^b.0-r|g\"><field name=\"NUM\">800</field></block></value><next><block type=\"assertEqual\" id=\"Rb(iRFdd(~XFa|{lY-nt\"><field name=\"message\">马达强度设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"kJi}YHkk9mL7-zk.[Uoo\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">buzzer</field><value name=\"time\"><block type=\"math_number\" id=\"Wk9^ufu4Vuyzwaib%Eh#\"><field name=\"NUM\">0</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\",4;`h7HwV/!#,`RtaA[8\"><field name=\"NUM\">50</field></block></value></block></next></block></next></block></next></block></next></block></xml>",
+							"input": {
+								"inputs": [
+									{
+										"stateChanges": {
+											"index": 1,
+											"module": "Control",
+											"property": "SW1",
+											"value": true
+										},
+										"tick": 0
+									}
+								]
+							},
+							"runningTime": 10000
+						},
+						{
+							"name": "事件SW2",
+							"point": 4,
+							"evaluation": "分析",
+							"knowledgePoint": "基本语法\n;四则运算\n;变量\n;事件\n;信号模块",
+							"testCode": "assert.equal(output.getStateAtTime('Signal',1,'RGB_R',20),0,'信号灯红色值设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'RGB_G',20),255,'信号灯绿色值设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'RGB_B',20),0,'信号灯蓝色值设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'buzzer',20),300,'蜂鸣器频率设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'buzzer',20),30,'马达强度设置错误');\n",
+							"testCodeBlockly": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"assertEqual\" id=\"DvNd`uk=(9v8uEL!kKxM\" x=\"70\" y=\"70\"><field name=\"message\">信号灯红色值设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"eLS8*2{`l/5noP:8Qc@#\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">RGB_R</field><value name=\"time\"><block type=\"math_number\" id=\"vab4[(]crX*=gh#kyM@w\"><field name=\"NUM\">20</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"(f%F7=IY/2{mrINdC;TJ\"><field name=\"NUM\">0</field></block></value><next><block type=\"assertEqual\" id=\":7]k!GO%L#2Av^s^mxBT\"><field name=\"message\">信号灯绿色值设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"Rc@nhcg9YLPA?Eu=u4Cd\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">RGB_G</field><value name=\"time\"><block type=\"math_number\" id=\"3|!-.VE$zoX|%}8D^Bw5\"><field name=\"NUM\">20</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"v.X=e@PX)`$:B%{8hYJ;\"><field name=\"NUM\">255</field></block></value><next><block type=\"assertEqual\" id=\"w|?6Q@FHMAY!Vx;tiShS\"><field name=\"message\">信号灯蓝色值设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"Ejz5mTiV`Wuy]7{t_O[g\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">RGB_B</field><value name=\"time\"><block type=\"math_number\" id=\"2S,||P???5)L#8!iAKn%\"><field name=\"NUM\">20</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"AiLKEzzr|6wx!]5Z4pp!\"><field name=\"NUM\">0</field></block></value><next><block type=\"assertEqual\" id=\"BA)(a)QeqVH1~bB5NVu!\"><field name=\"message\">蜂鸣器频率设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"]Jw{*6u5+5a@5G}z1tky\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">buzzer</field><value name=\"time\"><block type=\"math_number\" id=\"tQQINn3,/C$XX]x4lXB|\"><field name=\"NUM\">20</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"!J.1~KP;+S,qE$*#iELZ\"><field name=\"NUM\">300</field></block></value><next><block type=\"assertEqual\" id=\"WP^fyu?k^LTq^`~[~S^R\"><field name=\"message\">马达强度设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"9,JXHHT:Ff3W6#d|Yg=d\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">buzzer</field><value name=\"time\"><block type=\"math_number\" id=\"=C-?V@cw?-$J4nC0Hsf@\"><field name=\"NUM\">20</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"JJ*6+}Xo#ceiq|)O6BRp\"><field name=\"NUM\">30</field></block></value></block></next></block></next></block></next></block></next></block></xml>",
+							"input": {
+								"inputs": [
+									{
+										"stateChanges": {
+											"index": 1,
+											"module": "Control",
+											"property": "SW2",
+											"value": true
+										},
+										"tick": 20
+									}
+								]
+							},
+							"runningTime": 10000
+						}
+					]
+				},
+				{
+					"name": "按钮计数提醒器",
+					"description": "<!DOCTYPE html>\n<html>\n<head>\n</head>\n<body>\n<p>![](l4eCwdJHZX.png)</p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">&nbsp; &nbsp;一到节假日，景区里常常人流量很大，工作人员会计算某一区域可进入参观或游览的游客数量以保证园区内游客不过于拥挤。我们是否可以运用所学知识，为辛劳的工作人员设计一个按钮计数提醒器，每进入一个游客，工作人员按下一次按钮，即代表进入一位游客，当游客数量等于设定的数值后，按钮计数提醒器发出响声及震动，并亮灯，提醒工作人员游客数已达到。</span></p>\n<p><span style=\"color: #000000;\">![](4upSPIkh0d.png)</span></p>\n<ul>\n<li><span style=\"color: #000000;\">在显示屏第1行第1列显示变量，从0开始每秒自加一次。</span></li>\n<li><span style=\"color: #000000;\">当变量x等于10时，按钮计数器发出提醒，信号灯亮红灯(100,0,0)；蜂鸣器频率为800；马达振动强度为50；</span></li>\n<li><span style=\"color: #000000;\">当工作人员按下SW1时，定义的变量值y以1为幅度自加；</span></li>\n<li><span style=\"color: #000000;\">当工作人员按下SW2时，定义的变量值y以1为幅度自减。</span></li>\n</ul>\n<p><span style=\"color: #000000;\">![](7sIH0vgKYG.png)</span></p>\n<p><span style=\"color: #000000;\">[video]计数报警器.mp4[/video]</span></p>\n<p><span style=\"color: #000000;\">![](rzgFn3fuG0.png)</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000; background-color: #fcedde;\"><strong><span style=\"font-size: 12pt; background-color: #fcedde;\">1. 变量的定义、命名与赋值&nbsp;</span></strong></span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">在loop（）外定义一个变量y,并使其等于0；</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">&nbsp; &nbsp;&nbsp;</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000; background-color: #fcedde;\"><strong><span style=\"font-size: 12pt; background-color: #fcedde;\">2. 显示变量&nbsp;</span></strong></span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">在显示屏显示该变量；</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[help] </span><br /><span style=\"color: #000000;\">[-------------------------------------------------1] </span><br /><span style=\"color: #000000;\">[title]<span style=\"font-size: 10pt;\">显示变量的代码位置提示</span>[/title] </span><br /><span style=\"color: #000000;\">[扣分比例]50[/扣分比例]</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\"><strong>1. 定义变量：</strong>语法区的&ldquo;变量&rdquo;-功能区基础部分的&ldquo;定义一个变量&rdquo;，拖动至loop（）外可编辑区域；</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\"><strong>&nbsp; &nbsp;</strong></span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\"><strong>2. 变量命名：</strong>将&ldquo;float x&rdquo;语句中的变量&rdquo;x&ldquo;重新命名为&ldquo;y&rdquo;；</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\"><strong>&nbsp; &nbsp;</strong></span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\"><strong>3. 变量赋值：</strong>定义的变量后加&rdquo;=0&ldquo;。float y=0；</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\"><strong>&nbsp; &nbsp;</strong></span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\"><strong>4. 显示变量：</strong>模块区的&ldquo;显示&rdquo;-功能区基础部分的&ldquo;固定位置显示&rdquo;，拖动至loop（）中可编辑区域；将语句中的&rdquo;你好，豌豆拼&ldquo;更改为\"y\"。</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[/-------------------------------------------------1] </span><br /><span style=\"color: #000000;\">[-------------------------------------------------2] </span><br /><span style=\"color: #000000;\">[title]<span style=\"font-size: 10pt;\">显示变量的代码操作提示</span>[/title] </span><br /><span style=\"color: #000000;\">[扣分比例]80[/扣分比例]</span></p>\n<pre class=\"language-markup\"><code>float y=1;\nvoid loop() {\n    Display1.print(1, 1, y);\n}</code></pre>\n<p style=\"padding-left: 60px;\"><br /><span style=\"color: #000000;\">[cm]1532403046809.cm[/cm]</span><br /><span style=\"color: #000000;\">[/-------------------------------------------------2] </span><br /><span style=\"color: #000000;\">[/help]</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">&nbsp; &nbsp;&nbsp;</span></p>\n<h2 style=\"padding-left: 30px;\"><span style=\"font-size: 12pt; color: #000000; background-color: #fcedde;\"><strong>3. 变量等于10时，发出提醒&nbsp;</strong></span></h2>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">如果变量的值等于10时，信号灯亮红灯，参数设置为(100,0,0)；蜂鸣器响，频率为800；马达震动，强度为50；</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[help] </span><br /><span style=\"color: #000000;\">[-------------------------------------------------1] </span><br /><span style=\"color: #000000;\">[title]<span style=\"font-size: 10pt;\">if语句的使用提示</span>[/title] </span><br /><span style=\"color: #000000;\">[扣分比例]20[/扣分比例]&nbsp;</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\"><strong>1. if语句：</strong>在语法区的&ldquo;逻辑&rdquo;中找到&ldquo;基础&rdquo;功能区的&ldquo;如果..&rdquo;，拖动至loop（）中可编辑区域；</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\"><strong>&nbsp; &nbsp;</strong></span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\"><strong>2. 判断条件：</strong>将&ldquo;if (true == true){}&rdquo;中的第1、2个&ldquo;ture&rdquo;分别更改为&ldquo;y&rdquo;、&ldquo;10&rdquo;。则编程语句最终变为：\"if (y == 10){}&rdquo;;</span></p>\n<pre class=\"language-markup\"><code>void loop() { \n//⬇ 显示变量；数值达到10发出警报  \n  //此处为显示变量代码\n  //⬇ 数值达到10时\n  if (y == 10)\n  {\n    //信号灯亮红色(100,0,0);\n    //蜂鸣器频率为800；\n    //马达振动强度为50.\n  }\n}</code></pre>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[/-------------------------------------------------1] </span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[-------------------------------------------------2] </span><br /><span style=\"color: #000000;\">[title]<span style=\"font-size: 10pt;\">变量等于10时，发出提醒的代码位置提示</span>[/title] </span><br /><span style=\"color: #000000;\">[扣分比例]50[/扣分比例]&nbsp;</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\"><strong>1. 信号灯：</strong>模块区的&ldquo;信号&rdquo;-功能区基础部分的&ldquo;控制RGB灯&rdquo;，拖动至loop（）中可编辑区域，参数更改为(100,0,0)；</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\"><strong>&nbsp; &nbsp;</strong></span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\"><strong>2. 蜂鸣器：</strong>模块区的&ldquo;信号&rdquo;-功能区基础部分的&ldquo;设置蜂鸣器频率&rdquo;，拖动至loop（）可编辑区域中。参数为&ldquo;800&rdquo;。</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\"><strong>&nbsp; &nbsp;</strong></span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\"><strong>3. 振动马达：</strong>模块区的&ldquo;信号&rdquo;-功能区基础部分的&ldquo;控制振动马达&rdquo;，拖动至loop（）可编辑区域中。参数为&ldquo;50&rdquo;。</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[/-------------------------------------------------2] </span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[-------------------------------------------------3] </span><br /><span style=\"color: #000000;\">[title]<span style=\"font-size: 10pt;\">变量等于10时，发出提醒的代码操作提示</span>[/title] </span><br /><span style=\"color: #000000;\">[扣分比例]80[/扣分比例]</span></p>\n<pre class=\"language-markup\"><code>if (y == 10)\n    {\n        Signal1.setRGB(100, 0, 0);\n        Signal1.setBuzzer(800);\n        Signal1.setVibration(50);\n    }</code></pre>\n<p style=\"padding-left: 60px;\"><br /><span style=\"color: #000000;\">[cm]1532337429478.cm[/cm]&nbsp;</span><br /><span style=\"color: #000000;\">[/-------------------------------------------------3] </span><br /><span style=\"color: #000000;\">[/help]</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">&nbsp; &nbsp;&nbsp;</span></p>\n<h2 style=\"padding-left: 30px;\"><span style=\"color: #000000; background-color: #fcedde;\"><strong><span style=\"font-size: 12pt; background-color: #fcedde;\">4. 当事件SW1按下时，变量自加&nbsp;</span></strong></span></h2>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">在SW1按下的事件中，添加&ldquo;以1为辐度增加变量x&rdquo;的代码，修改相应变量名，使按键按下时，变量增加1。</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[help] </span><br /><span style=\"color: #000000;\">[-------------------------------------------------1] </span><br /><span style=\"color: #000000;\">[title]<span style=\"font-size: 10pt;\">当事件SW1按下时，变量自加的代码位置提示</span>[/title] </span><br /><span style=\"color: #000000;\">[扣分比例]50[/扣分比例]</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\"><strong>1. 变量自加：</strong>语法区的&ldquo;变量&rdquo;-功能区基础部分的&ldquo;以1为辐度增加变量x&rdquo;，拖动至事件SW1按下中；</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\"><strong>&nbsp; &nbsp;</strong></span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\"><strong>2. 修正变量名：</strong>将&ldquo;x+=1;&rdquo;中的&ldquo;x&rdquo;更改为&ldquo;y&rdquo;，使语句为&ldquo;y+=1&rdquo;。</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[/-------------------------------------------------1] </span><br /><span style=\"color: #000000;\">[-------------------------------------------------2] </span><br /><span style=\"color: #000000;\">[title]<span style=\"font-size: 10pt;\">当事件SW1按下时，变量自加的代码操作提示</span>[/title] </span><br /><span style=\"color: #000000;\">[扣分比例]80[/扣分比例]</span></p>\n<pre class=\"language-markup\"><code>EVENT ( Control1.SW1Pressed() )\n{  \n    y += 1;\n}</code></pre>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[cm]1532338222449.cm[/cm]</span><br /><span style=\"color: #000000;\">[/-------------------------------------------------2] </span><br /><span style=\"color: #000000;\">[/help]</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\"><span style=\"font-size: 10pt;\"><span style=\"font-size: 14px;\">&nbsp;</span></span><span style=\"font-size: 10pt;\">&nbsp; &nbsp;</span></span></p>\n<h2 style=\"padding-left: 30px;\"><span style=\"font-size: 12pt; color: #000000; background-color: #fcedde;\"><strong>5. 当事件SW2按下时，变量自减&nbsp;</strong></span></h2>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">在SW1按下的事件中，添加&ldquo;以1为辐度增加变量x&rdquo;的代码，修改相应变量名和运算符（&ldquo;+&rdquo;改为&ldquo;-&rdquo;），使按键按下时，变量减去1。</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[help] </span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[-------------------------------------------------1] </span><br /><span style=\"color: #000000;\">[title]<span style=\"font-size: 10pt;\">当事件SW2按下时，变量自减的代码位置提示</span>[/title] </span><br /><span style=\"color: #000000;\">[扣分比例]50[/扣分比例]</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\"><strong>1. 变量自减：</strong>语法区的&ldquo;变量&rdquo;-功能区基础部分的&ldquo;以1为辐度增加变量x&rdquo;，拖动至事件SW2按下中；</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\"><strong>&nbsp; &nbsp;</strong></span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\"><strong>2. 修正变量名：</strong>将&ldquo;x+=1;&rdquo;中的&ldquo;x&rdquo;更改为&ldquo;y&rdquo;，使语句为&ldquo;y+=1&rdquo;；</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\"><strong>&nbsp; &nbsp;</strong></span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\"><strong>3. 修改运算符：</strong>将&ldquo;x+=1;&rdquo;中的&ldquo;+=&rdquo;更改为&ldquo;-=&rdquo;，使语句为&ldquo;y-=1&rdquo;。</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[/-------------------------------------------------1]</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[-------------------------------------------------2] </span><br /><span style=\"color: #000000;\">[title]<span style=\"font-size: 10pt;\">当事件SW2按下时，变量自减的代码操作提示</span>[/title] </span><br /><span style=\"color: #000000;\">[扣分比例]80[/扣分比例]</span></p>\n<pre class=\"language-markup\"><code>EVENT ( Control1.SW2Pressed() )\n{\n   y-=1; \n}</code></pre>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\">[cm]1532397768871.cm[/cm] </span><br /><br /><span style=\"color: #000000;\">[/-------------------------------------------------2] </span><br /><span style=\"color: #000000;\">[/help]</span></p>\n<p style=\"padding-left: 60px;\"></p>\n<p><span style=\"color: #000000;\">![](hdHu4wu2pu.png)</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">&nbsp; &nbsp;结合多模块的逻辑设计：运用变量以及运算法则，结合豌豆拼模块，根据给定的效果完成逻辑设计，实现相应的功能。</span></p>\n<p><span style=\"color: #000000;\">![](1oQnMZchZP.png)</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">点击&ldquo;下载&rdquo;按钮，测试程序是否可以完成指定功能。</span></p>\n<p><span style=\"color: #000000;\">![](xo6nyrp7Mj.png)</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">任务完成后检查实验效果，点击提交。</span></p>\n</body>\n</html>",
+					"question": {
+						"code": {
+							"blanks": [
+								{
+									"endLineNumber": 3,
+									"startLineNumber": 3
+								},
+								{
+									"endLineNumber": 11,
+									"startLineNumber": 6
+								},
+								{
+									"endLineNumber": 19,
+									"startLineNumber": 17
+								},
+								{
+									"endLineNumber": 27,
+									"startLineNumber": 25
+								}
+							],
+							"itemNames": [],
+							"template": "\n//⬇ 定义变量\n\nvoid loop() { \n//⬇ 显示变量；数值达到10发出警报  \n\n\n\n\n\n\n}\n\n//⬇ SW1按下触发，执行大括号中内容\nEVENT ( Control1.SW1Pressed() )\n{\n    \n   \n    \n}\n\n//⬇ SW2按下触发，执行大括号中内容\nEVENT ( Control1.SW2Pressed() )\n{\n   \n\n   \n}",
+							"modules": [
+								{
+									"displayName": "主控",
+									"name": "sysmaster",
+									"type": "Master"
+								},
+								{
+									"displayName": "控制",
+									"name": "Control1",
+									"type": "Control"
+								},
+								{
+									"displayName": "信号",
+									"name": "Signal1",
+									"type": "Signal"
+								},
+								{
+									"displayName": "显示",
+									"name": "Display1",
+									"type": "Display"
+								}
+							],
+							"testCases": [
+								{
+									"name": "显示出变量",
+									"point": 2,
+									"evaluation": "分析",
+									"knowledgePoint": "变量\n;显示",
+									"testCode": "var time;\n\nfunction mathRandomInt(a, b) {\n  if (a > b) {\n    // Swap a and b to ensure a is smaller.\n    var c = a;\n    a = b;\n    b = c;\n  }\n  return Math.floor(Math.random() * (b - a + 1) + a);\n}\n\n\nassert.equal(output.getStateAtTime('Display',1,'line_1',0).trim(),0,'显示变量初始值错误');\ntime = 1;\nwhile (time > 0) {\n  assert.equal(output.getStateAtTime('Display',1,'line_1',mathRandomInt((time - 1) * 1000, time * 1000 - 1)).trim(),time - 1,'显示变量时间间隔设置错误');\n  assert.equal(output.getStateAtTime('Display',1,'line_1',time * 1000).trim(),time,'显示变量时间间隔设置错误');\n  time = time + 1;\n}\n",
+									"testCodeBlockly": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables><variable type=\"\" id=\"/-Sx:7z16-w_6lE{Xg,9\">time</variable></variables><block type=\"assertEqual\" id=\"y~(??v,44_`*,$CNfO9$\" x=\"130\" y=\"70\"><field name=\"message\">显示变量初始值错误</field><value name=\"v1\"><block type=\"text_trim\" id=\"rOM)k9I/{]m!.kk0fI-#\"><field name=\"MODE\">BOTH</field><value name=\"TEXT\"><shadow type=\"text\" id=\"2jFlR3@LOYr`qtf=8/ie\"><field name=\"TEXT\">abc</field></shadow><block type=\"getStateAtTime\" id=\"s{Hw?;G4xiH1CM7PlOUI\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_number\" id=\"`9jzR1md4NFzvH%P8}#=\"><field name=\"NUM\">0</field></block></value></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"[4!_{T!MzW,[l.TeX-=o\"><field name=\"NUM\">0</field></block></value><next><block type=\"variables_set\" id=\"I?nwJw(QP5Zb]?n$Bs@o\"><field name=\"VAR\" id=\"/-Sx:7z16-w_6lE{Xg,9\" variabletype=\"\">time</field><value name=\"VALUE\"><block type=\"math_number\" id=\"qp$@GtztOwb*G]:qsSCZ\"><field name=\"NUM\">1</field></block></value><next><block type=\"controls_whileUntil\" id=\"nCBsHf)O^|s~?@s7(Zx8\"><field name=\"MODE\">WHILE</field><value name=\"BOOL\"><block type=\"math_number_property\" id=\"HilX1B=?YDyF#2lCS}Ee\"><mutation divisor_input=\"false\"></mutation><field name=\"PROPERTY\">POSITIVE</field><value name=\"NUMBER_TO_CHECK\"><shadow type=\"math_number\" id=\"a:(~(Xa_j(BZFc2S6Gt$\"><field name=\"NUM\">0</field></shadow><block type=\"variables_get\" id=\"((dISDD*L}8?`?/6eVeL\"><field name=\"VAR\" id=\"/-Sx:7z16-w_6lE{Xg,9\" variabletype=\"\">time</field></block></value></block></value><statement name=\"DO\"><block type=\"assertEqual\" id=\"C{o`u2iLH8J.!qA#ytg]\"><field name=\"message\">显示变量时间间隔设置错误</field><value name=\"v1\"><block type=\"text_trim\" id=\"w1$Rj-%--!bX]vP|TSd-\"><field name=\"MODE\">BOTH</field><value name=\"TEXT\"><shadow type=\"text\" id=\"2jFlR3@LOYr`qtf=8/ie\"><field name=\"TEXT\">abc</field></shadow><block type=\"getStateAtTime\" id=\"^#H[*][*f!Mjx0[nGDp}\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_random_int\" id=\"Jjl![U_M[)yZVYeQD7%m\"><value name=\"FROM\"><shadow type=\"math_number\" id=\"V2B;:$.X@wZIWv/Y_QBz\"><field name=\"NUM\">1</field></shadow><block type=\"math_arithmetic\" id=\"x=JYT5lFM.fCBSi-3!L{\"><field name=\"OP\">MULTIPLY</field><value name=\"A\"><shadow type=\"math_number\" id=\"#j/Ch!+s)-sTii-J(rJY\"><field name=\"NUM\">1</field></shadow><block type=\"math_arithmetic\" id=\"~KH2}0Z#9lEO=hWO76=1\"><field name=\"OP\">MINUS</field><value name=\"A\"><shadow type=\"math_number\" id=\"`nbT`RR9tYU?Bm-Xew[U\"><field name=\"NUM\">1</field></shadow><block type=\"variables_get\" id=\"QSogg3y$+:HD;@83tt8l\"><field name=\"VAR\" id=\"/-Sx:7z16-w_6lE{Xg,9\" variabletype=\"\">time</field></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"41Dmw}55].)~C`u-wk.P\"><field name=\"NUM\">1</field></shadow></value></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"mSLFyr:qU/JC)il~0Ce*\"><field name=\"NUM\">1000</field></shadow></value></block></value><value name=\"TO\"><shadow type=\"math_number\" id=\"jXr[cKw:]wujK]ykWf6X\"><field name=\"NUM\">100</field></shadow><block type=\"math_arithmetic\" id=\"8_|#k7iJ~R{As#wtX;~*\"><field name=\"OP\">MINUS</field><value name=\"A\"><shadow type=\"math_number\" id=\"`nbT`RR9tYU?Bm-Xew[U\"><field name=\"NUM\">1</field></shadow><block type=\"math_arithmetic\" id=\"rjx=SmmDoQSP2zG$FTe.\"><field name=\"OP\">MULTIPLY</field><value name=\"A\"><shadow type=\"math_number\" id=\"#j/Ch!+s)-sTii-J(rJY\"><field name=\"NUM\">1</field></shadow><block type=\"variables_get\" id=\"Mi[23!e5BKS$.Q-X{n1D\"><field name=\"VAR\" id=\"/-Sx:7z16-w_6lE{Xg,9\" variabletype=\"\">time</field></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"B}p^L/#5GDSvR$nI(flm\"><field name=\"NUM\">1000</field></shadow></value></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"fxqmq/m)ZP2n[Pr$gnIs\"><field name=\"NUM\">1</field></shadow></value></block></value></block></value></block></value></block></value><value name=\"v2\"><block type=\"math_arithmetic\" id=\"k7tbA}4v.(.fTZ2MLr/j\"><field name=\"OP\">MINUS</field><value name=\"A\"><shadow type=\"math_number\" id=\"`o+0fAb-o#gS0L#koV;n\"><field name=\"NUM\">1</field></shadow><block type=\"variables_get\" id=\"=Y=~0XTaIVcwB8ulXn)N\"><field name=\"VAR\" id=\"/-Sx:7z16-w_6lE{Xg,9\" variabletype=\"\">time</field></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"k-L}Nxd2[ourc_X.*mQU\"><field name=\"NUM\">1</field></shadow></value></block></value><next><block type=\"assertEqual\" id=\"Mm%/QpMYQBc-Xh5e|R3X\"><field name=\"message\">显示变量时间间隔设置错误</field><value name=\"v1\"><block type=\"text_trim\" id=\"JEX~u,6z^?TB-5IatwoQ\"><field name=\"MODE\">BOTH</field><value name=\"TEXT\"><shadow type=\"text\" id=\"2jFlR3@LOYr`qtf=8/ie\"><field name=\"TEXT\">abc</field></shadow><block type=\"getStateAtTime\" id=\",#ngFj226m_;@)8r@Eqq\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_arithmetic\" id=\"0%fcPS/,}1/a+2N8)p}9\"><field name=\"OP\">MULTIPLY</field><value name=\"A\"><shadow type=\"math_number\" id=\"#j/Ch!+s)-sTii-J(rJY\"><field name=\"NUM\">1</field></shadow><block type=\"variables_get\" id=\"bGl4j}GJf.{7R42}.[9v\"><field name=\"VAR\" id=\"/-Sx:7z16-w_6lE{Xg,9\" variabletype=\"\">time</field></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"#2xJ6zRFYd{kJiMCP-i*\"><field name=\"NUM\">1000</field></shadow></value></block></value></block></value></block></value><value name=\"v2\"><block type=\"variables_get\" id=\"2)y(BZ6|p]W$RjBiNOf?\"><field name=\"VAR\" id=\"/-Sx:7z16-w_6lE{Xg,9\" variabletype=\"\">time</field></block></value><next><block type=\"variables_set\" id=\"Lrw[OvJ|ES*6516N@kwJ\"><field name=\"VAR\" id=\"/-Sx:7z16-w_6lE{Xg,9\" variabletype=\"\">time</field><value name=\"VALUE\"><block type=\"math_arithmetic\" id=\"BWet=.N,)(ZV^eW?l1Tc\"><field name=\"OP\">ADD</field><value name=\"A\"><shadow type=\"math_number\" id=\"DD]Rv64ea{0aoD8VZA52\"><field name=\"NUM\">1</field></shadow><block type=\"variables_get\" id=\"Y}yox:VhdnIZ0t_xnZgT\"><field name=\"VAR\" id=\"/-Sx:7z16-w_6lE{Xg,9\" variabletype=\"\">time</field></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"_YH?NXnL@#L;EDZ!#j.@\"><field name=\"NUM\">1</field></shadow></value></block></value></block></next></block></next></block></statement></block></next></block></next></block></xml>",
+									"input": {
+										"inputs": []
+									},
+									"runningTime": 10000
+								},
+								{
+									"name": "变量等于10时，发出提醒",
+									"point": 4,
+									"evaluation": "分析",
+									"knowledgePoint": "变量\n;逻辑判断\n",
+									"testCode": "assert.equal(output.getStateAtTime('Signal',1,'RGB_R',20),100,'信号灯红色值设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'RGB_G',20),0,'信号灯绿色值设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'RGB_B',20),0,'信号灯蓝色值设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'buzzer',20),800,'蜂鸣器频率设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'vibration',20),50,'振动马达强度设置错误');\n",
+									"testCodeBlockly": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"assertEqual\" id=\"w@-ZC]e74(Exk]SKs:~h\" x=\"110\" y=\"10\"><field name=\"message\">信号灯红色值设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"W_RO3GD_UI9Ksu*,$ZJ6\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">RGB_R</field><value name=\"time\"><block type=\"math_number\" id=\"Dsg/~6Q@XaX~S|Yf0o{+\"><field name=\"NUM\">20</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"Ks!S$5H7cZ@N^zafWww]\"><field name=\"NUM\">100</field></block></value><next><block type=\"assertEqual\" id=\",axy`lf@?BHHf$o[,uHO\"><field name=\"message\">信号灯绿色值设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"r4t^.!-P*)nV.BT4i@d]\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">RGB_G</field><value name=\"time\"><block type=\"math_number\" id=\"^/bJfXUet%3o_szEjk~1\"><field name=\"NUM\">20</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"Ub.%(=wyXK}Fyw9v`T9;\"><field name=\"NUM\">0</field></block></value><next><block type=\"assertEqual\" id=\";%S^%kY#`;5=|l~ii!nF\"><field name=\"message\">信号灯蓝色值设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"ft*N_5y@MR$z7KC6%Qg@\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">RGB_B</field><value name=\"time\"><block type=\"math_number\" id=\"88WR~TUn:?lhaKxwY`mA\"><field name=\"NUM\">20</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"qwad:~?HtcinS?XJN)F@\"><field name=\"NUM\">0</field></block></value><next><block type=\"assertEqual\" id=\"oK,c$+(J!.DP7gmAHq=s\"><field name=\"message\">蜂鸣器频率设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"d.w3=*tIa^L@M`r[]|8i\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">buzzer</field><value name=\"time\"><block type=\"math_number\" id=\"R0{v({w=~g$uw~K|;J5w\"><field name=\"NUM\">20</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\".FMe6j$%7[B=6CW:!ING\"><field name=\"NUM\">800</field></block></value><next><block type=\"assertEqual\" id=\"?)9/Wiu;?+(${GL62QhF\"><field name=\"message\">振动马达强度设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"2)B:(f3z+Yc!+YV9B6~K\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">vibration</field><value name=\"time\"><block type=\"math_number\" id=\"QwYT!TolH(Bn`H6M{JA[\"><field name=\"NUM\">20</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\".x}JH:M?V:W:P:K+*^!M\"><field name=\"NUM\">50</field></block></value></block></next></block></next></block></next></block></next></block></xml>",
+									"input": {
+										"inputs": [
+											{
+												"stateChanges": {
+													"index": 1,
+													"module": "Display",
+													"property": "line_1",
+													"value": "10"
+												},
+												"tick": 20
+											}
+										]
+									},
+									"runningTime": 10000
+								},
+								{
+									"name": "当事件SW1按下，变量自加",
+									"point": 2,
+									"evaluation": "分析",
+									"knowledgePoint": "变量\n;事件\n",
+									"testCode": "assert.equal(output.getStateAtTime('Display',1,'line_1',20).trim(),output.getStateAtTime('Display',1,'line_1',0) + 1,'SW1按下，变量自加设置错误');\n",
+									"testCodeBlockly": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"assertEqual\" id=\"xMe$e)C.ceLOaqqb6P?v\" x=\"90\" y=\"70\"><field name=\"message\">SW1按下，变量自加设置错误</field><value name=\"v1\"><block type=\"text_trim\" id=\"c-}Y}$5|8m/V}BgZ4%`]\"><field name=\"MODE\">BOTH</field><value name=\"TEXT\"><shadow type=\"text\" id=\"q.pW{Ga0Z8(APD}8$3*t\"><field name=\"TEXT\">abc</field></shadow><block type=\"getStateAtTime\" id=\"if66kS)AoS~)7ENdVWni\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_number\" id=\"B/dXqJ{~ugWk+i+Xegik\"><field name=\"NUM\">20</field></block></value></block></value></block></value><value name=\"v2\"><block type=\"math_arithmetic\" id=\"{X.E.f.qpf^yvzv)Tpw=\"><field name=\"OP\">ADD</field><value name=\"A\"><shadow type=\"math_number\" id=\"UJ`63Yf[gYBNQrs,cW`b\"><field name=\"NUM\">1</field></shadow><block type=\"getStateAtTime\" id=\"lV5+K8:04ei]Oja)Z[cE\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_number\" id=\"-S(yuKn[cfv454RCojr1\"><field name=\"NUM\">0</field></block></value></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"ef(ERV0x~6domAgS]{|h\"><field name=\"NUM\">1</field></shadow></value></block></value></block></xml>",
+									"input": {
+										"inputs": [
+											{
+												"stateChanges": {
+													"index": 1,
+													"module": "Control",
+													"property": "SW1",
+													"value": true
+												},
+												"tick": 20
+											}
+										]
+									},
+									"runningTime": 10000
+								},
+								{
+									"name": "当事件SW2按下，变量自减",
+									"point": 2,
+									"evaluation": "分析",
+									"knowledgePoint": "变量\n;事件\n",
+									"testCode": "assert.equal(output.getStateAtTime('Display',1,'line_1',20).trim(),output.getStateAtTime('Display',1,'line_1',0) - 1,'SW2按下，变量自减设置错误');\n",
+									"testCodeBlockly": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"assertEqual\" id=\"Dg?CB:^Hq5u??WDT?tnU\" x=\"90\" y=\"-30\"><field name=\"message\">SW2按下，变量自减设置错误</field><value name=\"v1\"><block type=\"text_trim\" id=\"CX5.a:?Ys152{yaqHnk1\"><field name=\"MODE\">BOTH</field><value name=\"TEXT\"><shadow type=\"text\" id=\"q?Te~LL.mcnM/U*rNg+T\"><field name=\"TEXT\">abc</field></shadow><block type=\"getStateAtTime\" id=\"o8Jis|$Nbj8i5L0Re.Re\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_number\" id=\"6siG6oL#]s)fGK6TcLkk\"><field name=\"NUM\">20</field></block></value></block></value></block></value><value name=\"v2\"><block type=\"math_arithmetic\" id=\"(B5hvhsJo)2h6K=,F,k%\"><field name=\"OP\">MINUS</field><value name=\"A\"><shadow type=\"math_number\" id=\"JtUPxW/4[3gm:/Qo[Jo]\"><field name=\"NUM\">1</field></shadow><block type=\"getStateAtTime\" id=\"v($TV{-LL2:xg8(B?WJ@\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_number\" id=\"M{(Z~kq.Npn?g1!Y7S{a\"><field name=\"NUM\">0</field></block></value></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"S%AV`Qco0WRXRmYf]c/b\"><field name=\"NUM\">1</field></shadow></value></block></value></block></xml>",
+									"input": {
+										"inputs": [
+											{
+												"stateChanges": {
+													"index": 1,
+													"module": "Control",
+													"property": "SW2",
+													"value": true
+												},
+												"tick": 20
+											}
+										]
+									},
+									"runningTime": 10000
+								}
+							]
+						},
+						"choices": [],
+						"shortAnswers": []
+					},
+					"blanks": [
+						{
+							"endLineNumber": 3,
+							"startLineNumber": 3
+						},
+						{
+							"endLineNumber": 11,
+							"startLineNumber": 6
+						},
+						{
+							"endLineNumber": 19,
+							"startLineNumber": 17
+						},
+						{
+							"endLineNumber": 27,
+							"startLineNumber": 25
+						}
+					],
+					"codeItemNames": [],
+					"code": "\n//⬇ 定义变量\n\nvoid loop() { \n//⬇ 显示变量；数值达到10发出警报  \n\n\n\n\n\n\n}\n\n//⬇ SW1按下触发，执行大括号中内容\nEVENT ( Control1.SW1Pressed() )\n{\n    \n   \n    \n}\n\n//⬇ SW2按下触发，执行大括号中内容\nEVENT ( Control1.SW2Pressed() )\n{\n   \n\n   \n}",
+					"modules": [
+						{
+							"displayName": "主控",
+							"name": "sysmaster",
+							"type": "Master"
+						},
+						{
+							"displayName": "控制",
+							"name": "Control1",
+							"type": "Control"
+						},
+						{
+							"displayName": "信号",
+							"name": "Signal1",
+							"type": "Signal"
+						},
+						{
+							"displayName": "显示",
+							"name": "Display1",
+							"type": "Display"
+						}
+					],
+					"testCases": [
+						{
+							"name": "显示出变量",
+							"point": 2,
+							"evaluation": "分析",
+							"knowledgePoint": "变量\n;显示",
+							"testCode": "var time;\n\nfunction mathRandomInt(a, b) {\n  if (a > b) {\n    // Swap a and b to ensure a is smaller.\n    var c = a;\n    a = b;\n    b = c;\n  }\n  return Math.floor(Math.random() * (b - a + 1) + a);\n}\n\n\nassert.equal(output.getStateAtTime('Display',1,'line_1',0).trim(),0,'显示变量初始值错误');\ntime = 1;\nwhile (time > 0) {\n  assert.equal(output.getStateAtTime('Display',1,'line_1',mathRandomInt((time - 1) * 1000, time * 1000 - 1)).trim(),time - 1,'显示变量时间间隔设置错误');\n  assert.equal(output.getStateAtTime('Display',1,'line_1',time * 1000).trim(),time,'显示变量时间间隔设置错误');\n  time = time + 1;\n}\n",
+							"testCodeBlockly": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables><variable type=\"\" id=\"/-Sx:7z16-w_6lE{Xg,9\">time</variable></variables><block type=\"assertEqual\" id=\"y~(??v,44_`*,$CNfO9$\" x=\"130\" y=\"70\"><field name=\"message\">显示变量初始值错误</field><value name=\"v1\"><block type=\"text_trim\" id=\"rOM)k9I/{]m!.kk0fI-#\"><field name=\"MODE\">BOTH</field><value name=\"TEXT\"><shadow type=\"text\" id=\"2jFlR3@LOYr`qtf=8/ie\"><field name=\"TEXT\">abc</field></shadow><block type=\"getStateAtTime\" id=\"s{Hw?;G4xiH1CM7PlOUI\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_number\" id=\"`9jzR1md4NFzvH%P8}#=\"><field name=\"NUM\">0</field></block></value></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"[4!_{T!MzW,[l.TeX-=o\"><field name=\"NUM\">0</field></block></value><next><block type=\"variables_set\" id=\"I?nwJw(QP5Zb]?n$Bs@o\"><field name=\"VAR\" id=\"/-Sx:7z16-w_6lE{Xg,9\" variabletype=\"\">time</field><value name=\"VALUE\"><block type=\"math_number\" id=\"qp$@GtztOwb*G]:qsSCZ\"><field name=\"NUM\">1</field></block></value><next><block type=\"controls_whileUntil\" id=\"nCBsHf)O^|s~?@s7(Zx8\"><field name=\"MODE\">WHILE</field><value name=\"BOOL\"><block type=\"math_number_property\" id=\"HilX1B=?YDyF#2lCS}Ee\"><mutation divisor_input=\"false\"></mutation><field name=\"PROPERTY\">POSITIVE</field><value name=\"NUMBER_TO_CHECK\"><shadow type=\"math_number\" id=\"a:(~(Xa_j(BZFc2S6Gt$\"><field name=\"NUM\">0</field></shadow><block type=\"variables_get\" id=\"((dISDD*L}8?`?/6eVeL\"><field name=\"VAR\" id=\"/-Sx:7z16-w_6lE{Xg,9\" variabletype=\"\">time</field></block></value></block></value><statement name=\"DO\"><block type=\"assertEqual\" id=\"C{o`u2iLH8J.!qA#ytg]\"><field name=\"message\">显示变量时间间隔设置错误</field><value name=\"v1\"><block type=\"text_trim\" id=\"w1$Rj-%--!bX]vP|TSd-\"><field name=\"MODE\">BOTH</field><value name=\"TEXT\"><shadow type=\"text\" id=\"2jFlR3@LOYr`qtf=8/ie\"><field name=\"TEXT\">abc</field></shadow><block type=\"getStateAtTime\" id=\"^#H[*][*f!Mjx0[nGDp}\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_random_int\" id=\"Jjl![U_M[)yZVYeQD7%m\"><value name=\"FROM\"><shadow type=\"math_number\" id=\"V2B;:$.X@wZIWv/Y_QBz\"><field name=\"NUM\">1</field></shadow><block type=\"math_arithmetic\" id=\"x=JYT5lFM.fCBSi-3!L{\"><field name=\"OP\">MULTIPLY</field><value name=\"A\"><shadow type=\"math_number\" id=\"#j/Ch!+s)-sTii-J(rJY\"><field name=\"NUM\">1</field></shadow><block type=\"math_arithmetic\" id=\"~KH2}0Z#9lEO=hWO76=1\"><field name=\"OP\">MINUS</field><value name=\"A\"><shadow type=\"math_number\" id=\"`nbT`RR9tYU?Bm-Xew[U\"><field name=\"NUM\">1</field></shadow><block type=\"variables_get\" id=\"QSogg3y$+:HD;@83tt8l\"><field name=\"VAR\" id=\"/-Sx:7z16-w_6lE{Xg,9\" variabletype=\"\">time</field></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"41Dmw}55].)~C`u-wk.P\"><field name=\"NUM\">1</field></shadow></value></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"mSLFyr:qU/JC)il~0Ce*\"><field name=\"NUM\">1000</field></shadow></value></block></value><value name=\"TO\"><shadow type=\"math_number\" id=\"jXr[cKw:]wujK]ykWf6X\"><field name=\"NUM\">100</field></shadow><block type=\"math_arithmetic\" id=\"8_|#k7iJ~R{As#wtX;~*\"><field name=\"OP\">MINUS</field><value name=\"A\"><shadow type=\"math_number\" id=\"`nbT`RR9tYU?Bm-Xew[U\"><field name=\"NUM\">1</field></shadow><block type=\"math_arithmetic\" id=\"rjx=SmmDoQSP2zG$FTe.\"><field name=\"OP\">MULTIPLY</field><value name=\"A\"><shadow type=\"math_number\" id=\"#j/Ch!+s)-sTii-J(rJY\"><field name=\"NUM\">1</field></shadow><block type=\"variables_get\" id=\"Mi[23!e5BKS$.Q-X{n1D\"><field name=\"VAR\" id=\"/-Sx:7z16-w_6lE{Xg,9\" variabletype=\"\">time</field></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"B}p^L/#5GDSvR$nI(flm\"><field name=\"NUM\">1000</field></shadow></value></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"fxqmq/m)ZP2n[Pr$gnIs\"><field name=\"NUM\">1</field></shadow></value></block></value></block></value></block></value></block></value><value name=\"v2\"><block type=\"math_arithmetic\" id=\"k7tbA}4v.(.fTZ2MLr/j\"><field name=\"OP\">MINUS</field><value name=\"A\"><shadow type=\"math_number\" id=\"`o+0fAb-o#gS0L#koV;n\"><field name=\"NUM\">1</field></shadow><block type=\"variables_get\" id=\"=Y=~0XTaIVcwB8ulXn)N\"><field name=\"VAR\" id=\"/-Sx:7z16-w_6lE{Xg,9\" variabletype=\"\">time</field></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"k-L}Nxd2[ourc_X.*mQU\"><field name=\"NUM\">1</field></shadow></value></block></value><next><block type=\"assertEqual\" id=\"Mm%/QpMYQBc-Xh5e|R3X\"><field name=\"message\">显示变量时间间隔设置错误</field><value name=\"v1\"><block type=\"text_trim\" id=\"JEX~u,6z^?TB-5IatwoQ\"><field name=\"MODE\">BOTH</field><value name=\"TEXT\"><shadow type=\"text\" id=\"2jFlR3@LOYr`qtf=8/ie\"><field name=\"TEXT\">abc</field></shadow><block type=\"getStateAtTime\" id=\",#ngFj226m_;@)8r@Eqq\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_arithmetic\" id=\"0%fcPS/,}1/a+2N8)p}9\"><field name=\"OP\">MULTIPLY</field><value name=\"A\"><shadow type=\"math_number\" id=\"#j/Ch!+s)-sTii-J(rJY\"><field name=\"NUM\">1</field></shadow><block type=\"variables_get\" id=\"bGl4j}GJf.{7R42}.[9v\"><field name=\"VAR\" id=\"/-Sx:7z16-w_6lE{Xg,9\" variabletype=\"\">time</field></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"#2xJ6zRFYd{kJiMCP-i*\"><field name=\"NUM\">1000</field></shadow></value></block></value></block></value></block></value><value name=\"v2\"><block type=\"variables_get\" id=\"2)y(BZ6|p]W$RjBiNOf?\"><field name=\"VAR\" id=\"/-Sx:7z16-w_6lE{Xg,9\" variabletype=\"\">time</field></block></value><next><block type=\"variables_set\" id=\"Lrw[OvJ|ES*6516N@kwJ\"><field name=\"VAR\" id=\"/-Sx:7z16-w_6lE{Xg,9\" variabletype=\"\">time</field><value name=\"VALUE\"><block type=\"math_arithmetic\" id=\"BWet=.N,)(ZV^eW?l1Tc\"><field name=\"OP\">ADD</field><value name=\"A\"><shadow type=\"math_number\" id=\"DD]Rv64ea{0aoD8VZA52\"><field name=\"NUM\">1</field></shadow><block type=\"variables_get\" id=\"Y}yox:VhdnIZ0t_xnZgT\"><field name=\"VAR\" id=\"/-Sx:7z16-w_6lE{Xg,9\" variabletype=\"\">time</field></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"_YH?NXnL@#L;EDZ!#j.@\"><field name=\"NUM\">1</field></shadow></value></block></value></block></next></block></next></block></statement></block></next></block></next></block></xml>",
+							"input": {
+								"inputs": []
+							},
+							"runningTime": 10000
+						},
+						{
+							"name": "变量等于10时，发出提醒",
+							"point": 4,
+							"evaluation": "分析",
+							"knowledgePoint": "变量\n;逻辑判断\n",
+							"testCode": "assert.equal(output.getStateAtTime('Signal',1,'RGB_R',20),100,'信号灯红色值设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'RGB_G',20),0,'信号灯绿色值设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'RGB_B',20),0,'信号灯蓝色值设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'buzzer',20),800,'蜂鸣器频率设置错误');\nassert.equal(output.getStateAtTime('Signal',1,'vibration',20),50,'振动马达强度设置错误');\n",
+							"testCodeBlockly": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"assertEqual\" id=\"w@-ZC]e74(Exk]SKs:~h\" x=\"110\" y=\"10\"><field name=\"message\">信号灯红色值设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"W_RO3GD_UI9Ksu*,$ZJ6\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">RGB_R</field><value name=\"time\"><block type=\"math_number\" id=\"Dsg/~6Q@XaX~S|Yf0o{+\"><field name=\"NUM\">20</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"Ks!S$5H7cZ@N^zafWww]\"><field name=\"NUM\">100</field></block></value><next><block type=\"assertEqual\" id=\",axy`lf@?BHHf$o[,uHO\"><field name=\"message\">信号灯绿色值设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"r4t^.!-P*)nV.BT4i@d]\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">RGB_G</field><value name=\"time\"><block type=\"math_number\" id=\"^/bJfXUet%3o_szEjk~1\"><field name=\"NUM\">20</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"Ub.%(=wyXK}Fyw9v`T9;\"><field name=\"NUM\">0</field></block></value><next><block type=\"assertEqual\" id=\";%S^%kY#`;5=|l~ii!nF\"><field name=\"message\">信号灯蓝色值设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"ft*N_5y@MR$z7KC6%Qg@\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">RGB_B</field><value name=\"time\"><block type=\"math_number\" id=\"88WR~TUn:?lhaKxwY`mA\"><field name=\"NUM\">20</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\"qwad:~?HtcinS?XJN)F@\"><field name=\"NUM\">0</field></block></value><next><block type=\"assertEqual\" id=\"oK,c$+(J!.DP7gmAHq=s\"><field name=\"message\">蜂鸣器频率设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"d.w3=*tIa^L@M`r[]|8i\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">buzzer</field><value name=\"time\"><block type=\"math_number\" id=\"R0{v({w=~g$uw~K|;J5w\"><field name=\"NUM\">20</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\".FMe6j$%7[B=6CW:!ING\"><field name=\"NUM\">800</field></block></value><next><block type=\"assertEqual\" id=\"?)9/Wiu;?+(${GL62QhF\"><field name=\"message\">振动马达强度设置错误</field><value name=\"v1\"><block type=\"getStateAtTime\" id=\"2)B:(f3z+Yc!+YV9B6~K\"><field name=\"index\">1</field><field name=\"module\">Signal</field><field name=\"property\">vibration</field><value name=\"time\"><block type=\"math_number\" id=\"QwYT!TolH(Bn`H6M{JA[\"><field name=\"NUM\">20</field></block></value></block></value><value name=\"v2\"><block type=\"math_number\" id=\".x}JH:M?V:W:P:K+*^!M\"><field name=\"NUM\">50</field></block></value></block></next></block></next></block></next></block></next></block></xml>",
+							"input": {
+								"inputs": [
+									{
+										"stateChanges": {
+											"index": 1,
+											"module": "Display",
+											"property": "line_1",
+											"value": "10"
+										},
+										"tick": 20
+									}
+								]
+							},
+							"runningTime": 10000
+						},
+						{
+							"name": "当事件SW1按下，变量自加",
+							"point": 2,
+							"evaluation": "分析",
+							"knowledgePoint": "变量\n;事件\n",
+							"testCode": "assert.equal(output.getStateAtTime('Display',1,'line_1',20).trim(),output.getStateAtTime('Display',1,'line_1',0) + 1,'SW1按下，变量自加设置错误');\n",
+							"testCodeBlockly": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"assertEqual\" id=\"xMe$e)C.ceLOaqqb6P?v\" x=\"90\" y=\"70\"><field name=\"message\">SW1按下，变量自加设置错误</field><value name=\"v1\"><block type=\"text_trim\" id=\"c-}Y}$5|8m/V}BgZ4%`]\"><field name=\"MODE\">BOTH</field><value name=\"TEXT\"><shadow type=\"text\" id=\"q.pW{Ga0Z8(APD}8$3*t\"><field name=\"TEXT\">abc</field></shadow><block type=\"getStateAtTime\" id=\"if66kS)AoS~)7ENdVWni\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_number\" id=\"B/dXqJ{~ugWk+i+Xegik\"><field name=\"NUM\">20</field></block></value></block></value></block></value><value name=\"v2\"><block type=\"math_arithmetic\" id=\"{X.E.f.qpf^yvzv)Tpw=\"><field name=\"OP\">ADD</field><value name=\"A\"><shadow type=\"math_number\" id=\"UJ`63Yf[gYBNQrs,cW`b\"><field name=\"NUM\">1</field></shadow><block type=\"getStateAtTime\" id=\"lV5+K8:04ei]Oja)Z[cE\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_number\" id=\"-S(yuKn[cfv454RCojr1\"><field name=\"NUM\">0</field></block></value></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"ef(ERV0x~6domAgS]{|h\"><field name=\"NUM\">1</field></shadow></value></block></value></block></xml>",
+							"input": {
+								"inputs": [
+									{
+										"stateChanges": {
+											"index": 1,
+											"module": "Control",
+											"property": "SW1",
+											"value": true
+										},
+										"tick": 20
+									}
+								]
+							},
+							"runningTime": 10000
+						},
+						{
+							"name": "当事件SW2按下，变量自减",
+							"point": 2,
+							"evaluation": "分析",
+							"knowledgePoint": "变量\n;事件\n",
+							"testCode": "assert.equal(output.getStateAtTime('Display',1,'line_1',20).trim(),output.getStateAtTime('Display',1,'line_1',0) - 1,'SW2按下，变量自减设置错误');\n",
+							"testCodeBlockly": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"assertEqual\" id=\"Dg?CB:^Hq5u??WDT?tnU\" x=\"90\" y=\"-30\"><field name=\"message\">SW2按下，变量自减设置错误</field><value name=\"v1\"><block type=\"text_trim\" id=\"CX5.a:?Ys152{yaqHnk1\"><field name=\"MODE\">BOTH</field><value name=\"TEXT\"><shadow type=\"text\" id=\"q?Te~LL.mcnM/U*rNg+T\"><field name=\"TEXT\">abc</field></shadow><block type=\"getStateAtTime\" id=\"o8Jis|$Nbj8i5L0Re.Re\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_number\" id=\"6siG6oL#]s)fGK6TcLkk\"><field name=\"NUM\">20</field></block></value></block></value></block></value><value name=\"v2\"><block type=\"math_arithmetic\" id=\"(B5hvhsJo)2h6K=,F,k%\"><field name=\"OP\">MINUS</field><value name=\"A\"><shadow type=\"math_number\" id=\"JtUPxW/4[3gm:/Qo[Jo]\"><field name=\"NUM\">1</field></shadow><block type=\"getStateAtTime\" id=\"v($TV{-LL2:xg8(B?WJ@\"><field name=\"index\">1</field><field name=\"module\">Display</field><field name=\"property\">line_1</field><value name=\"time\"><block type=\"math_number\" id=\"M{(Z~kq.Npn?g1!Y7S{a\"><field name=\"NUM\">0</field></block></value></block></value><value name=\"B\"><shadow type=\"math_number\" id=\"S%AV`Qco0WRXRmYf]c/b\"><field name=\"NUM\">1</field></shadow></value></block></value></block></xml>",
+							"input": {
+								"inputs": [
+									{
+										"stateChanges": {
+											"index": 1,
+											"module": "Control",
+											"property": "SW2",
+											"value": true
+										},
+										"tick": 20
+									}
+								]
+							},
+							"runningTime": 10000
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "回顾启发",
+			"description": "<!DOCTYPE html>\n<html>\n<head>\n</head>\n<body>\n<p>本练习将通过几个小任务对本次课程的知识进行归纳回顾，启发练习。&nbsp;</p>\n</body>\n</html>",
+			"type": "问答",
+			"tasks": [
+				{
+					"name": "回顾练习",
+					"description": "<!DOCTYPE html>\n<html>\n<head>\n</head>\n<body>\n<p><br />[选择题] <br />[问题]1.以下变量命名正确的是？[/问题] <br />[分数]2[/分数] <br />[正确答案]C[/正确答案] <br />[A]A.123[/A] <br />[A解析]A：错误。变量命名不能以数字开头[/A解析] <br />[B]B.速度[/B] <br />[B解析]B：错误。变量命名不能是中文[/B解析] <br />[C]C.speed[/C] <br />[C解析]C：正确。命名格式正确[/C解析] <br />[D]D.a*b[/D]<br />[D解析]D：错误。变量命名不能带有数学符号[/D解析] <br />[/选择题]</p>\n<p><br />[选择题] <br />[问题]变量的运算中i+=1;代表什么含义？[/问题] <br />[分数]2[/分数] <br />[正确答案]C[/正确答案] <br />[A]A.变量i赋值为1[/A] <br />[A解析]A:错误[/A解析] <br />[B]B.i乘以1赋值给i[/B] <br />[B解析]B:错误[/B解析] <br />[C]C.i+1赋值给i[/C] <br />[C解析]C:正确[/C解析] <br />[D]D.i-1赋值给i[/D]<br />[D解析]D:错误[/D解析] <br />[/选择题]</p>\n<p><br />[选择题] <br />[问题]3.信号模块Signal1中体现信号灯功能的代码是？[/问题] <br />[分数]2[/分数] <br />[正确答案]B[/正确答案] <br />[A]A.LED1.setRGB(10, 20, 30);[/A] <br />[A解析]A：错误。该选项为设置LED彩灯RGB值。[/A解析] <br />[B]B.Signal1.setRGB(10, 20, 30);[/B] <br />[B解析]B：正确。[/B解析] <br />[C]C.Signal1.setBuzzer(800);[/C] <br />[C解析]C：错误，该选项为设置信号模块中蜂鸣器的频率。[/C解析] <br />[D]D.Signal1.playANote(800, 1000);[/D]<br />[D解析]D：错误，该选项为让信号模块中蜂鸣器演奏一个音。[/D解析] <br />[/选择题]</p>\n<p></p>\n<p><br />[选择题] <br />[问题]4.关于事件EVENT函数的使用，以下说法错误的是：[/问题] <br />[分数]2[/分数] <br />[正确答案]A[/正确答案] <br />[A]A.EVENT可以拖动到loop函数里面[/A] <br />[A解析]A：该说法错误，事件只能拖至主程序循环loop()外面[/A解析] <br />[B]B.EVENT需要拖动到loop函数外面[/B] <br />[B解析]B：正确[/B解析] <br />[C]C.EVENT内部可以定义一个变量[/C] <br />[C解析]C：正确[/C解析] <br />[D]D.EVENT需要一个条件[/D]<br />[D解析]D：正确[/D解析] <br />[/选择题]</p>\n<p></p>\n<p><br />[选择题] <br />[问题]5.用代码实现等差数列S=1+2+3+4+&hellip;&hellip;+99+100的值，以下代码能正确求出S值的是？</p>\n<p>流程图：</p>\n<p>![](A3-回顾.jpg)</p>\n<p>[/问题] <br />[分数]2[/分数] <br />[正确答案]A[/正确答案] <br />[A]A.</p>\n<pre class=\"language-markup\"><code>float s; \nfloat x; \nvoid loop() { \nx += 1; s=s+x; \nif (x == 100) {\n Display1.print(1, 1, s); }\n }</code></pre>\n<p>[/A] <br />[A解析]A：逻辑正确[/A解析] <br />[B]B.</p>\n<pre class=\"language-markup\"><code>float s; \nfloat x; \nvoid loop() {\n x += 1; \ns=s+1; \nif (x == 100) {\n Display1.print(1, 1, s); }\n }</code></pre>\n<p>[/B] <br />[B解析]B：错误。变量s执行固定数值增加，逻辑错误。[/B解析] <br />[C]C.</p>\n<pre class=\"language-markup\"><code>float s; \nfloat x; \nvoid loop() { \nx += 1; s=s+x; \nif (x == 50) { \nDisplay1.print(1, 1, s); }\n }</code></pre>\n<p>[/C] <br />[C解析]C：错误。题目要求增加至100，因为判断条件错误。[/C解析] <br />[D]D.</p>\n<pre class=\"language-markup\"><code>float s; \nfloat x; \nvoid loop() {\n x += 1; \ns=s+x; \nif (x == 100) {\n Display1.print(1, 1, x); } \n}</code></pre>\n<p>[/D]<br />[D解析]D：错误。题目要求显示求和的数值，而不是变量x的数值。[/D解析] <br />[/选择题]</p>\n</body>\n</html>",
+					"question": {
+						"code": {
+							"blanks": [
+								{
+									"endLineNumber": 4,
+									"startLineNumber": 4
+								}
+							],
+							"itemNames": [],
+							"template": "\nvoid loop(){\n\t\n//选择题\n\n}\n",
+							"modules": [
+								{
+									"displayName": "主控",
+									"name": "sysmaster",
+									"type": "Master"
+								}
+							],
+							"testCases": []
+						},
+						"choices": [
+							{
+								"name": "1.以下变量命名正确的是？",
+								"point": 2,
+								"choices": [
+									{
+										"choice": "A",
+										"content": "A.123",
+										"explain": "A：错误。变量命名不能以数字开头"
+									},
+									{
+										"choice": "B",
+										"content": "B.速度",
+										"explain": "B：错误。变量命名不能是中文"
+									},
+									{
+										"choice": "C",
+										"content": "C.speed",
+										"explain": "C：正确。命名格式正确"
+									},
+									{
+										"choice": "D",
+										"content": "D.a*b",
+										"explain": "D：错误。变量命名不能带有数学符号"
+									}
+								],
+								"rightChoice": "C"
+							},
+							{
+								"name": "变量的运算中i+=1;代表什么含义？",
+								"point": 2,
+								"choices": [
+									{
+										"choice": "A",
+										"content": "A.变量i赋值为1",
+										"explain": "A:错误"
+									},
+									{
+										"choice": "B",
+										"content": "B.i乘以1赋值给i",
+										"explain": "B:错误"
+									},
+									{
+										"choice": "C",
+										"content": "C.i+1赋值给i",
+										"explain": "C:正确"
+									},
+									{
+										"choice": "D",
+										"content": "D.i-1赋值给i",
+										"explain": "D:错误"
+									}
+								],
+								"rightChoice": "C"
+							},
+							{
+								"name": "3.信号模块Signal1中体现信号灯功能的代码是？",
+								"point": 2,
+								"choices": [
+									{
+										"choice": "A",
+										"content": "A.LED1.setRGB(10, 20, 30);",
+										"explain": "A：错误。该选项为设置LED彩灯RGB值。"
+									},
+									{
+										"choice": "B",
+										"content": "B.Signal1.setRGB(10, 20, 30);",
+										"explain": "B：正确。"
+									},
+									{
+										"choice": "C",
+										"content": "C.Signal1.setBuzzer(800);",
+										"explain": "C：错误，该选项为设置信号模块中蜂鸣器的频率。"
+									},
+									{
+										"choice": "D",
+										"content": "D.Signal1.playANote(800, 1000);",
+										"explain": "D：错误，该选项为让信号模块中蜂鸣器演奏一个音。"
+									}
+								],
+								"rightChoice": "B"
+							},
+							{
+								"name": "4.关于事件EVENT函数的使用，以下说法错误的是：",
+								"point": 2,
+								"choices": [
+									{
+										"choice": "A",
+										"content": "A.EVENT可以拖动到loop函数里面",
+										"explain": "A：该说法错误，事件只能拖至主程序循环loop()外面"
+									},
+									{
+										"choice": "B",
+										"content": "B.EVENT需要拖动到loop函数外面",
+										"explain": "B：正确"
+									},
+									{
+										"choice": "C",
+										"content": "C.EVENT内部可以定义一个变量",
+										"explain": "C：正确"
+									},
+									{
+										"choice": "D",
+										"content": "D.EVENT需要一个条件",
+										"explain": "D：正确"
+									}
+								],
+								"rightChoice": "A"
+							},
+							{
+								"name": "5.用代码实现等差数列S=1+2+3+4+&hellip;&hellip;+99+100的值，以下代码能正确求出S值的是？</p>\n<p>流程图：</p>\n<p>![](A3-回顾.jpg)</p>\n<p>",
+								"point": 2,
+								"choices": [
+									{
+										"choice": "A",
+										"content": "A.</p>\n<pre class=\"language-markup\"><code>float s; \nfloat x; \nvoid loop() { \nx += 1; s=s+x; \nif (x == 100) {\n Display1.print(1, 1, s); }\n }</code></pre>\n<p>",
+										"explain": "A：逻辑正确"
+									},
+									{
+										"choice": "B",
+										"content": "B.</p>\n<pre class=\"language-markup\"><code>float s; \nfloat x; \nvoid loop() {\n x += 1; \ns=s+1; \nif (x == 100) {\n Display1.print(1, 1, s); }\n }</code></pre>\n<p>",
+										"explain": "B：错误。变量s执行固定数值增加，逻辑错误。"
+									},
+									{
+										"choice": "C",
+										"content": "C.</p>\n<pre class=\"language-markup\"><code>float s; \nfloat x; \nvoid loop() { \nx += 1; s=s+x; \nif (x == 50) { \nDisplay1.print(1, 1, s); }\n }</code></pre>\n<p>",
+										"explain": "C：错误。题目要求增加至100，因为判断条件错误。"
+									},
+									{
+										"choice": "D",
+										"content": "D.</p>\n<pre class=\"language-markup\"><code>float s; \nfloat x; \nvoid loop() {\n x += 1; \ns=s+x; \nif (x == 100) {\n Display1.print(1, 1, x); } \n}</code></pre>\n<p>",
+										"explain": "D：错误。题目要求显示求和的数值，而不是变量x的数值。"
+									}
+								],
+								"rightChoice": "A"
+							}
+						],
+						"shortAnswers": []
+					},
+					"blanks": [
+						{
+							"endLineNumber": 4,
+							"startLineNumber": 4
+						}
+					],
+					"codeItemNames": [],
+					"code": "\nvoid loop(){\n\t\n//选择题\n\n}\n",
+					"modules": [
+						{
+							"displayName": "主控",
+							"name": "sysmaster",
+							"type": "Master"
+						}
+					],
+					"testCases": []
+				},
+				{
+					"name": "启发练习",
+					"description": "<!DOCTYPE html>\n<html>\n<head>\n</head>\n<body>\n<p></p>\n<p><br />[简答题] <br />[问题]1.可以对控制模块的SW1、SW2按键功能进行设计。结合事件的使用，你有什么好的想法吗？</p>\n<p>项目功能：[/问题] <br />[高]100[/高] <br />[宽]400[/宽] <br />[/简答题]</p>\n<p><br />[简答题] <br />[问题]实现方法（代码/逻辑图）[/问题] <br />[高]100[/高] <br />[宽]400[/宽] <br />[/简答题]</p>\n<p><br />[简答题] <br />[问题]2.通过基础课的逻辑训练，你是否觉得上节课提出的思路具有可行性？如果有，你可以继续补充完善你的想法，如果没有，你可以重新提出一个新的解决方案。请你花费2分钟时间，回答50-100字即可。[/问题] <br />[高]100[/高] <br />[宽]400[/宽] <br />[/简答题]</p>\n<p><br />[简答题] <br />[问题]3.通过小项目课的引导，你是否想到了一些新功能？有什么用？该如何实现？ 请你花费2分钟时间，回答50-100字即可。[/问题] <br />[高]100[/高] <br />[宽]400[/宽] <br />[/简答题]</p>\n</body>\n</html>",
+					"question": {
+						"code": {
+							"blanks": [
+								{
+									"endLineNumber": 4,
+									"startLineNumber": 4
+								}
+							],
+							"itemNames": [],
+							"template": "\nvoid loop(){\n\t\n//简答题\n\n}\n",
+							"modules": [
+								{
+									"displayName": "主控",
+									"name": "sysmaster",
+									"type": "Master"
+								}
+							],
+							"testCases": []
+						},
+						"choices": [],
+						"shortAnswers": [
+							{
+								"description": "1.可以对控制模块的SW1、SW2按键功能进行设计。结合事件的使用，你有什么好的想法吗？</p>\n<p>项目功能："
+							},
+							{
+								"description": "实现方法（代码/逻辑图）"
+							},
+							{
+								"description": "2.通过基础课的逻辑训练，你是否觉得上节课提出的思路具有可行性？如果有，你可以继续补充完善你的想法，如果没有，你可以重新提出一个新的解决方案。请你花费2分钟时间，回答50-100字即可。"
+							},
+							{
+								"description": "3.通过小项目课的引导，你是否想到了一些新功能？有什么用？该如何实现？ 请你花费2分钟时间，回答50-100字即可。"
+							}
+						]
+					},
+					"blanks": [
+						{
+							"endLineNumber": 4,
+							"startLineNumber": 4
+						}
+					],
+					"codeItemNames": [],
+					"code": "\nvoid loop(){\n\t\n//简答题\n\n}\n",
+					"modules": [
+						{
+							"displayName": "主控",
+							"name": "sysmaster",
+							"type": "Master"
+						}
+					],
+					"testCases": []
+				}
+			]
+		},
+		{
+			"name": "副本练习",
+			"description": "<!DOCTYPE html>\n<html>\n<head>\n</head>\n<body>\n<p>按钮切换华氏度摄氏度显示器为本任务的副本，结合前四个练习所学知识，尝试挑战一下！</p>\n<p><span style=\"color: #000000;\">![](QJ1fcdyfk3.png)</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">在本副本中，我们将尝试体验一个新的模块&mdash;&mdash;监测模块&nbsp;</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"color: #000000;\">监测模块是什么样的呢？它具有</span><span style=\"color: #000000;\">哪些功能呢？</span></p>\n<ol>\n<li><strong><span style=\"font-size: 12pt;\">监测模块：</span></strong></li>\n</ol>\n<p><span>监测模块上包含有多个测量环境参数的传感器，可以监测周边环境的变化。它可以获取的周边环境参数有：空气温度、空气湿度、环境亮度和声音强度。</span></p>\n<p><span style=\"color: #ff0000;\">说明:温度传感器只能测量空气温度，而不能测固体或液体温度。</span></p>\n<p><span style=\"color: #ff0000;\">![](%E7%9B%91%E6%B5%8B%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D.png)</span><span></span></p>\n<p>![](7bTkOFGhip.png)</p>\n<ul>\n<li>主控模块</li>\n<li>显示模块</li>\n<li>信号模块</li>\n<li>控制模块</li>\n<li>监测模块</li>\n</ul>\n<p style=\"padding-left: 30px;\"></p>\n<p></p>\n</body>\n</html>",
+			"type": "附加",
+			"tasks": [
+				{
+					"name": "按钮切换华氏度摄氏度显示器",
+					"description": "<!DOCTYPE html>\n<html>\n<head>\n</head>\n<body>\n<p>![](nP1Dm4rblf.png)</p>\n<p style=\"padding-left: 30px;\"><span>不同的人习惯使用的温度单位不同，有些人喜欢用摄氏温标，有些人喜欢用华氏温标，如何满足两种人的需求呢？</span></p>\n<p style=\"padding-left: 30px;\"><span>尝试利用我们学过的模块及加上监测模块，制作一个可以自动检测温度且利用控制模块实现摄氏度与华氏度自由切换的按钮切换华氏度摄氏度显示器吧！</span></p>\n<p>![](9WlE5JauH3.png)</p>\n<ul>\n<li><span>显示屏上初始化第一行显示\"hello\"；</span></li>\n<li><span>当按下按钮SW1时，显示屏上第一行显示华氏温度；</span></li>\n<li><span>当按下按钮SW1时，显示屏上第一行显示摄氏温度；</span></li>\n</ul>\n<p style=\"padding-left: 30px;\"><span><span style=\"color: #ff0000;\">说明：监测模块获取的温度默认为摄氏度；</span></span><span style=\"color: #ff0000;\">摄氏温标（C）和华氏温标（F）之间的换算关系为： F=C&times;1.8+32。</span></p>\n<p style=\"padding-left: 30px;\"></p>\n<p>![](P6uHD2ItRK.png)</p>\n<p style=\"padding-left: 30px;\"><strong><span style=\"font-size: 12pt;\">1. 定义一个变量</span></strong></p>\n<p style=\"padding-left: 60px;\">在loop()外定义一个变量w；</p>\n<p style=\"padding-left: 30px;\"><span style=\"font-size: 16px;\"><strong>2. 主程序初始化</strong></span></p>\n<p style=\"padding-left: 60px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 11pt;\">显示屏上显示&ldquo;hello&rdquo;；</span></span></p>\n<p style=\"padding-left: 30px;\"><span style=\"font-size: 16px;\"><strong>3. 设置事件1</strong></span></p>\n<p style=\"padding-left: 60px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 11pt;\">当SW1按下时，在显示屏显示当前华氏温度；</span></span><span style=\"font-size: 16px;\"></span></p>\n<p style=\"padding-left: 60px;\"><span style=\"font-size: 16px;\">[help] <br />[-------------------------------------------------1] <br />[title]设置事件1的逻辑思路提示[/title] <br />[扣分比例]50[/扣分比例] </span></p>\n<p style=\"padding-left: 60px;\"><span style=\"font-size: 11pt;\">当按下SW1时：</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"font-size: 11pt;\">（1）监测模块获取当前空气温度；</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"font-size: 11pt;\">（2）将当前温度通过算术转换为华氏度；</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"font-size: 11pt;\">（3）将计算得到的数值赋值给变量&ldquo;w&rdquo;；</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"font-size: 11pt;\">（4）清屏，将显示屏上已有的内容（hello）清除；</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"font-size: 11pt;\">（5）显示屏显示&ldquo;华氏温度为：&rdquo;；</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"font-size: 11pt;\">（6）跟随显示变量&ldquo;w&rdquo;的值；</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"font-size: 16px;\">[/-------------------------------------------------1] <br />[/help]</span></p>\n<p style=\"padding-left: 30px;\"><span style=\"font-size: 16px;\"><strong>4. 设置事件2：</strong></span></p>\n<p style=\"padding-left: 60px;\"><span style=\"font-size: 11pt;\">当SW2按下时，在显示屏上显示摄氏温度；</span><span style=\"font-size: 16px;\"></span></p>\n<p style=\"padding-left: 60px;\"><span style=\"font-size: 16px;\">[help] </span></p>\n<p style=\"padding-left: 60px;\"><span style=\"font-size: 16px;\">[-------------------------------------------------1] <br />[title]设置事件2的逻辑思路提示[/title] <br />[扣分比例]50[/扣分比例] </span></p>\n<p style=\"padding-left: 60px;\"><span style=\"font-size: 11pt;\">当按下SW2时：</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"font-size: 11pt;\">（1）监测模块获取当前空气温度；</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"font-size: 11pt;\">（2）将获取的温度数值赋值给变量&ldquo;w&rdquo;；</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"font-size: 11pt;\">（3）清屏，将显示屏上已有的内容（hello）清除；</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"font-size: 11pt;\">（4）显示屏显示&ldquo;摄氏温度为：&rdquo;；</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"font-size: 11pt;\">（5）跟随显示变量&ldquo;w&rdquo;的值；</span></p>\n<p style=\"padding-left: 60px;\"><span style=\"font-size: 16px;\">[/-------------------------------------------------1] </span><span style=\"font-size: 16px;\"><br /><br />[-------------------------------------------------2] <br />[title]按钮切换华氏度摄氏度显示器的代码操作提示[/title] <br />[扣分比例]80[/扣分比例] <br /></span></p>\n<pre class=\"language-markup\"><code>float w;\nvoid setup()\n{\n    Display1.print(1, 1,\"hello\");\n}\nvoid loop()\n{ \n}\nEVENT ( Control1.SW1Pressed() )\n{   \n    w = Observer1.getTemperature()*1.8+32;\n    Display1.clearAllPages();\n    Display1.print(1, 1, \"华氏温度为:\");\n    Display1.print(w);\n       \n}\nEVENT ( Control1.SW2Pressed() )\n{\n    w = Observer1.getTemperature();\n    Display1.clearAllPages();\n    Display1.print(1, 1, \"摄氏温度为:\");\n    Display1.print(w); \n}</code></pre>\n<p style=\"padding-left: 60px;\"><span style=\"font-size: 16px;\"><br />[/-------------------------------------------------2] <br />[/help]</span></p>\n<p></p>\n<p>![](WGLzDjxNnt.png)</p>\n<p style=\"padding-left: 30px;\"><span>&nbsp;定义变量 ;事件的使用 ;四则运算； 监测模块的学习</span></p>\n<p>![](s6b60O8EIO.png)</p>\n<p style=\"padding-left: 30px;\">点击&ldquo;下载&rdquo;按钮，测试程序是否可以完成指定功能。</p>\n<p>![](fi8Zp7DX5z.png)</p>\n<p style=\"padding-left: 30px;\">任务完成后检查实验效果，点击提交。</p>\n</body>\n</html>",
+					"question": {
+						"code": {
+							"blanks": [
+								{
+									"endLineNumber": 5,
+									"startLineNumber": 3
+								},
+								{
+									"endLineNumber": 16,
+									"startLineNumber": 8
+								}
+							],
+							"itemNames": [],
+							"template": "\nvoid loop(){\n\t\n\n\n}\n\n\n\n\n\n\n\n\n\n",
+							"modules": [
+								{
+									"displayName": "主控",
+									"name": "sysmaster",
+									"type": "Master"
+								}
+							],
+							"testCases": [
+								{
+									"name": "检测事件1",
+									"point": 4,
+									"evaluation": "分析",
+									"knowledgePoint": "基本语法\n;四则运算\n;变量\n;事件\n",
+									"testCode": "",
+									"testCodeBlockly": null,
+									"input": {
+										"inputs": []
+									},
+									"runningTime": 10000
+								},
+								{
+									"name": "检测事件2",
+									"point": 4,
+									"evaluation": "分析",
+									"knowledgePoint": "基本语法\n;四则运算\n;变量\n;事件\n",
+									"testCode": "",
+									"testCodeBlockly": null,
+									"input": {
+										"inputs": []
+									},
+									"runningTime": 10000
+								}
+							]
+						},
+						"choices": [],
+						"shortAnswers": []
+					},
+					"blanks": [
+						{
+							"endLineNumber": 5,
+							"startLineNumber": 3
+						},
+						{
+							"endLineNumber": 16,
+							"startLineNumber": 8
+						}
+					],
+					"codeItemNames": [],
+					"code": "\nvoid loop(){\n\t\n\n\n}\n\n\n\n\n\n\n\n\n\n",
+					"modules": [
+						{
+							"displayName": "主控",
+							"name": "sysmaster",
+							"type": "Master"
+						}
+					],
+					"testCases": [
+						{
+							"name": "检测事件1",
+							"point": 4,
+							"evaluation": "分析",
+							"knowledgePoint": "基本语法\n;四则运算\n;变量\n;事件\n",
+							"testCode": "",
+							"testCodeBlockly": null,
+							"input": {
+								"inputs": []
+							},
+							"runningTime": 10000
+						},
+						{
+							"name": "检测事件2",
+							"point": 4,
+							"evaluation": "分析",
+							"knowledgePoint": "基本语法\n;四则运算\n;变量\n;事件\n",
+							"testCode": "",
+							"testCodeBlockly": null,
+							"input": {
+								"inputs": []
+							},
+							"runningTime": 10000
+						}
+					]
+				}
+			]
+		}
+	],
+	"order": 2
+}

@@ -1,0 +1,1 @@
+{"originCode":"\nvoid loop {\n\t\n    //此题为改错题，请修改以下代码，使显示屏正确显示“你好，豌豆拼”。\n    Display1.print(1, 1, \"你好，豌豆拼\";\n\n}\n","modules":[{"name":"sysmaster","type":"Master"},{"name":"Display1","type":"Display"}],"modifications":[{"modification":[{"position":{"startLineNumber":5,"startColumn":34,"endLineNumber":5,"endColumn":34},"text":")"}],"time":6518}]}
