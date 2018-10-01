@@ -1,1 +1,0 @@
-{"originCode":"\nvoid loop(){\n\t//编程题。请根据右侧编程指南完成指定功能\n   \n\n}\n","modules":[{"name":"sysmaster","type":"Master"},{"name":"LED1","type":"LED"}],"modifications":[{"modification":{"position":{"startLineNumber":4,"startColumn":4,"endLineNumber":4,"endColumn":4},"text":"LED1.setRGB(10, 20, 30);","code":{"executor":"LED1","itemName":"LED_setRGB"}},"time":4033}]}

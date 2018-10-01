@@ -1,1 +1,0 @@
-{"originCode":"\n/*\n*  欢迎使用豌豆拼!\n*/\n\nvoid loop()\n{\n\n\n\n}\n","modules":[{"name":"sysmaster","type":"Master"}],"modifications":[{"modification":{"position":{"startLineNumber":8,"startColumn":1,"endLineNumber":8,"endColumn":1},"text":"    delay(500);","code":{"executor":null,"itemName":"basic_delay"}},"time":5138}]}
